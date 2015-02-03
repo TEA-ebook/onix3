@@ -7,7 +7,7 @@ describe Onix3::Parser::Divider do
   
   let(:simple_onix) {
     '<?xml version="1.0" encoding="UTF-8"?>' +
-    '<ONIXMessage release="3.0" xmlns="http://www.editeur.org/onix/3.0/reference">' +
+    '<ONIXMessage release="3.0" xmlns="http://ns.editeur.org/onix/3.0/reference">' +
     '<Header>H</Header>' +
     '<Product>P</Product>' +
     '<Product>P</Product>' +
@@ -16,7 +16,7 @@ describe Onix3::Parser::Divider do
 
   let(:simple_onix_ns) {
     '<?xml version="1.0" encoding="UTF-8"?>' +
-    '<onix:ONIXMessage release="3.0" xmlns:onix="http://www.editeur.org/onix/3.0/reference">' +
+    '<onix:ONIXMessage release="3.0" xmlns:onix="http://ns.editeur.org/onix/3.0/reference">' +
     '<onix:Header>H</onix:Header>' +
     '<onix:Product>P</onix:Product>' +
     '<onix:Product>P</onix:Product>' +

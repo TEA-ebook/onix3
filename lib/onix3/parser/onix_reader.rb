@@ -2,8 +2,11 @@ module Onix3
   module Parser
     class OnixReader < XmlReader
       
-      ONIX3_NAMESPACE = "http://www.editeur.org/onix/3.0/reference"
+      ONIX3_NAMESPACE = "http://ns.editeur.org/onix/3.0/reference"
       ONIX3_SHORT_NAMESPACE = "http://ns.editeur.org/onix/3.0/short"
+
+      # Old namespace that has been used for a while
+      ONIX3_NAMESPACE_OLD = "http://www.editeur.org/onix/3.0/reference"
 
       def is_on?(names, ns=onix3_namespace)
         if ns==onix3_namespace
