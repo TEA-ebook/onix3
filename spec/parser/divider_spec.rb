@@ -23,6 +23,15 @@ describe Onix3::Parser::Divider do
     '</onix:ONIXMessage>'
   }
 
+  let(:simple_onix_without_header) {
+    '<?xml version="1.0" encoding="UTF-8"?>' +
+        '<ONIXMessage release="3.0" xmlns="http://ns.editeur.org/onix/3.0/reference">' +
+        '<Product>P1</Product>' +
+        '<Product>P2</Product>' +
+        '<Product>P3</Product>' +
+        '</ONIXMessage>'
+  }
+
   describe "#document_for_products" do
 
     it "should have ONIXMessage as root" do
@@ -149,6 +158,30 @@ describe Onix3::Parser::Divider do
       end
     end
 
+  end
+
+  describe "with a file which has no header" do
+    it "should return the right number of products" do
+      d = Onix3::Parser::Divider.new(StringIO.new(simple_onix_without_header))
+      res = d.each_product_document do |doc|
+        # nothing
+      end
+      expect(res).to eq(3)
+    end
+
+    it "should have no header" do
+      d = Onix3::Parser::Divider.new(StringIO.new(simple_onix_without_header))
+      res = d.each_product_document do |doc|
+        expect(doc.index(">H</")).to be_nil
+      end
+    end
+
+    it "should copy the exact product" do
+      d = Onix3::Parser::Divider.new(StringIO.new(simple_onix_without_header))
+      d.each_product_document do |doc|
+        expect(doc).to match(/<Product[^>]*>P[1|2|3]<\/Product>/)
+      end
+    end
   end
 
 end
