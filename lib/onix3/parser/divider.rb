@@ -22,7 +22,7 @@ module Onix3
           tag = (prefix ? prefix+":" : "") + reader.tag("ONIXMessage")
           @opening = "<#{tag}#{attribs}>"
           move_to_header
-          @header = reader.outer_xml
+          @header = reader.local_name == "Header" ? reader.outer_xml : ''
           @closing = "</#{tag}>"
         end
         @document_started = true
@@ -31,6 +31,15 @@ module Onix3
       def each_product(extract=true)
         start_document
         count = 0
+        # if no header we return the first root child element which is a product
+        if @header == ''
+          count += 1
+          if extract
+            yield reader.outer_xml
+          else
+            yield
+          end
+        end
         while move_to_next_product
           count += 1
           if extract
