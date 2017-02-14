@@ -15,6 +15,18 @@
       identified by a publisher, either on the product itself or in product information
       supplied by the publisher.
     :issue_number: '9'
+  '11':
+    :value: '11'
+    :description: Collection éditoriale
+    :notes: The collection is a bibliographic collection defined and
+      identified by a publisher, either on the product itself or in product
+      information supplied by the publisher, where the books in the collection
+      have no specific order, shared subject, narrative, style or shared
+      authorship, and are grouped by the publisher largely for marketing
+      purposes. The collection has many of the characteristics of an imprint or
+      marque. Used primarily in French book publishing, to distinguish between
+      "série" (using the normal code 10) and "collection" (code 11), and where
+      the collection éditoriale is not an imprint
   '20':
     :value: '20'
     :description: Ascribed collection
