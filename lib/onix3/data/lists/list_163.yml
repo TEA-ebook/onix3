@@ -87,3 +87,12 @@
     :description: Forthcoming reprint date
     :notes: Date when a product will be reprinted.
     :issue_number: '18'
+  '27':
+    :value: '27'
+    :description: Preorder embargo date
+    :notes: Earliest date a retail ‘preorder’ can be placed (where this is
+      distinct from the public announcement date). In the absence of a preorder
+      embargo, advance orders can be placed as soon as metadata is available to
+      the consumer (this would be the public announcement date, or in the
+      absence of a public announcement date, the earliest date metadata is
+      available to the retailer)
