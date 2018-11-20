@@ -24,13 +24,14 @@ module Onix3
         l[:issue_number] = list.IssueNumber.content
         l[:number] = list_number
         l[:codes] ||= { }
-        begin
+        
+        code_nodes = list.at_xpath("Code")
+        unless code_nodes.nil?
           list.Code.each do |code|
             update_code_in_list(code, l)
           end
-        rescue
-          # nothing
         end
+        
         File.write(list_filename(list_number), YAML.dump(l), 0, encoding: ENCODING)
       end
 
