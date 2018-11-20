@@ -1,12 +1,12 @@
 ---
 :number: '99'
-:description: Product form feature value – special cover material
+:description: Special cover material
 :issue_number: '1'
 :codes:
   '01':
     :value: '01'
     :description: Berkshire leather
-    :notes: Pigskin.
+    :notes: Pigskin
     :issue_number: '2'
   '02':
     :value: '02'
@@ -16,12 +16,12 @@
   '03':
     :value: '03'
     :description: French Morocco
-    :notes: Calf split or sheep split.
+    :notes: Calf split or sheep split
     :issue_number: '2'
   '04':
     :value: '04'
     :description: Morocco
-    :notes: Goatskin.
+    :notes: Goatskin
     :issue_number: '2'
   '05':
     :value: '05'
@@ -38,13 +38,13 @@
     :description: Bonded Cordova
     :notes: ''
     :issue_number: '2'
-  08:
-    :value: 08
+  '08':
+    :value: '08'
     :description: Bonded eelskin
     :notes: ''
     :issue_number: '2'
-  09:
-    :value: 09
+  '09':
+    :value: '09'
     :description: Bonded Ostraleg
     :notes: ''
     :issue_number: '2'
@@ -81,8 +81,8 @@
   '16':
     :value: '16'
     :description: Leatherflex
-    :notes: An imitation leather binding material.
-    :issue_number: '17'
+    :notes: An imitation leather binding material
+    :issue_number: '2'
   '17':
     :value: '17'
     :description: Moleskin
@@ -101,12 +101,12 @@
   '20':
     :value: '20'
     :description: Velvet
-    :notes: German ‘Samt’.
+    :notes: German ‘Samt’
     :issue_number: '6'
   '21':
     :value: '21'
     :description: Mother-of-pearl
-    :notes: Spanish ‘nácar’.
+    :notes: Spanish ‘nácar’
     :issue_number: '6'
   '22':
     :value: '22'
@@ -116,10 +116,25 @@
   '23':
     :value: '23'
     :description: Géltex
-    :notes: An imitation cloth binding material.
+    :notes: An imitation cloth binding material
     :issue_number: '6'
   '24':
     :value: '24'
     :description: Guaflex
-    :notes: An imitation leather binding material.
+    :notes: An imitation leather binding material
     :issue_number: '6'
+  '25':
+    :value: '25'
+    :description: Imitation leather
+    :notes: An imitation made of any non-leather material
+    :issue_number: '28'
+  '26':
+    :value: '26'
+    :description: Pigskin
+    :notes: ''
+    :issue_number: '28'
+  '27':
+    :value: '27'
+    :description: Goatskin
+    :notes: ''
+    :issue_number: '28'

@@ -1,6 +1,6 @@
 ---
 :number: '91'
-:description: Country code – ISO 3166-1
+:description: Country – based on ISO 3166-1
 :issue_number: '0'
 :codes:
   AD:
@@ -41,8 +41,8 @@
   AN:
     :value: AN
     :description: Netherlands Antilles
-    :notes: Deprecated – use BQ, CW or SX as appropriate.
-    :issue_number: '13'
+    :notes: Deprecated – use BQ, CW and SX as appropriate
+    :issue_number: '0'
   AO:
     :value: AO
     :description: Angola
@@ -261,8 +261,8 @@
   CS:
     :value: CS
     :description: Serbia and Montenegro
-    :notes: DEPRECATED, replaced by ME – Montenegro and RS – Serbia.
-    :issue_number: '7'
+    :notes: DEPRECATED, replaced by ME – Montenegro and RS – Serbia
+    :issue_number: '4'
   CU:
     :value: CU
     :description: Cuba
@@ -270,7 +270,7 @@
     :issue_number: '0'
   CV:
     :value: CV
-    :description: Cape Verde
+    :description: Cabo Verde
     :notes: ''
     :issue_number: '0'
   CW:
@@ -290,8 +290,8 @@
     :issue_number: '0'
   CZ:
     :value: CZ
-    :description: Czech Republic
-    :notes: ''
+    :description: Czechia
+    :notes: Formerly Czech Republic
     :issue_number: '0'
   DE:
     :value: DE
@@ -705,7 +705,7 @@
     :issue_number: '0'
   MD:
     :value: MD
-    :description: Moldova, Repubic of
+    :description: Moldova, Republic of
     :notes: ''
     :issue_number: '0'
   ME:
@@ -927,7 +927,7 @@
     :value: PS
     :description: Palestine, State of
     :notes: ''
-    :issue_number: '21'
+    :issue_number: '0'
   PT:
     :value: PT
     :description: Portugal
@@ -1075,8 +1075,8 @@
     :issue_number: '0'
   SZ:
     :value: SZ
-    :description: Swaziland
-    :notes: ''
+    :description: Eswatini
+    :notes: Formerly known as Swaziland
     :issue_number: '0'
   TC:
     :value: TC
@@ -1246,8 +1246,8 @@
   YU:
     :value: YU
     :description: Yugoslavia
-    :notes: DEPRECATED, replaced by ME – Montenegro and RS – Serbia.
-    :issue_number: '4'
+    :notes: DEPRECATED, replaced by ME – Montenegro and RS – Serbia
+    :issue_number: '0'
   ZA:
     :value: ZA
     :description: South Africa

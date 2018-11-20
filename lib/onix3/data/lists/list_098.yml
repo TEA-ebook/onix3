@@ -1,6 +1,6 @@
 ---
 :number: '98'
-:description: Product form feature value – binding or page edge color
+:description: Binding or page edge color
 :issue_number: '1'
 :codes:
   BLK:
@@ -56,13 +56,13 @@
   MUL:
     :value: MUL
     :description: Multicolor
-    :notes: Use <ProductFormFeatureDescription> to add brief details if required.
-    :issue_number: '17'
+    :notes: Use <ProductFormFeatureDescription> to add brief details if required
+    :issue_number: '1'
   NAV:
     :value: NAV
     :description: Navy/Dark blue
     :notes: ''
-    :issue_number: '17'
+    :issue_number: '1'
   ORG:
     :value: ORG
     :description: Orange
@@ -90,7 +90,7 @@
     :issue_number: '1'
   TAN:
     :value: TAN
-    :description: Tan
+    :description: Tan/Light brown
     :notes: ''
     :issue_number: '1'
   WHI:
@@ -108,3 +108,13 @@
     :description: Other
     :notes: ''
     :issue_number: '1'
+  SKY:
+    :value: SKY
+    :description: Sky/Pale blue
+    :notes: ''
+    :issue_number: '24'
+  TEA:
+    :value: TEA
+    :description: Teal/Turquoise green
+    :notes: ''
+    :issue_number: '24'

@@ -1,12 +1,12 @@
 ---
 :number: '61'
-:description: Price status code
+:description: Price status
 :issue_number: '0'
 :codes:
   '00':
     :value: '00'
     :description: Unspecified
-    :notes: Default.
+    :notes: Default
     :issue_number: '0'
   '01':
     :value: '01'

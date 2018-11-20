@@ -1,0 +1,45 @@
+---
+:number: '224'
+:description: Status detail type severity
+:issue_number: '28'
+:codes:
+  U:
+    :value: U
+    :description: Unclassifiable
+    :notes: Use ONLY if the message severity cannot be determined (eg with a legacy
+      system unable to provide detailed error codes)
+    :issue_number: '28'
+  I:
+    :value: I
+    :description: Info
+    :notes: For information only, provided to encourage the ONIX data supplier to
+      improve the quality of their data (eg provision of a non-mandatory data element
+      that is currently missing, better conformity with best practice, etc)
+    :issue_number: '28'
+  Q:
+    :value: Q
+    :description: Query
+    :notes: Request for clarification or further detail of the meaning of the data
+      provided
+    :issue_number: '28'
+  W:
+    :value: W
+    :description: Warning
+    :notes: The ONIX data has been accepted as provided, but there may be issues in
+      the way it is supplied
+    :issue_number: '28'
+  E:
+    :value: E
+    :description: Error
+    :notes: Some data in an ONIX data element or message structure caused an error
+      due to not meeting the requirements of the standard. The data in question has
+      been rejected, but processing of the remaining elements in the record (or the
+      remain records in the message, if used within <MessageStatusDetail>) has continued
+    :issue_number: '28'
+  F:
+    :value: F
+    :description: Fatal error
+    :notes: Some data in an ONIX data element or message structure caused an unrecoverable
+      error due to not meeting the requirements of the standard. The entire ONIX record
+      has been rejected (or the entire message, if used within <MessageStatusDetail>)
+    :issue_number: '28'

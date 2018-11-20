@@ -6,35 +6,35 @@
   '01':
     :value: '01'
     :description: Publication date
-    :notes: Nominal date of publication.
+    :notes: Nominal date of publication (of the content item or supporting resource)
     :issue_number: '10'
   '04':
     :value: '04'
     :description: Broadcast date
-    :notes: Date when a TV or radio program was / will be broadcast.
+    :notes: Date when a TV or radio program was / will be broadcast
     :issue_number: '10'
   '14':
     :value: '14'
     :description: From date
     :notes: Date from which a content item or supporting resource may be referenced
-      or used.
+      or used. The content is embargoed until this date
     :issue_number: '10'
   '15':
     :value: '15'
     :description: Until date
     :notes: Date until which a content item or supporting resource may be referenced
-      or used.
+      or used
     :issue_number: '10'
   '17':
     :value: '17'
     :description: Last updated
-    :notes: Date when a resource was last changed or updated.
+    :notes: Date when a resource was last changed or updated
     :issue_number: '10'
   '24':
     :value: '24'
     :description: From… until date
     :notes: Combines From date and Until date to define a period (both dates are inclusive).
-      Use with for example dateformat 06.
+      Use with for example dateformat 06
     :issue_number: '16'
   '27':
     :value: '27'
@@ -42,12 +42,24 @@
     :notes: Date from which a supporting resource is available for download. Note
       that this date also implies that it can be immediately displayed to the intended
       audience, unless a From date (code 14) is also supplied and is later than the
-      Available from date.
+      Available from date
     :issue_number: '20'
   '28':
     :value: '28'
     :description: Available until
     :notes: Date until which a supporting resource is available for download. Note
       that this date does not imply it must be removed from display to the intended
-      audience on this date – for this, use Until date (code 15).
+      audience on this date – for this, use Until date (code 15)
     :issue_number: '20'
+  '31':
+    :value: '31'
+    :description: Associated start date
+    :notes: Start date referenced by the supporting resource, for example, the ‘earliest
+      exam date’ for an official recommendation
+    :issue_number: '38'
+  '32':
+    :value: '32'
+    :description: Associated end date
+    :notes: End date referenced by the supporting resource, for example, the ‘latest
+      exam date’ for an official recommendation
+    :issue_number: '38'

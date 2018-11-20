@@ -6,22 +6,22 @@
   '01':
     :value: '01'
     :description: Front cover
-    :notes: ''
+    :notes: 2D
     :issue_number: '10'
   '02':
     :value: '02'
     :description: Back cover
-    :notes: ''
+    :notes: 2D
     :issue_number: '10'
   '03':
     :value: '03'
     :description: Cover / pack
-    :notes: Not limited to front or back.
+    :notes: Not limited to front or back, including 3D perspective
     :issue_number: '10'
   '04':
     :value: '04'
     :description: Contributor picture
-    :notes: Photograph or portrait of contributor(s).
+    :notes: Photograph or portrait of contributor(s)
     :issue_number: '10'
   '05':
     :value: '05'
@@ -38,13 +38,13 @@
     :description: Product image / artwork
     :notes: ''
     :issue_number: '10'
-  08:
-    :value: 08
+  '08':
+    :value: '08'
     :description: Product logo
     :notes: ''
     :issue_number: '10'
-  09:
-    :value: 09
+  '09':
+    :value: '09'
     :description: Publisher logo
     :notes: ''
     :issue_number: '10'
@@ -57,40 +57,43 @@
     :value: '11'
     :description: Contributor interview
     :notes: ''
-    :issue_number: '12'
+    :issue_number: '10'
   '12':
     :value: '12'
     :description: Contributor presentation
-    :notes: Contributor presentation and/or commentary.
-    :issue_number: '12'
+    :notes: Contributor presentation and/or commentary
+    :issue_number: '10'
   '13':
     :value: '13'
     :description: Contributor reading
     :notes: ''
-    :issue_number: '12'
+    :issue_number: '10'
   '14':
     :value: '14'
     :description: Contributor event schedule
-    :notes: Link to a schedule in iCalendar format.
-    :issue_number: '12'
+    :notes: Link to a schedule in iCalendar format
+    :issue_number: '10'
   '15':
     :value: '15'
     :description: Sample content
-    :notes: 'For example: sample chapter text, page images, screenshots.'
+    :notes: 'For example: a short excerpt, sample text or a complete sample chapter,
+      page images, screenshots etc'
     :issue_number: '10'
   '16':
     :value: '16'
     :description: Widget
-    :notes: A ‘look inside’ feature presented as a small embeddable application.
+    :notes: A ‘look inside’ feature presented as a small embeddable application
     :issue_number: '10'
   '17':
     :value: '17'
     :description: Review
-    :notes: Use the <TextContent> composite for review quotes carried in the ONIX
-      record. Use the <CitedContent> composite for a third-party review which is referenced
-      from the ONIX record. Use <SupportingResource> only for a review which is offered
-      for reproduction as part of promotional material for the product.
-    :issue_number: '11'
+    :notes: Review text held in a separate downloadable file, not in the ONIX record.
+      Equivalent of code 06 in List 153. Use the <TextContent> composite for review
+      quotes carried in the ONIX record. Use the <CitedContent> composite for a third-party
+      review which is referenced from the ONIX record. Use <SupportingResource> for
+      review text offered as a separate file resource for reproduction as part of
+      promotional material for the product
+    :issue_number: '10'
   '18':
     :value: '18'
     :description: Other commentary / discussion
@@ -104,17 +107,17 @@
   '20':
     :value: '20'
     :description: Teacher’s guide
-    :notes: ''
+    :notes: Incuding associated teacher / instructor resources
     :issue_number: '10'
   '21':
     :value: '21'
     :description: Feature article
-    :notes: Feature article provided by publisher.
+    :notes: Feature article provided by publisher
     :issue_number: '10'
   '22':
     :value: '22'
     :description: Character ‘interview’
-    :notes: Fictional character ‘interview’.
+    :notes: Fictional character ‘interview’
     :issue_number: '10'
   '23':
     :value: '23'
@@ -129,13 +132,16 @@
   '25':
     :value: '25'
     :description: Table of contents
-    :notes: A table of contents held on a webpage, not in the ONIX record.
+    :notes: A table of contents held in a separate downloadable file, not in the ONIX
+      record. Equivalent of code 04 in List 153. Use the <TextContent> composite for
+      a table of contents carried in the ONIX record. Use <Supporting Resource> for
+      text offered as a separate file resource
     :issue_number: '11'
   '26':
     :value: '26'
     :description: Trailer
-    :notes: A promotional video, similar to a movie trailer (sometimes referred to
-      as a ‘book trailer’).
+    :notes: A promotional video (or audio), similar to a movie trailer (sometimes
+      referred to as a ‘book trailer’)
     :issue_number: '11'
   '27':
     :value: '27'
@@ -143,18 +149,18 @@
     :notes: Intended ONLY for transitional use, where ONIX 2.1 records referencing
       existing thumbnail assets of unknown pixel size are being re-expressed in ONIX
       3.0. Use code 01 for all new cover assets, and where the pixel size of older
-      assets is known.
+      assets is known
     :issue_number: '14'
   '28':
     :value: '28'
     :description: Full content
     :notes: The full content of the product (or the product itself), supplied for
-      example to support full-text search.
+      example to support full-text search or indexing
     :issue_number: '17'
   '29':
     :value: '29'
     :description: Full cover
-    :notes: Includes cover, back cover, spine and – where appropriate – any flaps.
+    :notes: Includes cover, back cover, spine and – where appropriate – any flaps
     :issue_number: '17'
   '30':
     :value: '30'
@@ -164,7 +170,83 @@
   '99':
     :value: '99'
     :description: License
-    :notes: Link to a license covering permitted usage of the product content. This
-      is a workaround in ONIX 3.0, pending introduction of an license link element
-      near to UsageConstraints.
+    :notes: Link to a license covering permitted usage of the product content. Deprecated
+      in favor of <EpubLicense>. This was a temporary workaround in ONIX 3.0, and
+      use of <EpubLicense> is strongly preferred
     :issue_number: '22'
+  '31':
+    :value: '31'
+    :description: Description
+    :notes: Descriptive text in a separate downloadable file, not in the ONIX record.
+      Equivalent of code 03 in List 153. Use the <TextContent> composite for descriptions
+      carried in the ONIX record. Use <Supporting Resource> for text offered as a
+      separate file resource for reproduction as part of promotional material for
+      the product
+    :issue_number: '27'
+  '32':
+    :value: '32'
+    :description: Index
+    :notes: Index text held in a separate downloadable file, not in the ONIX record.
+      Equivalent of code 15 in List 153. Use the <TextContent> composite for index
+      text carried in the ONIX record. Use <Supporting Resource> for an index offered
+      as a separate file resource
+    :issue_number: '27'
+  '33':
+    :value: '33'
+    :description: Student’s guide
+    :notes: Including associated student / learner resources
+    :issue_number: '30'
+  '34':
+    :value: '34'
+    :description: Publisher’s catalogue
+    :notes: For example a PDF or other digital representation of a publisher’s ‘new
+      titles’ or range catalogue
+    :issue_number: '31'
+  '35':
+    :value: '35'
+    :description: Online advertisement panel
+    :notes: For example a banner ad for the product. Pixel dimensions should typically
+      be included in <ResourceVersionFeature>
+    :issue_number: '31'
+  '36':
+    :value: '36'
+    :description: Online advertisement page
+    :notes: German ‘Búhnenbild’
+    :issue_number: '31'
+  '37':
+    :value: '37'
+    :description: Promotional event material
+    :notes: For example, posters, logos, banners, advertising templates for use in
+      connection with a promotional event
+    :issue_number: '31'
+  '38':
+    :value: '38'
+    :description: Digital review copy
+    :notes: Availability of a digital review or digital proof copy, may be limited
+      to authorised users or account holders
+    :issue_number: '31'
+  '39':
+    :value: '39'
+    :description: Instructional material
+    :notes: For example, video showing how to use the product
+    :issue_number: '32'
+  '40':
+    :value: '40'
+    :description: Errata
+    :notes: ''
+    :issue_number: '39'
+  '41':
+    :value: '41'
+    :description: Introduction
+    :notes: Introduction, preface or other preliminary material in a separate resource
+      file
+    :issue_number: '40'
+  '42':
+    :value: '42'
+    :description: Collection description
+    :notes: Descriptive material in a separate resource file, not in the ONIX record.
+      Equivalent of code 17 in List 153. Use the <TextContent> composite for collection
+      descriptions carried in the ONIX record. Use <Supporting Resource> for material
+      (which need not be solely only) offered as a separate file resource for reproduction
+      as part of promotional material for the product and collection
+    :issue_number: '40'

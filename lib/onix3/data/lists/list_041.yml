@@ -1,6 +1,6 @@
 ---
 :number: '41'
-:description: Prize or award achievement code
+:description: Prize or award achievement
 :issue_number: '0'
 :codes:
   '01':
@@ -11,31 +11,38 @@
   '02':
     :value: '02'
     :description: Runner-up
-    :notes: Named as being in second place.
+    :notes: Named as being in second place
     :issue_number: '0'
   '03':
     :value: '03'
     :description: Commended
     :notes: Cited as being worthy of special attention at the final stage of the judging
       process, but not named specifically as winner or runner-up. Possible terminology
-      used by a particular prize includes ‘specially commended’ or 'honored’.
-    :issue_number: '23'
+      used by a particular prize includes ‘specially commended’ or ‘honored’
+    :issue_number: '0'
   '04':
     :value: '04'
     :description: Short-listed
     :notes: Title named by the judging process to be one of the final list of candidates,
       such as a ‘short-list’ from which the winner is selected, or a title named as
-      ‘finalist’.
-    :issue_number: '23'
+      ‘finalist’
+    :issue_number: '0'
   '05':
     :value: '05'
     :description: Long-listed
     :notes: Title named by the judging process to be one of the preliminary list of
       candidates, such as a ‘long-list’ from which first a shorter list or set of
-      finalists is selected, and then the winner is announced.
-    :issue_number: '23'
+      finalists is selected, and then the winner is announced
+    :issue_number: '3'
   '06':
     :value: '06'
     :description: Joint winner
-    :notes: Or co-winner.
+    :notes: Or co-winner
     :issue_number: '5'
+  '07':
+    :value: '07'
+    :description: Nominated
+    :notes: Selected by judging panel or an official nominating process for final
+      consideration for a prize, award or honour for which no ‘short-list’ or ‘long
+      list’ exists
+    :issue_number: '24'

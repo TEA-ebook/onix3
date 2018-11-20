@@ -1,6 +1,6 @@
 ---
 :number: '15'
-:description: Title type code
+:description: Title type
 :issue_number: '0'
 :codes:
   '00':
@@ -18,60 +18,60 @@
       title. Where the item is an omnibus edition containing two or more works by
       the same author, and there is no separate combined title, a distinctive title
       may be constructed by concatenating the individual titles, with suitable punctuation,
-      as in “Pride and prejudice / Sense and sensibility / Northanger Abbey”.
+      as in ‘Pride and prejudice / Sense and sensibility / Northanger Abbey’
     :issue_number: '0'
   '02':
     :value: '02'
     :description: ISSN key title of serial
-    :notes: Serials only.
+    :notes: Serials only
     :issue_number: '0'
   '03':
     :value: '03'
     :description: Title in original language
-    :notes: Where the subject of the ONIX record is a translated item.
+    :notes: Where the subject of the ONIX record is a translated item
     :issue_number: '0'
   '04':
     :value: '04'
     :description: Title acronym or initialism
-    :notes: 'For serials: an acronym or initialism of Title Type 01, eg “JAMA”, “JACM”.'
+    :notes: 'For serials: an acronym or initialism of Title Type 01, eg ‘JAMA’, ‘JACM’'
     :issue_number: '0'
   '05':
     :value: '05'
     :description: Abbreviated title
-    :notes: An abbreviated form of Title Type 01.
+    :notes: An abbreviated form of Title Type 01
     :issue_number: '0'
   '06':
     :value: '06'
     :description: Title in other language
-    :notes: A translation of Title Type 01 into another language.
+    :notes: A translation of Title Type 01 into another language
     :issue_number: '0'
   '07':
     :value: '07'
     :description: Thematic title of journal issue
     :notes: 'Serials only: when a journal issue is explicitly devoted to a specified
-      topic.'
+      topic'
     :issue_number: '0'
-  08:
-    :value: 08
+  '08':
+    :value: '08'
     :description: Former title
     :notes: 'Books or serials: when an item was previously published under another
-      title.'
+      title'
     :issue_number: '0'
   '10':
     :value: '10'
     :description: Distributor’s title
     :notes: 'For books: the title carried in a book distributor’s title file: frequently
-      incomplete, and may include elements not properly part of the title.'
+      incomplete, and may include elements not properly part of the title'
     :issue_number: '4'
   '11':
     :value: '11'
     :description: Alternative title on cover
-    :notes: An alternative title that appears on the cover of a book.
+    :notes: An alternative title that appears on the cover of a book
     :issue_number: '7'
   '12':
     :value: '12'
     :description: Alternative title on back
-    :notes: An alternative title that appears on the back of a book.
+    :notes: An alternative title that appears on the back of a book
     :issue_number: '7'
   '13':
     :value: '13'
@@ -79,5 +79,11 @@
     :notes: An expanded form of the title, eg the title of a school text book with
       grade and type and other details added to make the title meaningful, where otherwise
       it would comprise only the curriculum subject. This title type is required for
-      submissions to the Spanish ISBN Agency.
+      submissions to the Spanish ISBN Agency
     :issue_number: '7'
+  '14':
+    :value: '14'
+    :description: Alternative title
+    :notes: An alternative title that the book is widely known by, whether it appears
+      on the book or not
+    :issue_number: '25'

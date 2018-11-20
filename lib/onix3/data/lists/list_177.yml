@@ -13,3 +13,9 @@
     :description: Date of death
     :notes: ''
     :issue_number: '9'
+  '56':
+    :value: '56'
+    :description: Flourished around
+    :notes: "(‘Floruit’). To date the height of or most productive period during a
+      career"
+    :issue_number: '33'

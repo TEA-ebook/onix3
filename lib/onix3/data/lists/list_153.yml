@@ -9,57 +9,58 @@
     :notes: To be used only in circumstances where the parties to an exchange have
       agreed to include text which (a) is not for general distribution, and (b) cannot
       be coded elsewhere. If more than one type of text is sent, it must be identified
-      by tagging within the text itself.
+      by tagging within the text itself
     :issue_number: '10'
   '02':
     :value: '02'
     :description: Short description/annotation
-    :notes: Limited to a maximum of 350 characters.
+    :notes: Limited to a maximum of 350 characters
     :issue_number: '10'
   '03':
     :value: '03'
     :description: Description
-    :notes: Length unrestricted.
+    :notes: Length unrestricted
     :issue_number: '10'
   '04':
     :value: '04'
     :description: Table of contents
     :notes: Used for a table of contents sent as a single text field, which may or
-      may not carry structure expressed as XHTML.
+      may not carry structure expressed using XHTML
     :issue_number: '10'
   '05':
     :value: '05'
     :description: Flap / cover copy
-    :notes: Descriptive blurb taken from the back cover and/or flaps.
+    :notes: Primary descriptive blurb taken from the back cover and/or flaps. See
+      also code 27
     :issue_number: '10'
   '06':
     :value: '06'
     :description: Review quote
     :notes: A quote taken from a review of the product or of the work in question
-      where there is no need to take account of different editions.
+      where there is no need to take account of different editions
     :issue_number: '10'
   '07':
     :value: '07'
     :description: 'Review quote: previous edition'
-    :notes: A quote taken from a review of a previous edition of the work.
+    :notes: A quote taken from a review of a previous edition of the work
     :issue_number: '10'
-  08:
-    :value: 08
+  '08':
+    :value: '08'
     :description: 'Review quote: previous work'
     :notes: A quote taken from a review of a previous work by the same author(s) or
-      in the same series.
+      in the same series
     :issue_number: '10'
-  09:
-    :value: 09
+  '09':
+    :value: '09'
     :description: Endorsement
-    :notes: A quote usually provided by a celebrity to promote a new book, not from
-      a review.
+    :notes: A quote usually provided by a celebrity or another author to promote a
+      new book, not from a review
     :issue_number: '10'
   '10':
     :value: '10'
     :description: Promotional headline
     :notes: A promotional phrase which is intended to headline a description of the
-      product.
+      product
     :issue_number: '10'
   '11':
     :value: '11'
@@ -68,13 +69,13 @@
       draw attention for promotional purposes. Each separate feature should be described
       by a separate repeat, so that formatting can be applied at the discretion of
       the receiver of the ONIX record, or multiple features can be described using
-      appropriate XHTML markup.
-    :issue_number: '22'
+      appropriate XHTML markup
+    :issue_number: '10'
   '12':
     :value: '12'
     :description: Biographical note
     :notes: A note referring to all contributors to a product – NOT linked to a single
-      contributor.
+      contributor
     :issue_number: '10'
   '13':
     :value: '13'
@@ -82,33 +83,33 @@
     :notes: A statement included by a publisher in fulfillment of contractual obligations,
       such as a disclaimer, sponsor statement, or legal notice of any sort. Note that
       the inclusion of such a notice cannot and does not imply that a user of the
-      ONIX record is obliged to reproduce it.
+      ONIX record is obliged to reproduce it
     :issue_number: '10'
   '14':
     :value: '14'
     :description: Excerpt
-    :notes: A short excerpt from the work.
+    :notes: A short excerpt from the main text of the work
     :issue_number: '10'
   '15':
     :value: '15'
     :description: Index
     :notes: Used for an index sent as a single text field, which may be structured
-      using XHTML.
+      using XHTML
     :issue_number: '17'
   '16':
     :value: '16'
     :description: Short description/annotation for collection
-    :notes: (of which the product is a part.) Limited to a maximum of 350 characters.
+    :notes: "(of which the product is a part.) Limited to a maximum of 350 characters"
     :issue_number: '17'
   '17':
     :value: '17'
     :description: Description for collection
-    :notes: (of which the product is a part.) Length unrestricted.
+    :notes: "(of which the product is a part.) Length unrestricted"
     :issue_number: '17'
   '18':
     :value: '18'
     :description: New feature
-    :notes: As code 11 but used for a new feature of this edition or version.
+    :notes: As code 11 but used for a new feature of this edition or version
     :issue_number: '22'
   '19':
     :value: '19'
@@ -119,7 +120,59 @@
     :value: '20'
     :description: Open access statement
     :notes: Short summary statement of open access status and any related conditions
-      (eg “Open access – no commercial use”), primarily for marketing purposes. Should
-      always be accompanied by a link to the complete license (see code 99 in List
-      158).
+      (eg ‘Open access – no commercial use’), primarily for marketing purposes. Should
+      always be accompanied by a link to the complete license (see <EpubLicense> or
+      code 99 in List 158)
     :issue_number: '22'
+  '21':
+    :value: '21'
+    :description: Digital exclusivity statement
+    :notes: Short summary statement that the product is available only in digital
+      formats (eg ‘Digital exclusive’). If a non-digital version is planned, <ContentDate>
+      should be used to specify the date when exclusivity will end (use content date
+      role code 15). If a non-digital version is available, the statement should not
+      be included
+    :issue_number: '28'
+  '22':
+    :value: '22'
+    :description: Official recommendation
+    :notes: For example a recommendation or approval provided by a ministry of education
+      or other official body. Use <Text> to provide details and ideally use <TextSourceCorporate>
+      to name the approver
+    :issue_number: '29'
+  '23':
+    :value: '23'
+    :description: JBPA description
+    :notes: Short description in format specified by Japanese Book Publishers Association
+    :issue_number: '32'
+  '24':
+    :value: '24'
+    :description: schema.org snippet
+    :notes: JSON-LD snippet suitable for use within an HTML <script type="application/ld+json">
+      tag, containing structured metadata suitable for use with schema.org
+    :issue_number: '36'
+  '25':
+    :value: '25'
+    :description: Errata
+    :notes: ''
+    :issue_number: '39'
+  '26':
+    :value: '26'
+    :description: Introduction
+    :notes: Introduction, preface or the text of other preliminary material, sent
+      as a single text field, which may be structured using XHTML
+    :issue_number: '40'
+  '27':
+    :value: '27'
+    :description: Secondary flap / cover copy
+    :notes: Secondary descriptive blurb taken from the back cover and/or flaps, used
+      only when there are two separate texts and the primary text is included using
+      code 05
+    :issue_number: '43'
+  '28':
+    :value: '28'
+    :description: Full cast and credit list
+    :notes: For use with dramatized audiobooks, filmed entertainment etc, for a cast
+      list sent as a single text field, which may or may not carry structure expressed
+      using XHTML
+    :issue_number: '43'

@@ -1,5 +1,51 @@
 ---
 :number: '20'
-:description: Conference role
+:description: Event role
 :issue_number: '0'
-:codes: {}
+:codes:
+  '01':
+    :value: '01'
+    :description: Publication linked to conference
+    :notes: For example an academic, professional or political conference
+    :issue_number: '33'
+  '02':
+    :value: '02'
+    :description: Complete proceedings of conference
+    :notes: ''
+    :issue_number: '33'
+  '03':
+    :value: '03'
+    :description: Selected papers from conference
+    :notes: ''
+    :issue_number: '33'
+  '11':
+    :value: '11'
+    :description: Publication linked to sporting event
+    :notes: For example a competitive match, fixture series or championship
+    :issue_number: '33'
+  '12':
+    :value: '12'
+    :description: Programme or guide for sporting event
+    :notes: ''
+    :issue_number: '33'
+  '21':
+    :value: '21'
+    :description: Publication linked to artistic event
+    :notes: For example a theatrical or musical event or performance, a season of
+      events or performances, or an exhibition of art
+    :issue_number: '33'
+  '22':
+    :value: '22'
+    :description: Programme or guide for artistic event
+    :notes: ''
+    :issue_number: '33'
+  '31':
+    :value: '31'
+    :description: Publication linked to exposition
+    :notes: For example a commercial exposition
+    :issue_number: '33'
+  '32':
+    :value: '32'
+    :description: Programme or guide for exposition
+    :notes: ''
+    :issue_number: '33'

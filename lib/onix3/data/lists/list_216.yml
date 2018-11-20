@@ -1,0 +1,50 @@
+---
+:number: '216'
+:description: Velocity metric
+:issue_number: '24'
+:codes:
+  '01':
+    :value: '01'
+    :description: Mean daily sale
+    :notes: Typically measured over most recent 1 month period
+    :issue_number: '24'
+  '02':
+    :value: '02'
+    :description: Maximum daily sale
+    :notes: Typically measured over most recent 1 month period
+    :issue_number: '24'
+  '03':
+    :value: '03'
+    :description: Minimum daily sale
+    :notes: Typically measured over most recent 1 month period
+    :issue_number: '24'
+  '04':
+    :value: '04'
+    :description: Mean weekly sale
+    :notes: Typically measured over most recent rolling 12 week period
+    :issue_number: '24'
+  '05':
+    :value: '05'
+    :description: Maximum weekly sale
+    :notes: Typically measured over most recent rolling 12 week period
+    :issue_number: '24'
+  '06':
+    :value: '06'
+    :description: Minimum weekly sale
+    :notes: Typically measured over most recent rolling 12 week period
+    :issue_number: '24'
+  '07':
+    :value: '07'
+    :description: Mean monthly sale
+    :notes: Typically measured over most recent rolling 6 month period
+    :issue_number: '24'
+  '08':
+    :value: '08'
+    :description: Maximum monthly sale
+    :notes: Typically measured over the most recent rolling 6 month period
+    :issue_number: '24'
+  '09':
+    :value: '09'
+    :description: Minimum monthly sale
+    :notes: Typically measured over the most recent rolling 6 month period
+    :issue_number: '24'

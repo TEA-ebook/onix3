@@ -18,7 +18,7 @@
       noted as subject to restriction or prohibition in <EpubUsageConstraint>. Note
       that provision of any significant part of the textual content as images (ie
       as pictures of text, rather than as text) inevitably prevents use of these accessibility
-      options.
+      options
     :issue_number: '15'
   '11':
     :value: '11'
@@ -27,13 +27,13 @@
       of text organization above individual paragraphs (eg to all sections and subsections)
       and to all tables, figures, illustrations etc. Non-textual items such as illustrations,
       tables, audio or video content may be directly accessible from the Table of
-      contents, or from a similar List of illustrations, List of tables, etc.
+      contents, or from a similar List of illustrations, List of tables, etc
     :issue_number: '15'
   '12':
     :value: '12'
     :description: Index navigation
     :notes: Index provides direct (eg hyperlinked) access to uses of the index terms
-      in the document body.
+      in the document body
     :issue_number: '15'
   '13':
     :value: '13'
@@ -42,7 +42,7 @@
       reading order (including text that is visually presented as separate from the
       main text flow, eg in boxouts, captions, tables, footnotes, endnotes, citations,
       etc). Non-textual content is also linked from within this logical reading order.
-      (Purely decorative non-text content can be ignored.)
+      (Purely decorative non-text content can be ignored)
     :issue_number: '15'
   '14':
     :value: '14'
@@ -54,7 +54,7 @@
       hearing-impaired as well as for visually-impaired readers. (Purely decorative
       non-text content can be ignored, but the accessibility of resources delivered
       via a network connection rather than as part of the e-publication package must
-      be included.)
+      be included)
     :issue_number: '15'
   '15':
     :value: '15'
@@ -66,45 +66,45 @@
       captions suitable for hearing-impaired as well as for visually-impaired readers.
       (Purely decorative non-text content can be ignored, but the accessibility of
       resources delivered via a network connection rather than as part of the e-publication
-      package must be included.)
+      package must be included)
     :issue_number: '15'
   '16':
     :value: '16'
     :description: Visualised data also available as non-graphical data
     :notes: Where data visualisations are provided (eg graphs and charts), the underlying
-      data is also available in non-graphical (usually tabular, textual) form.
+      data is also available in non-graphical (usually tabular, textual) form
     :issue_number: '15'
   '17':
     :value: '17'
     :description: Accessible math content
     :notes: Mathematical content such as equations is usable with assistive technology,
       eg through use of MathML. Semantic MathML is preferred but Presentational MathML
-      is acceptable.
+      is acceptable
     :issue_number: '15'
   '18':
     :value: '18'
     :description: Accessible chem content
     :notes: Chemistry content such as chemical formulae is usable with assistive technology,
-      eg through use of ChemML.
+      eg through use of ChemML
     :issue_number: '15'
   '19':
     :value: '19'
     :description: Print-equivalent page numbering
     :notes: For a reflowable e-publication, contains references to the page numbering
-      of an equivalent printed product.
+      of an equivalent printed product
     :issue_number: '15'
   '20':
     :value: '20'
     :description: Synchronised pre-recorded audio
     :notes: Text-synchronised pre-recorded audio narration (natural or synthesised
       voice) is included for substantially all textual matter, including all alternative
-      descriptions.
+      descriptions
     :issue_number: '15'
   '21':
     :value: '21'
     :description: Text-to-speech hinting provided
     :notes: Text-to-speech has been optimised through provision of PLS lexicons, SSML
-      or CSS Speech synthesis hints.
+      or CSS Speech synthesis hints
     :issue_number: '19'
   '22':
     :value: '22'
@@ -112,49 +112,93 @@
     :notes: The language of the text has been specified (eg via the HTML or XML lang
       attribute) to optimise text-to-speech (and other alternative renderings), both
       at whole document level and, where appropriate, for individual words, phrases
-      or passages in a different language.
+      or passages in a different language
     :issue_number: '20'
   '94':
     :value: '94'
     :description: Compliance web page for detailed accessibility information
-    :notes: <ProductFormFeatureDescription> carries the URL of a web page giving further
-      detailed description of the accessibility features, compatibility, testing etc.
-      The web page should be maintained by an independent compliance scheme or testing
-      organization.
+    :notes: "<ProductFormFeatureDescription> carries the URL of a web page giving
+      further detailed description of the accessibility features, compatibility, testing
+      etc. The web page should be maintained by an independent compliance scheme or
+      testing organization"
     :issue_number: '19'
   '95':
     :value: '95'
     :description: Trusted intermediary’s web page for detailed accessibility information
-    :notes: <ProductFormFeatureDescription> carries the URL of a web page giving further
-      detailed description of the accessibility features, compatibility, testing etc.
-      The web page should be provided by a trusted intermediary or third party nominated
-      by the publisher.
+    :notes: "<ProductFormFeatureDescription> carries the URL of a web page giving
+      further detailed description of the accessibility features, compatibility, testing
+      etc. The web page should be provided by a trusted intermediary or third party
+      nominated by the publisher"
     :issue_number: '19'
   '96':
     :value: '96'
     :description: Publisher’s web page for detailed accessibility information
-    :notes: <ProductFormFeatureDescription> carries the URL of a web page giving further
-      detailed description of the accessibility features, compatibility, testing etc.
-      The web page should be provided by the publisher.
+    :notes: "<ProductFormFeatureDescription> carries the URL of a web page giving
+      further detailed description of the accessibility features, compatibility, testing
+      etc. The web page should be provided by the publisher"
     :issue_number: '19'
   '97':
     :value: '97'
     :description: Compatibility tested
-    :notes: <ProductFormFeatureDescription> carries a short description of compatibility
-      testing carried out for this product, including detailed compatibility with
-      various assistive technology such as third-party screen-reading software.
+    :notes: "<ProductFormFeatureDescription> carries the URL of a web page giving
+      a short description of compatibility testing carried out for this product, including
+      detailed compatibility with various assistive technology such as third-party
+      screen-reading software. See also code 00 for a summary of the accessibility
+      features of the product itself"
     :issue_number: '15'
   '98':
     :value: '98'
     :description: Trusted Intermediary contact
-    :notes: <ProductFormFeatureDescription> carries the e-mail address for a contact
+    :notes: "<ProductFormFeatureDescription> carries the e-mail address for a contact
       at a ‘trusted intermediary’, to whom detailed questions about accessibility
-      for this product may be directed.
+      for this product may be directed"
     :issue_number: '15'
   '99':
     :value: '99'
     :description: Publisher contact for further accessibility information
-    :notes: <ProductFormFeatureDescription> carries the e-mail address for a contact
+    :notes: "<ProductFormFeatureDescription> carries the e-mail address for a contact
       at the publisher to whom detailed questions about accessibility of this product
-      may be directed.
+      may be directed"
     :issue_number: '15'
+  '00':
+    :value: '00'
+    :description: Accessibility summary
+    :notes: "<ProductFormFeatureDescription> contains a short explanatory summary
+      of the accessibility of the product, consistent with the more specific conformance
+      and feature details provided. The summary should note both the accessibility
+      features provided and any potential deficiencies. More detailed information
+      may be provided using codes 94–96. For use in ONIX 3.0 only. See also code 00
+      for a summary of the accessibility features of the product itself"
+    :issue_number: '37'
+  '02':
+    :value: '02'
+    :description: Accessibility Specification 1.0 A
+    :notes: Conforms with the requirements of EPUB Accessibility Spec 1.0 and WCAG
+      level A. <ProductFormFeatureDescription> may carry a URL linking to a compliance
+      report or certification provided by an independent third party certifier. In
+      the absence of a URL, conformance with the requirements of the Accessibility
+      Specification is self-certified by the publisher
+    :issue_number: '36'
+  '03':
+    :value: '03'
+    :description: Accessibility Specification 1.0 AA
+    :notes: Conforms with the requirements of EPUB Accessibility Spec 1.0 and WCAG
+      level AA. <ProductFormFeatureDescription> may carry a URL linking to a compliance
+      report or certification provided by an independent third party certifier. In
+      the absence of a URL, conformance with the requirements of the Accessibility
+      Specification is self-certified by the publisher
+    :issue_number: '36'
+  '09':
+    :value: '09'
+    :description: Inaccessible
+    :notes: Known to lack significant features required for broad accessibility. For
+      use in ONIX 3.0 only
+    :issue_number: '40'
+  '24':
+    :value: '24'
+    :description: Dyslexia readability
+    :notes: Specialised font, character and line spacing, justification and paragraph
+      spacing, colouring and other options provided specifically to improve readability
+      for dyslexic readers. Details, including the name of the font, should be listed
+      in <ProductFormFeatureDescription>
+    :issue_number: '33'

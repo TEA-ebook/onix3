@@ -1,22 +1,22 @@
 ---
 :number: '44'
-:description: Name code type
+:description: Name identifier type
 :issue_number: '0'
 :codes:
   '01':
     :value: '01'
     :description: Proprietary
-    :notes: ''
+    :notes: Note that <IDTypeName> is required with proprietary identifiers
     :issue_number: '10'
   '02':
     :value: '02'
     :description: Proprietary
-    :notes: DEPRECATED – use 01.
-    :issue_number: '10'
+    :notes: DEPRECATED – use 01
+    :issue_number: '0'
   '03':
     :value: '03'
     :description: DNB publisher identifier
-    :notes: Deutsche Nationalbibliothek publisher identifier.
+    :notes: Deutsche Nationalbibliothek publisher identifier
     :issue_number: '1'
   '04':
     :value: '04'
@@ -31,32 +31,34 @@
   '06':
     :value: '06'
     :description: GLN
-    :notes: GS1 global location number (formerly EAN location number).
-    :issue_number: '9'
+    :notes: GS1 global location number (formerly EAN location number)
+    :issue_number: '1'
   '07':
     :value: '07'
     :description: SAN
-    :notes: Book trade Standard Address Number – US, UK etc.
-    :issue_number: '6'
+    :notes: Book trade Standard Address Number – US, UK etc
+    :issue_number: '1'
   '10':
     :value: '10'
     :description: Centraal Boekhuis Relatie ID
-    :notes: Trading party identifier used in the Netherlands.
+    :notes: Trading party identifier used in the Netherlands
     :issue_number: '4'
   '13':
     :value: '13'
     :description: Fondscode Boekenbank
-    :notes: Flemish publisher code.
+    :notes: Flemish publisher code
     :issue_number: '7'
   '15':
     :value: '15'
     :description: Y-tunnus
-    :notes: Business Identity Code (Finland). See http://www.ytj.fi/ (in Finnish).
+    :notes: Business Identity Code (Finland). See http://www.ytj.fi/ (in Finnish)
     :issue_number: '8'
   '16':
     :value: '16'
     :description: ISNI
-    :notes: International Standard Name Identifier. See ‘http://www.isni.org/’.
+    :notes: International Standard Name Identifier. A sixteen digit number. Usually
+      presented with spaces or hyphens dividing the number into four groups of four
+      digits, but in ONIX the spaces or hyphens should be omitted. See http://www.isni.org/
     :issue_number: '10'
   '17':
     :value: '17'
@@ -64,17 +66,17 @@
     :notes: Personennamendatei – person name authority file used by Deutsche Nationalbibliothek
       and in other German-speaking countries. See http://www.d-nb.de/standardisierung/normdateien/pnd.htm
       (German) or http://www.d-nb.de/eng/standardisierung/normdateien/pnd.htm (English).
-      DEPRECATED in favour of the GND.
-    :issue_number: '18'
+      DEPRECATED in favour of the GND
+    :issue_number: '10'
   '18':
     :value: '18'
     :description: LCCN
-    :notes: A control number assigned to a Library of Congress Name Authority record.
+    :notes: A control number assigned to a Library of Congress Name Authority record
     :issue_number: '10'
   '19':
     :value: '19'
     :description: Japanese Publisher identifier
-    :notes: Publisher identifier administered by Japanese ISBN Agency.
+    :notes: Publisher identifier administered by Japanese ISBN Agency
     :issue_number: '12'
   '20':
     :value: '20'
@@ -82,17 +84,19 @@
     :notes: Gemeinsame Körperschaftsdatei – Corporate Body Authority File in the German-speaking
       countries. See http://www.d-nb.de/standardisierung/normdateien/gkd.htm (German)
       or http://www.d-nb.de/eng/standardisierung/normdateien/gkd.htm (English). DEPRECATED
-      in favour of the GND.
-    :issue_number: '18'
+      in favour of the GND
+    :issue_number: '13'
   '21':
     :value: '21'
     :description: ORCID
-    :notes: Open Researcher and Contributor ID. See ‘http://www.orcid.org/’.
+    :notes: Open Researcher and Contributor ID. A sixteen digit number. Usually presented
+      with hyphens dividing the number into four groups of four digits, but in ONIX
+      the hyphens should be omitted. See http://www.orcid.org/
     :issue_number: '13'
   '22':
     :value: '22'
     :description: GAPP Publisher Identifier
-    :notes: Publisher identifier maintained by the Chinese ISBN Agency (GAPP).
+    :notes: Publisher identifier maintained by the Chinese ISBN Agency (GAPP)
     :issue_number: '15'
   '23':
     :value: '23'
@@ -103,29 +107,91 @@
       of a two-letter country code followed by the 8–12 digits of the national VAT
       ID. Some countries include one or two letters within their VAT ID. See http://en.wikipedia.org/wiki/VAT_identification_number
       for non-EU countries that maintain similar identifiers. Spaces, dashes etc should
-      be omitted.
+      be omitted
     :issue_number: '16'
   '24':
     :value: '24'
     :description: JP Distribution Identifier
     :notes: 4-digit business organization identifier controlled by the Japanese Publication
-      Wholesalers Association.
+      Wholesalers Association
     :issue_number: '17'
   '25':
     :value: '25'
     :description: GND
     :notes: Gemeinsame Normdatei – Joint Authority File in the German-speaking countries.
-      See 'http://www.dnb.de/EN/Standardisierung/Normdaten/GND/gnd_node.html (English)'.
-      Combines the PND, SWD and GKD into a single authority file, and should be used
-      in preference.
+      See http://www.dnb.de/EN/gnd (English). Combines the PND, SWD and GKD into a
+      single authority file, and should be used in preference
     :issue_number: '18'
   '26':
     :value: '26'
     :description: DUNS
-    :notes: Dunn and Bradstreet Universal Numbering System, see ‘www.dnb.co.uk/dandb-duns-number’.
+    :notes: Dunn and Bradstreet Universal Numbering System, see http://www.dnb.co.uk/dandb-duns-number
     :issue_number: '22'
   '27':
     :value: '27'
     :description: Ringgold ID
-    :notes: Ringgold organizational identifier, see ‘http://www.ringgold.com/pages/identify.html’.
+    :notes: Ringgold organizational identifier, see http://www.ringgold.com/identify.html
     :issue_number: '22'
+  '08':
+    :value: '08'
+    :description: MARC organization code
+    :notes: MARC code list for organizations – see http://www.loc.gov/marc/organizations/orgshome.html
+    :issue_number: '28'
+  '28':
+    :value: '28'
+    :description: Identifiant Editeur Electre
+    :notes: French Electre publisher identifier
+    :issue_number: '24'
+  '29':
+    :value: '29'
+    :description: EIDR Party DOI
+    :notes: DOI used in EIDR party registry, for example ‘10.5237/C9F6-F41F’ (Sam
+      Raimi). See http://eidr.org
+    :issue_number: '29'
+  '30':
+    :value: '30'
+    :description: Identifiant Marque Electre
+    :notes: French Electre imprint Identifier
+    :issue_number: '24'
+  '31':
+    :value: '31'
+    :description: VIAF ID
+    :notes: Virtual Internet Authority File. <IDValue> should be a number. The URI
+      form of the identifier can be created by prefixing the number with ‘https://viaf.org/viaf/’.
+      See https://viaf.org
+    :issue_number: '29'
+  '32':
+    :value: '32'
+    :description: FundRef DOI
+    :notes: DOI used in CrossRef’s Open Funder Registry list of academic research
+      funding bodies, for example ‘10.13039/100004440’ (Wellcome Trust). See http://www.crossref.org/fundingdata/registry.html
+    :issue_number: '27'
+  '33':
+    :value: '33'
+    :description: BNE CN
+    :notes: Control number assigned to a Name Authority record by the Biblioteca Nacional
+      de España
+    :issue_number: '35'
+  '34':
+    :value: '34'
+    :description: BNF Control Number
+    :notes: Numéro de la notice de personne BNF
+    :issue_number: '36'
+  '35':
+    :value: '35'
+    :description: ARK
+    :notes: Archival Resource Key, as a URL (including the address of the ARK resolver
+      provided by eg a national library)
+    :issue_number: '36'
+  '36':
+    :value: '36'
+    :description: Nasjonalt autoritetsregister
+    :notes: Nasjonalt autoritetsregister for navn – Norwegian national authority file
+      for personal and corporate names. For use in ONIX 3.0 only
+    :issue_number: '37'
+  '37':
+    :value: '37'
+    :description: GRID
+    :notes: Global Research Identifier Database ID (see http://www.grid.ac). For use
+      in ONIX 3.0 only
+    :issue_number: '39'

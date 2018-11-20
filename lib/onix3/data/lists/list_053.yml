@@ -6,29 +6,29 @@
   '00':
     :value: '00'
     :description: Proprietary
-    :notes: ''
+    :notes: As specified in <ReturnsCodeTypeName> (ONIX 3.0 only)
     :issue_number: '11'
   '01':
     :value: '01'
     :description: French book trade returns conditions code
     :notes: Maintained by CLIL (Commission Interprofessionnel du Livre). Returns conditions
-      values in <ReturnsCode> should be taken from the CLIL list.
+      values in <ReturnsCode> should be taken from the CLIL list
     :issue_number: '0'
   '02':
     :value: '02'
     :description: BISAC Returnable Indicator code
     :notes: 'Maintained by BISAC: Returns conditions values in <ReturnsCode> should
-      be taken from List 66.'
+      be taken from List 66'
     :issue_number: '1'
   '03':
     :value: '03'
     :description: UK book trade returns conditions code
     :notes: NOT CURRENTLY USED – BIC has decided that it will not maintain a code
       list for this purpose, since returns conditions are usually at least partly
-      based on the trading relationship.
+      based on the trading relationship
     :issue_number: '6'
   '04':
     :value: '04'
     :description: ONIX Returns conditions code
-    :notes: Returns conditions values in <ReturnsCode> should be taken from List 204.
+    :notes: Returns conditions values in <ReturnsCode> should be taken from List 204
     :issue_number: '19'

@@ -6,29 +6,41 @@
   '01':
     :value: '01'
     :description: Proprietary
-    :notes: A short explanatory label for the sequence should be provided in <CollectionSequenceTypeName>.
+    :notes: A short explanatory label for the sequence should be provided in <CollectionSequenceTypeName>
     :issue_number: '16'
   '02':
     :value: '02'
     :description: Title order
     :notes: Order as specified by the title, eg by volume or part number sequence,
-      provided for confirmation.
+      provided for confirmation
     :issue_number: '16'
   '03':
     :value: '03'
     :description: Publication order
-    :notes: Order of publication of products within the collection.
+    :notes: Order of publication of products within the collection
     :issue_number: '16'
   '04':
     :value: '04'
     :description: Temporal/narrative order
     :notes: Order defined by a continuing narrative or temporal sequence within products
       in the collection. Applicable to either fiction or to non-fiction (eg within
-      a collection of history textbooks).
+      a collection of history textbooks)
     :issue_number: '16'
   '05':
     :value: '05'
     :description: Original publication order
     :notes: Original publication order, for a republished collection or collected
-      works originally published outside a collection.
+      works originally published outside a collection
     :issue_number: '16'
+  '06':
+    :value: '06'
+    :description: Suggested reading order
+    :notes: Where it is different from the title order, publication order, narrative
+      order etc
+    :issue_number: '38'
+  '07':
+    :value: '07'
+    :description: Suggested display order
+    :notes: Where it is different from the title order, publication order, narrative
+      order, reading order etc
+    :issue_number: '41'

@@ -1,23 +1,25 @@
 ---
 :number: '62'
-:description: Tax rate, coded
+:description: Tax rate type
 :issue_number: '0'
 :codes:
   H:
     :value: H
     :description: Higher rate
-    :notes: Specifies that tax is applied at a higher rate than standard.
+    :notes: Specifies that tax is applied at a higher rate than standard
     :issue_number: '5'
   P:
     :value: P
     :description: Tax paid at source (Italy)
     :notes: Under Italian tax rules, VAT on books may be paid at source by the publisher,
-      and subsequent transactions through the supply chain are tax-exempt.
+      and subsequent transactions through the supply chain are tax-exempt
     :issue_number: '7'
   R:
     :value: R
     :description: Lower rate
-    :notes: Specifies that tax is applied at a lower rate than standard.
+    :notes: Specifies that tax is applied at a lower rate than standard. In the EU,
+      use code R for ‘Reduced rates’, and for rates lower than 5%, use code T (‘Super-reduced’)
+      or Z (Zero-rated)
     :issue_number: '0'
   S:
     :value: S
@@ -29,3 +31,10 @@
     :description: Zero-rated
     :notes: ''
     :issue_number: '0'
+  T:
+    :value: T
+    :description: Super-low rate
+    :notes: Specifies that tax is applied at a rate lower than the Lower rate(s).
+      In the EU, use code T for ‘Super-reduced rates’, and for Reduced rates (5% or
+      above) use code R (Lower rate)
+    :issue_number: '42'

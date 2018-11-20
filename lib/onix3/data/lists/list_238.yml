@@ -1,0 +1,111 @@
+---
+:number: '238'
+:description: Brazil educational level
+:issue_number: '39'
+:codes:
+  K:
+    :value: K
+    :description: Educação Infantil
+    :notes: Preschool and kindergarten
+    :issue_number: '39'
+  '1':
+    :value: '1'
+    :description: Fundamental I 1º ano
+    :notes: Elementary school
+    :issue_number: '39'
+  '2':
+    :value: '2'
+    :description: Fundamental I 2º ano
+    :notes: ''
+    :issue_number: '39'
+  '3':
+    :value: '3'
+    :description: Fundamental I 3º ano
+    :notes: ''
+    :issue_number: '39'
+  '4':
+    :value: '4'
+    :description: Fundamental I 4º ano
+    :notes: ''
+    :issue_number: '39'
+  '5':
+    :value: '5'
+    :description: Fundamental I 5º ano
+    :notes: ''
+    :issue_number: '39'
+  '6':
+    :value: '6'
+    :description: Fundamental II 6º ano
+    :notes: ''
+    :issue_number: '39'
+  '7':
+    :value: '7'
+    :description: Fundamental II 7º ano
+    :notes: ''
+    :issue_number: '39'
+  '8':
+    :value: '8'
+    :description: Fundamental II 8º ano
+    :notes: ''
+    :issue_number: '39'
+  '9':
+    :value: '9'
+    :description: Fundamental II 9º ano
+    :notes: ''
+    :issue_number: '39'
+  '10':
+    :value: '10'
+    :description: Ensino Médio 1º ano
+    :notes: High school
+    :issue_number: '39'
+  '11':
+    :value: '11'
+    :description: Ensino Médio 2º ano
+    :notes: ''
+    :issue_number: '39'
+  '12':
+    :value: '12'
+    :description: Ensino Médio 3º ano
+    :notes: ''
+    :issue_number: '39'
+  '13':
+    :value: '13'
+    :description: Ensino Técnico Integrado
+    :notes: Technical study at High school, alongside 2nd and 3rd year
+    :issue_number: '39'
+  '14':
+    :value: '14'
+    :description: Ensino Técnico Concomitante
+    :notes: Technical study at separate institution in parallel with 2nd and 3rd year
+      High school study
+    :issue_number: '39'
+  '15':
+    :value: '15'
+    :description: Ensino Técnico Subsequente
+    :notes: Technical study after completion of High school
+    :issue_number: '39'
+  P:
+    :value: P
+    :description: Ensino pré-vestibular
+    :notes: University entrance
+    :issue_number: '39'
+  A:
+    :value: A
+    :description: Ensino Superior Graduação Licenciatura/ Bacharelado
+    :notes: Undergraduate degree level
+    :issue_number: '39'
+  B:
+    :value: B
+    :description: Ensino Superior Graduação Tecnologia
+    :notes: ''
+    :issue_number: '39'
+  D:
+    :value: D
+    :description: Ensino Superior Pós-graduação Stricto sensu
+    :notes: Masters and Doctoral degree level
+    :issue_number: '39'
+  F:
+    :value: F
+    :description: Ensino Superior Pós-graduação Lato sensu
+    :notes: Professional qualifications
+    :issue_number: '39'

@@ -1,76 +1,98 @@
 ---
 :number: '71'
-:description: Sales restriction type code
+:description: Sales restriction type
 :issue_number: '1'
 :codes:
   '00':
     :value: '00'
     :description: Unspecified – see text
     :notes: Restriction must be described in <SalesRestrictionDetail> (ONIX 2.1) or
-      <SalesRestrictionNote> (ONIX 3.0).
+      <SalesRestrictionNote> (ONIX 3.0)
     :issue_number: '1'
   '01':
     :value: '01'
     :description: Retailer exclusive / own brand
     :notes: For sale only through designated retailer. Retailer must be identified
       or named in an instance of the <SalesOutlet> composite. Use only when it is
-      not possible to assign the more explicit code 04 or 05.
-    :issue_number: '6'
+      not possible to assign the more explicit code 04 or 05
+    :issue_number: '1'
   '02':
     :value: '02'
     :description: Office supplies edition
     :notes: For editions sold only though office supplies wholesalers. Retailer(s)
       and/or distributor(s) may be identified or named in an instance of the <SalesOutlet>
-      composite.
+      composite
     :issue_number: '1'
   '03':
     :value: '03'
     :description: 'Internal publisher use only: do not list'
-    :notes: For an ISBN that is assigned for a publisher’s internal purposes.
+    :notes: For an ISBN that is assigned for a publisher’s internal purposes
     :issue_number: '1'
   '04':
     :value: '04'
     :description: Retailer exclusive
     :notes: For sale only through designated retailer, though not under retailer’s
       own brand/imprint. Retailer must be identified or named in an instance of the
-      <SalesOutlet> composite.
+      <SalesOutlet> composite
     :issue_number: '6'
   '05':
     :value: '05'
     :description: Retailer own brand
     :notes: For sale only through designated retailer under retailer’s own brand/imprint.
-      Retailer must be identified or named in an instance of the <SalesOutlet> composite.
+      Retailer must be identified or named in an instance of the <SalesOutlet> composite
     :issue_number: '6'
   '06':
     :value: '06'
     :description: Library edition
-    :notes: For sale to libraries only; not for sale through retail trade.
+    :notes: For sale to libraries only; not for sale through retail trade
     :issue_number: '6'
   '07':
     :value: '07'
     :description: Schools only edition
-    :notes: For sale directly to schools only; not for sale through retail trade.
+    :notes: For sale directly to schools only; not for sale through retail trade
     :issue_number: '8'
-  08:
-    :value: 08
+  '08':
+    :value: '08'
     :description: Indiziert
-    :notes: Indexed for the German market – in Deutschland indiziert.
+    :notes: Indexed for the German market – in Deutschland indiziert
     :issue_number: '9'
-  09:
-    :value: 09
+  '09':
+    :value: '09'
     :description: Not for sale to libraries
     :notes: Expected to apply in particular to digital products for consumer sale
       where the publisher does not permit the product to be supplied to libraries
-      who provide an ebook loan service.
+      who provide an ebook loan service
     :issue_number: '11'
   '10':
     :value: '10'
     :description: News outlet edition
-    :notes: For editions sold only through newsstands/newsagents.
+    :notes: For editions sold only through newsstands/newsagents
     :issue_number: '14'
   '11':
     :value: '11'
     :description: Retailer exception
     :notes: Not for sale through designated retailer. Retailer must be identified
-      or named in an instance of the <SalesOutlet> composite.
+      or named in an instance of the <SalesOutlet> composite
     :issue_number: '23'
+  '12':
+    :value: '12'
+    :description: Not for sale to subscription services
+    :notes: Not for sale to organisations or services offering consumers subscription
+      access to a library of books
+    :issue_number: '29'
+  '13':
+    :value: '13'
+    :description: Subscription services only
+    :notes: Restricted to organisations or services offering consumers subscription
+      access to a library of books
+    :issue_number: '30'
+  '14':
+    :value: '14'
+    :description: Not for retail online
+    :notes: Exclusive to bricks-and-mortar retail outlets
+    :issue_number: '36'
+  '15':
+    :value: '15'
+    :description: Online retail only
+    :notes: Exclusive to online retail outlets
+    :issue_number: '36'

@@ -1,0 +1,100 @@
+---
+:number: '227'
+:description: Chinese School Grade
+:issue_number: '30'
+:codes:
+  P:
+    :value: P
+    :description: Preschool
+    :notes: Typical age less than 3
+    :issue_number: '30'
+  K:
+    :value: K
+    :description: Kindergarten
+    :notes: Typical age 3–5
+    :issue_number: '30'
+  '1':
+    :value: '1'
+    :description: Primary school First grade
+    :notes: Typical age 6
+    :issue_number: '30'
+  '2':
+    :value: '2'
+    :description: Primary school Second grade
+    :notes: Typical age 7
+    :issue_number: '30'
+  '3':
+    :value: '3'
+    :description: Primary school Third grade
+    :notes: Typical age 8
+    :issue_number: '30'
+  '4':
+    :value: '4'
+    :description: Primary school Fourth grade
+    :notes: Typical age 9
+    :issue_number: '30'
+  '5':
+    :value: '5'
+    :description: Primary school Fifth grade
+    :notes: Typical age 10
+    :issue_number: '30'
+  '6':
+    :value: '6'
+    :description: Primary school Sixth grade
+    :notes: Typical age 11
+    :issue_number: '30'
+  '7':
+    :value: '7'
+    :description: Junior secondary school Seventh grade
+    :notes: Typical age 12
+    :issue_number: '30'
+  '8':
+    :value: '8'
+    :description: Junior secondary school Eighth grade
+    :notes: Typical age 13
+    :issue_number: '30'
+  '9':
+    :value: '9'
+    :description: Junior secondary school Ninth grade
+    :notes: Typical age 14
+    :issue_number: '30'
+  '10':
+    :value: '10'
+    :description: Senior secondary school Tenth grade
+    :notes: Typical age 15
+    :issue_number: '30'
+  '11':
+    :value: '11'
+    :description: Senior secondary school Eleventh grade
+    :notes: Typical age 16
+    :issue_number: '30'
+  '12':
+    :value: '12'
+    :description: Senior secondary school Twelfth grade
+    :notes: Typical age 17
+    :issue_number: '30'
+  '13':
+    :value: '13'
+    :description: University first year
+    :notes: Typical age 18
+    :issue_number: '30'
+  '14':
+    :value: '14'
+    :description: University second year
+    :notes: Typical age 19
+    :issue_number: '30'
+  '15':
+    :value: '15'
+    :description: University third year
+    :notes: Typical age 20
+    :issue_number: '30'
+  '16':
+    :value: '16'
+    :description: University fourth year
+    :notes: Typical age 21
+    :issue_number: '30'
+  '17':
+    :value: '17'
+    :description: Graduate level
+    :notes: Typical age 22+
+    :issue_number: '30'

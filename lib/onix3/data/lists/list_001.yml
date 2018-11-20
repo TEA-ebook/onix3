@@ -1,35 +1,39 @@
 ---
 :number: '1'
-:description: Notification or update type code
+:description: Notification or update type
 :issue_number: '0'
 :codes:
   '01':
     :value: '01'
     :description: Early notification
     :notes: Use for a complete record issued earlier than approximately six months
-      before publication.
+      before publication
     :issue_number: '0'
   '02':
     :value: '02'
     :description: Advance notification (confirmed)
     :notes: Use for a complete record issued to confirm advance information approximately
       six months before publication; or for a complete record issued after that date
-      and before information has been confirmed from the book-in-hand.
+      and before information has been confirmed from the book-in-hand
     :issue_number: '0'
   '03':
     :value: '03'
     :description: Notification confirmed on publication
     :notes: Use for a complete record issued to confirm advance information at or
-      just before actual publication date; or for a complete record issued at any
-      later date.
-    :issue_number: '11'
+      just before actual publication date, usually from the book-in-hand, or for a
+      complete record issued at any later date
+    :issue_number: '0'
   '04':
     :value: '04'
     :description: Update (partial)
-    :notes: In ONIX 3.0 only, use when sending a ‘block update’ record. In previous
-      ONIX releases, ONIX updating has generally been by complete record replacement
-      using code 03, and code 04 is not used.
-    :issue_number: '11'
+    :notes: In ONIX 3.0 only, use when sending a ‘block update’ record. A block update
+      implies using the supplied block(s) to update the existing record for the product,
+      replacing only the blocks included in the block update, and leaving other blocks
+      unchanged – for example, replacing old information from Blocks 4 and 6 with
+      the newly-received data while retailing information from Blocks 1–3 and 5 untouched.
+      In previous ONIX releases, and for ONIX 3.0 using other notification types,
+      updating is by replacing the complete record with the newly-received data
+    :issue_number: '0'
   '05':
     :value: '05'
     :description: Delete
@@ -37,21 +41,21 @@
       issued. Note that a Delete instruction should NOT be used when a product is
       cancelled, put out of print, or otherwise withdrawn from sale: this should be
       handled as a change of Publishing status, leaving the receiver to decide whether
-      to retain or delete the record. A Delete instruction is only used when there
+      to retain or delete the record. A Delete instruction is used ONLY when there
       is a particular reason to withdraw a record completely, eg because it was issued
-      in error.'
+      in error'
     :issue_number: '0'
-  08:
-    :value: 08
+  '08':
+    :value: '08'
     :description: Notice of sale
     :notes: 'Notice of sale of a product, from one publisher to another: sent by the
-      publisher disposing of the product.'
+      publisher disposing of the product'
     :issue_number: '2'
-  09:
-    :value: 09
+  '09':
+    :value: '09'
     :description: Notice of acquisition
     :notes: 'Notice of acquisition of a product, by one publisher from another: sent
-      by the acquiring publisher.'
+      by the acquiring publisher'
     :issue_number: '2'
   '12':
     :value: '12'
@@ -70,3 +74,17 @@
     :notes: ONIX Books 2.1 supply update – both <SupplyDetail> and <MarketRepresentation>
       (not used in ONIX 3.0).
     :issue_number: '7'
+  '88':
+    :value: '88'
+    :description: Test update (Partial)
+    :notes: ONIX 3.0 only. Record may be processed for test purposes, but data should
+      be discarded when testing is complete. Sender must ensure the <RecordReference>
+      matches a previously-sent Test record
+    :issue_number: '26'
+  '89':
+    :value: '89'
+    :description: Test record
+    :notes: Record may be processed for test purposes, but data should be discarded
+      when testing is complete. Sender must ensure the <RecordReference> does not
+      match any previously-sent live product record
+    :issue_number: '26'

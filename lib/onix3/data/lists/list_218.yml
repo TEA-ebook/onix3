@@ -1,0 +1,21 @@
+---
+:number: '218'
+:description: License expression type
+:issue_number: '24'
+:codes:
+  '01':
+    :value: '01'
+    :description: Human readable
+    :notes: Document (eg Word file, PDF or web page) Intended for the lay reader
+    :issue_number: '24'
+  '02':
+    :value: '02'
+    :description: Professional readable
+    :notes: Document (eg Word file, PDF or web page) Intended for the legal specialist
+      reader
+    :issue_number: '24'
+  '10':
+    :value: '10'
+    :description: ONIX-PL
+    :notes: ''
+    :issue_number: '24'

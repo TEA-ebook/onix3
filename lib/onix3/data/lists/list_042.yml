@@ -1,6 +1,6 @@
 ---
 :number: '42'
-:description: Text item type code
+:description: Text item type
 :issue_number: '0'
 :codes:
   '01':
@@ -8,25 +8,25 @@
     :description: Textual work
     :notes: A complete work which is published as a content item in a product which
       carries two or more such works, eg when two or three novels are published in
-      a single omnibus volume.
+      a single omnibus volume
     :issue_number: '0'
   '02':
     :value: '02'
     :description: Front matter
     :notes: Text components such as Preface, Introduction etc which appear as preliminaries
-      to the main body of text content in a product.
+      to the main body of text content in a product
     :issue_number: '0'
   '03':
     :value: '03'
     :description: Body matter
     :notes: Text components such as Part, Chapter, Section etc which appear as part
-      of the main body of text content in a product.
+      of the main body of text content in a product
     :issue_number: '0'
   '04':
     :value: '04'
     :description: Back matter
     :notes: Text components such as Index which appear after the main body of text
-      in a product.
+      in a product
     :issue_number: '0'
   '10':
     :value: '10'

@@ -1,6 +1,6 @@
 ---
 :number: '49'
-:description: Region code
+:description: Region – based on ISO 3166-2
 :issue_number: '1'
 :codes:
   AU-CT:
@@ -116,23 +116,24 @@
   IE-AIR:
     :value: IE-AIR
     :description: Ireland airside
-    :notes: Airside outlets at Irish international airports only.
+    :notes: Airside outlets at Irish international airports only
     :issue_number: '23'
   GB-AIR:
     :value: GB-AIR
     :description: UK airside
-    :notes: Airside outlets at UK international airports only.
+    :notes: Airside outlets at UK international airports only
     :issue_number: '1'
   GB-APS:
     :value: GB-APS
     :description: UK airports
-    :notes: All UK airports, including both airside and other outlets.
+    :notes: All UK airports, including both airside and other outlets
     :issue_number: '3'
   GB-CHA:
     :value: GB-CHA
     :description: Channel Islands
-    :notes: DEPRECATED, replaced by country codes GG – Guernsey, and JE – Jersey.
-    :issue_number: '13'
+    :notes: DEPRECATED, replaced by country codes GG – Guernsey, and JE – Jersey from
+      List 91
+    :issue_number: '1'
   GB-ENG:
     :value: GB-ENG
     :description: England
@@ -141,13 +142,14 @@
   GB-EWS:
     :value: GB-EWS
     :description: England, Wales, Scotland
-    :notes: UK excluding Northern Ireland.
+    :notes: UK excluding Northern Ireland. DEPRECATED – use separate region codes
+      GB-ENG, GB-SCT, GB-WLS instead
     :issue_number: '1'
   GB-IOM:
     :value: GB-IOM
     :description: Isle of Man
-    :notes: DEPRECATED, replaced by country code IM – Isle of Man.
-    :issue_number: '13'
+    :notes: DEPRECATED, replaced by country code IM – Isle of Man from List 91
+    :issue_number: '1'
   GB-NIR:
     :value: GB-NIR
     :description: Northern Ireland
@@ -305,12 +307,12 @@
     :issue_number: '22'
   RU-STA:
     :value: RU-STA
-    :description: Stavropol'skiy Administrative Territory
+    :description: Stavropol’skiy Administrative Territory
     :notes: ''
     :issue_number: '22'
   RU-ZAB:
     :value: RU-ZAB
-    :description: Zabaykal'skiy Administrative Territory
+    :description: Zabaykal’skiy Administrative Territory
     :notes: ''
     :issue_number: '22'
   RU-AMU:
@@ -320,7 +322,7 @@
     :issue_number: '22'
   RU-ARK:
     :value: RU-ARK
-    :description: Arkhangel'skaya Administrative Region
+    :description: Arkhangel’skaya Administrative Region
     :notes: ''
     :issue_number: '22'
   RU-AST:
@@ -500,7 +502,7 @@
     :issue_number: '22'
   RU-TUL:
     :value: RU-TUL
-    :description: Tul'skaya Administrative Region
+    :description: Tul’skaya Administrative Region
     :notes: ''
     :issue_number: '22'
   RU-TVE:
@@ -515,7 +517,7 @@
     :issue_number: '22'
   RU-ULY:
     :value: RU-ULY
-    :description: Ul'yanovskaya Administrative Region
+    :description: Ul’yanovskaya Administrative Region
     :notes: ''
     :issue_number: '22'
   RU-VLA:
@@ -837,13 +839,13 @@
     :value: ECZ
     :description: Eurozone
     :notes: Countries geographically within continental Europe which use the Euro
-      as their sole currency. At the time of writing, this is a synonym for “AT BE
-      CY EE FI FR DE ES GR IE IT LU MT NL PT SI SK” (the official Eurozone 17), plus
-      “AD MC SM VA ME” (other Euro-using countries in continental Europe). Note some
-      other territories using the Euro, but outside continental Europe are excluded
-      from this list, and may need to be specified separately. Only valid in ONIX
-      3, and only within P.26. Use of an explicit list of countries instead of ECZ
-      is encouraged.
+      as their sole currency. At the time of writing, this is a synonym for ‘AT BE
+      CY EE FI FR DE ES GR IE IT LT LU LV MT NL PT SI SK’ (the official Eurozone 19),
+      plus ‘AD MC SM VA ME’ and Kosovo (other Euro-using countries in continental
+      Europe). Note some other territories using the Euro, but outside continental
+      Europe are excluded from this list, and may need to be specified separately.
+      ONLY valid in ONIX 3, and ONLY within P.26 – and this use is itself DEPRECATED.
+      Use of an explicit list of countries instead of ECZ is strongly encouraged
     :issue_number: '13'
   ROW:
     :value: ROW
@@ -853,5 +855,755 @@
   WORLD:
     :value: WORLD
     :description: World
-    :notes: ''
+    :notes: In ONIX 3, may ONLY be used in <RegionsIncluded>
     :issue_number: '1'
+  BE-BRU:
+    :value: BE-BRU
+    :description: Brussels-Capital Region
+    :notes: For use in ONIX 3.0 only
+    :issue_number: '40'
+  BE-VLG:
+    :value: BE-VLG
+    :description: Flemish Region
+    :notes: For use in ONIX 3.0 only
+    :issue_number: '40'
+  BE-WAL:
+    :value: BE-WAL
+    :description: Walloon Region
+    :notes: For use in ONIX 3.0 only
+    :issue_number: '40'
+  CN-11:
+    :value: CN-11
+    :description: Beijing Municipality
+    :notes: ''
+    :issue_number: '30'
+  CN-12:
+    :value: CN-12
+    :description: Tianjin Municipality
+    :notes: ''
+    :issue_number: '30'
+  CN-13:
+    :value: CN-13
+    :description: Hebei Province
+    :notes: ''
+    :issue_number: '30'
+  CN-14:
+    :value: CN-14
+    :description: Shanxi Province
+    :notes: ''
+    :issue_number: '30'
+  CN-15:
+    :value: CN-15
+    :description: Inner Mongolia Autonomous Region
+    :notes: ''
+    :issue_number: '30'
+  CN-21:
+    :value: CN-21
+    :description: Liaoning Province
+    :notes: ''
+    :issue_number: '30'
+  CN-22:
+    :value: CN-22
+    :description: Jilin Province
+    :notes: ''
+    :issue_number: '30'
+  CN-23:
+    :value: CN-23
+    :description: Heilongjiang Province
+    :notes: ''
+    :issue_number: '30'
+  CN-31:
+    :value: CN-31
+    :description: Shanghai Municipality
+    :notes: ''
+    :issue_number: '30'
+  CN-32:
+    :value: CN-32
+    :description: Jiangsu Province
+    :notes: ''
+    :issue_number: '30'
+  CN-33:
+    :value: CN-33
+    :description: Zhejiang Province
+    :notes: ''
+    :issue_number: '30'
+  CN-34:
+    :value: CN-34
+    :description: Anhui Province
+    :notes: ''
+    :issue_number: '30'
+  CN-35:
+    :value: CN-35
+    :description: Fujian Province
+    :notes: ''
+    :issue_number: '30'
+  CN-36:
+    :value: CN-36
+    :description: Jiangxi Province
+    :notes: ''
+    :issue_number: '30'
+  CN-37:
+    :value: CN-37
+    :description: Shandong Province
+    :notes: ''
+    :issue_number: '30'
+  CN-41:
+    :value: CN-41
+    :description: Henan Province
+    :notes: ''
+    :issue_number: '30'
+  CN-42:
+    :value: CN-42
+    :description: Hubei Province
+    :notes: ''
+    :issue_number: '30'
+  CN-43:
+    :value: CN-43
+    :description: Hunan Province
+    :notes: ''
+    :issue_number: '30'
+  CN-44:
+    :value: CN-44
+    :description: Guangdong Province
+    :notes: ''
+    :issue_number: '30'
+  CN-45:
+    :value: CN-45
+    :description: Guangxi Zhuang Autonomous Region
+    :notes: ''
+    :issue_number: '30'
+  CN-46:
+    :value: CN-46
+    :description: Hainan Province
+    :notes: ''
+    :issue_number: '30'
+  CN-50:
+    :value: CN-50
+    :description: Chongqing Municipality
+    :notes: ''
+    :issue_number: '30'
+  CN-51:
+    :value: CN-51
+    :description: Sichuan Province
+    :notes: ''
+    :issue_number: '30'
+  CN-52:
+    :value: CN-52
+    :description: Guizhou Province
+    :notes: ''
+    :issue_number: '30'
+  CN-53:
+    :value: CN-53
+    :description: Yunnan Province
+    :notes: ''
+    :issue_number: '30'
+  CN-54:
+    :value: CN-54
+    :description: Tibet Autonomous Region
+    :notes: ''
+    :issue_number: '30'
+  CN-61:
+    :value: CN-61
+    :description: Shaanxi Province
+    :notes: ''
+    :issue_number: '30'
+  CN-62:
+    :value: CN-62
+    :description: Gansu Province
+    :notes: ''
+    :issue_number: '30'
+  CN-63:
+    :value: CN-63
+    :description: Qinghai Province
+    :notes: ''
+    :issue_number: '30'
+  CN-64:
+    :value: CN-64
+    :description: Ningxia Hui Autonomous Region
+    :notes: ''
+    :issue_number: '30'
+  CN-65:
+    :value: CN-65
+    :description: Xinjiang Uyghur Autonomous Region
+    :notes: ''
+    :issue_number: '30'
+  CN-71:
+    :value: CN-71
+    :description: Taiwan Province
+    :notes: Prefer code TW (Taiwan, Province of China) from List 91
+    :issue_number: '30'
+  CN-91:
+    :value: CN-91
+    :description: Hong Kong Special Administrative Region
+    :notes: Prefer code HK (Hong Kong) from List 91
+    :issue_number: '30'
+  CN-92:
+    :value: CN-92
+    :description: Macau Special Administrative Region
+    :notes: Prefer code MO (Macao) from List 91
+    :issue_number: '30'
+  FR-H:
+    :value: FR-H
+    :description: Corsica
+    :notes: ''
+    :issue_number: '36'
+  IT-AG:
+    :value: IT-AG
+    :description: Agrigento
+    :notes: ''
+    :issue_number: '24'
+  IT-AL:
+    :value: IT-AL
+    :description: Alessandria
+    :notes: ''
+    :issue_number: '24'
+  IT-AN:
+    :value: IT-AN
+    :description: Ancona
+    :notes: ''
+    :issue_number: '24'
+  IT-AO:
+    :value: IT-AO
+    :description: Aosta
+    :notes: ''
+    :issue_number: '24'
+  IT-AR:
+    :value: IT-AR
+    :description: Arezzo
+    :notes: ''
+    :issue_number: '24'
+  IT-AP:
+    :value: IT-AP
+    :description: Ascoli Piceno
+    :notes: ''
+    :issue_number: '24'
+  IT-AT:
+    :value: IT-AT
+    :description: Asti
+    :notes: ''
+    :issue_number: '24'
+  IT-AV:
+    :value: IT-AV
+    :description: Avellino
+    :notes: ''
+    :issue_number: '24'
+  IT-BA:
+    :value: IT-BA
+    :description: Bari
+    :notes: ''
+    :issue_number: '24'
+  IT-BT:
+    :value: IT-BT
+    :description: Barletta-Andria-Trani
+    :notes: ''
+    :issue_number: '24'
+  IT-BL:
+    :value: IT-BL
+    :description: Belluno
+    :notes: ''
+    :issue_number: '24'
+  IT-BN:
+    :value: IT-BN
+    :description: Benevento
+    :notes: ''
+    :issue_number: '24'
+  IT-BG:
+    :value: IT-BG
+    :description: Bergamo
+    :notes: ''
+    :issue_number: '24'
+  IT-BI:
+    :value: IT-BI
+    :description: Biella
+    :notes: ''
+    :issue_number: '24'
+  IT-BO:
+    :value: IT-BO
+    :description: Bologna
+    :notes: ''
+    :issue_number: '24'
+  IT-BZ:
+    :value: IT-BZ
+    :description: Bolzano
+    :notes: ''
+    :issue_number: '24'
+  IT-BS:
+    :value: IT-BS
+    :description: Brescia
+    :notes: ''
+    :issue_number: '24'
+  IT-BR:
+    :value: IT-BR
+    :description: Brindisi
+    :notes: ''
+    :issue_number: '24'
+  IT-CA:
+    :value: IT-CA
+    :description: Cagliari
+    :notes: ''
+    :issue_number: '24'
+  IT-CL:
+    :value: IT-CL
+    :description: Caltanissetta
+    :notes: ''
+    :issue_number: '24'
+  IT-CB:
+    :value: IT-CB
+    :description: Campobasso
+    :notes: ''
+    :issue_number: '24'
+  IT-CI:
+    :value: IT-CI
+    :description: Carbonia-Iglesias
+    :notes: ''
+    :issue_number: '24'
+  IT-CE:
+    :value: IT-CE
+    :description: Caserta
+    :notes: ''
+    :issue_number: '24'
+  IT-CT:
+    :value: IT-CT
+    :description: Catania
+    :notes: ''
+    :issue_number: '24'
+  IT-CZ:
+    :value: IT-CZ
+    :description: Catanzaro
+    :notes: ''
+    :issue_number: '24'
+  IT-CH:
+    :value: IT-CH
+    :description: Chieti
+    :notes: ''
+    :issue_number: '24'
+  IT-CO:
+    :value: IT-CO
+    :description: Como
+    :notes: ''
+    :issue_number: '24'
+  IT-CS:
+    :value: IT-CS
+    :description: Cosenza
+    :notes: ''
+    :issue_number: '24'
+  IT-CR:
+    :value: IT-CR
+    :description: Cremona
+    :notes: ''
+    :issue_number: '24'
+  IT-KR:
+    :value: IT-KR
+    :description: Crotone
+    :notes: ''
+    :issue_number: '24'
+  IT-CN:
+    :value: IT-CN
+    :description: Cuneo
+    :notes: ''
+    :issue_number: '24'
+  IT-EN:
+    :value: IT-EN
+    :description: Enna
+    :notes: ''
+    :issue_number: '24'
+  IT-FM:
+    :value: IT-FM
+    :description: Fermo
+    :notes: ''
+    :issue_number: '24'
+  IT-FE:
+    :value: IT-FE
+    :description: Ferrara
+    :notes: ''
+    :issue_number: '24'
+  IT-FI:
+    :value: IT-FI
+    :description: Firenze
+    :notes: ''
+    :issue_number: '24'
+  IT-FG:
+    :value: IT-FG
+    :description: Foggia
+    :notes: ''
+    :issue_number: '24'
+  IT-FC:
+    :value: IT-FC
+    :description: Forlì-Cesena
+    :notes: ''
+    :issue_number: '24'
+  IT-FR:
+    :value: IT-FR
+    :description: Frosinone
+    :notes: ''
+    :issue_number: '24'
+  IT-GE:
+    :value: IT-GE
+    :description: Genova
+    :notes: ''
+    :issue_number: '24'
+  IT-GO:
+    :value: IT-GO
+    :description: Gorizia
+    :notes: ''
+    :issue_number: '24'
+  IT-GR:
+    :value: IT-GR
+    :description: Grosseto
+    :notes: ''
+    :issue_number: '24'
+  IT-IM:
+    :value: IT-IM
+    :description: Imperia
+    :notes: ''
+    :issue_number: '24'
+  IT-IS:
+    :value: IT-IS
+    :description: Isernia
+    :notes: ''
+    :issue_number: '24'
+  IT-SP:
+    :value: IT-SP
+    :description: La Spezia
+    :notes: ''
+    :issue_number: '24'
+  IT-AQ:
+    :value: IT-AQ
+    :description: L’Aquila
+    :notes: ''
+    :issue_number: '24'
+  IT-LT:
+    :value: IT-LT
+    :description: Latina
+    :notes: ''
+    :issue_number: '24'
+  IT-LE:
+    :value: IT-LE
+    :description: Lecce
+    :notes: ''
+    :issue_number: '24'
+  IT-LC:
+    :value: IT-LC
+    :description: Lecco
+    :notes: ''
+    :issue_number: '24'
+  IT-LI:
+    :value: IT-LI
+    :description: Livorno
+    :notes: ''
+    :issue_number: '24'
+  IT-LO:
+    :value: IT-LO
+    :description: Lodi
+    :notes: ''
+    :issue_number: '24'
+  IT-LU:
+    :value: IT-LU
+    :description: Lucca
+    :notes: ''
+    :issue_number: '24'
+  IT-MC:
+    :value: IT-MC
+    :description: Macerata
+    :notes: ''
+    :issue_number: '24'
+  IT-MN:
+    :value: IT-MN
+    :description: Mantova
+    :notes: ''
+    :issue_number: '24'
+  IT-MS:
+    :value: IT-MS
+    :description: Massa-Carrara
+    :notes: ''
+    :issue_number: '24'
+  IT-MT:
+    :value: IT-MT
+    :description: Matera
+    :notes: ''
+    :issue_number: '24'
+  IT-VS:
+    :value: IT-VS
+    :description: Medio Campidano
+    :notes: ''
+    :issue_number: '24'
+  IT-ME:
+    :value: IT-ME
+    :description: Messina
+    :notes: ''
+    :issue_number: '24'
+  IT-MI:
+    :value: IT-MI
+    :description: Milano
+    :notes: ''
+    :issue_number: '24'
+  IT-MO:
+    :value: IT-MO
+    :description: Modena
+    :notes: ''
+    :issue_number: '24'
+  IT-MB:
+    :value: IT-MB
+    :description: Monza e Brianza
+    :notes: ''
+    :issue_number: '24'
+  IT-NA:
+    :value: IT-NA
+    :description: Napoli
+    :notes: ''
+    :issue_number: '24'
+  IT-NO:
+    :value: IT-NO
+    :description: Novara
+    :notes: ''
+    :issue_number: '24'
+  IT-NU:
+    :value: IT-NU
+    :description: Nuoro
+    :notes: ''
+    :issue_number: '24'
+  IT-OG:
+    :value: IT-OG
+    :description: Ogliastra
+    :notes: ''
+    :issue_number: '24'
+  IT-OT:
+    :value: IT-OT
+    :description: Olbia-Tempio
+    :notes: ''
+    :issue_number: '24'
+  IT-OR:
+    :value: IT-OR
+    :description: Oristano
+    :notes: ''
+    :issue_number: '24'
+  IT-PD:
+    :value: IT-PD
+    :description: Padova
+    :notes: ''
+    :issue_number: '24'
+  IT-PA:
+    :value: IT-PA
+    :description: Palermo
+    :notes: ''
+    :issue_number: '24'
+  IT-PR:
+    :value: IT-PR
+    :description: Parma
+    :notes: ''
+    :issue_number: '24'
+  IT-PV:
+    :value: IT-PV
+    :description: Pavia
+    :notes: ''
+    :issue_number: '24'
+  IT-PG:
+    :value: IT-PG
+    :description: Perugia
+    :notes: ''
+    :issue_number: '24'
+  IT-PU:
+    :value: IT-PU
+    :description: Pesaro e Urbino
+    :notes: ''
+    :issue_number: '24'
+  IT-PE:
+    :value: IT-PE
+    :description: Pescara
+    :notes: ''
+    :issue_number: '24'
+  IT-PC:
+    :value: IT-PC
+    :description: Piacenza
+    :notes: ''
+    :issue_number: '24'
+  IT-PI:
+    :value: IT-PI
+    :description: Pisa
+    :notes: ''
+    :issue_number: '24'
+  IT-PT:
+    :value: IT-PT
+    :description: Pistoia
+    :notes: ''
+    :issue_number: '24'
+  IT-PN:
+    :value: IT-PN
+    :description: Pordenone
+    :notes: ''
+    :issue_number: '24'
+  IT-PZ:
+    :value: IT-PZ
+    :description: Potenza
+    :notes: ''
+    :issue_number: '24'
+  IT-PO:
+    :value: IT-PO
+    :description: Prato
+    :notes: ''
+    :issue_number: '24'
+  IT-RG:
+    :value: IT-RG
+    :description: Ragusa
+    :notes: ''
+    :issue_number: '24'
+  IT-RA:
+    :value: IT-RA
+    :description: Ravenna
+    :notes: ''
+    :issue_number: '24'
+  IT-RC:
+    :value: IT-RC
+    :description: Reggio Calabria
+    :notes: ''
+    :issue_number: '24'
+  IT-RE:
+    :value: IT-RE
+    :description: Reggio Emilia
+    :notes: ''
+    :issue_number: '24'
+  IT-RI:
+    :value: IT-RI
+    :description: Rieti
+    :notes: ''
+    :issue_number: '24'
+  IT-RN:
+    :value: IT-RN
+    :description: Rimini
+    :notes: ''
+    :issue_number: '24'
+  IT-RM:
+    :value: IT-RM
+    :description: Roma
+    :notes: ''
+    :issue_number: '24'
+  IT-RO:
+    :value: IT-RO
+    :description: Rovigo
+    :notes: ''
+    :issue_number: '24'
+  IT-SA:
+    :value: IT-SA
+    :description: Salerno
+    :notes: ''
+    :issue_number: '24'
+  IT-SS:
+    :value: IT-SS
+    :description: Sassari
+    :notes: ''
+    :issue_number: '24'
+  IT-SV:
+    :value: IT-SV
+    :description: Savona
+    :notes: ''
+    :issue_number: '24'
+  IT-SI:
+    :value: IT-SI
+    :description: Siena
+    :notes: ''
+    :issue_number: '24'
+  IT-SR:
+    :value: IT-SR
+    :description: Siracusa
+    :notes: ''
+    :issue_number: '24'
+  IT-SO:
+    :value: IT-SO
+    :description: Sondrio
+    :notes: ''
+    :issue_number: '24'
+  IT-TA:
+    :value: IT-TA
+    :description: Taranto
+    :notes: ''
+    :issue_number: '24'
+  IT-TE:
+    :value: IT-TE
+    :description: Teramo
+    :notes: ''
+    :issue_number: '24'
+  IT-TR:
+    :value: IT-TR
+    :description: Terni
+    :notes: ''
+    :issue_number: '24'
+  IT-TO:
+    :value: IT-TO
+    :description: Torino
+    :notes: ''
+    :issue_number: '24'
+  IT-TP:
+    :value: IT-TP
+    :description: Trapani
+    :notes: ''
+    :issue_number: '24'
+  IT-TN:
+    :value: IT-TN
+    :description: Trento
+    :notes: ''
+    :issue_number: '24'
+  IT-TV:
+    :value: IT-TV
+    :description: Treviso
+    :notes: ''
+    :issue_number: '24'
+  IT-TS:
+    :value: IT-TS
+    :description: Trieste
+    :notes: ''
+    :issue_number: '24'
+  IT-UD:
+    :value: IT-UD
+    :description: Udine
+    :notes: ''
+    :issue_number: '24'
+  IT-VA:
+    :value: IT-VA
+    :description: Varese
+    :notes: ''
+    :issue_number: '24'
+  IT-VE:
+    :value: IT-VE
+    :description: Venezia
+    :notes: ''
+    :issue_number: '24'
+  IT-VB:
+    :value: IT-VB
+    :description: Verbano-Cusio-Ossola
+    :notes: ''
+    :issue_number: '24'
+  IT-VC:
+    :value: IT-VC
+    :description: Vercelli
+    :notes: ''
+    :issue_number: '24'
+  IT-VR:
+    :value: IT-VR
+    :description: Verona
+    :notes: ''
+    :issue_number: '24'
+  IT-VV:
+    :value: IT-VV
+    :description: Vibo Valentia
+    :notes: ''
+    :issue_number: '24'
+  IT-VI:
+    :value: IT-VI
+    :description: Vicenza
+    :notes: ''
+    :issue_number: '24'
+  IT-VT:
+    :value: IT-VT
+    :description: Viterbo
+    :notes: ''
+    :issue_number: '24'
+  RS-KM:
+    :value: RS-KM
+    :description: Kosovo-Metohija
+    :notes: ''
+    :issue_number: '28'
+  RS-VO:
+    :value: RS-VO
+    :description: Vojvodina
+    :notes: ''
+    :issue_number: '28'
