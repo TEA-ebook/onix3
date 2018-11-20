@@ -45,9 +45,7 @@ module Onix3
       end
 
       def list_filename(number)
-        # TODO : use code_lists_path instead ?
-        # TODO : number.to_s.rjust ?
-        File.join("lib/onix3/data/lists/", "list_#{number.rjust(3,'0')}.yml")
+        File.join(code_lists_path, "list_#{number.to_s.rjust(3,'0')}.yml")
       end
 
       def list_content(number)
