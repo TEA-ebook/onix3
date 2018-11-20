@@ -31,7 +31,7 @@ module Onix3
             update_code_in_list(code, l)
           end
         end
-        
+        File.truncate(list_filename(list_number), 0)
         File.write(list_filename(list_number), YAML.dump(l), 0, encoding: ENCODING)
       end
 
