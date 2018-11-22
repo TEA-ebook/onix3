@@ -36,10 +36,10 @@
   '07':
     :value: '07'
     :description: Flourished in
-    :notes: ''
+    :notes: "(‘Floruit’)"
     :issue_number: '9'
-  08:
-    :value: 08
+  '08':
+    :value: '08'
     :description: Citizen of
-    :notes: Or nationality. For use with country codes only.
+    :notes: Or nationality. For use with country codes only
     :issue_number: '20'

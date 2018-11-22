@@ -1,6 +1,6 @@
 ---
 :number: '45'
-:description: Publishing role code
+:description: Publishing role
 :issue_number: '0'
 :codes:
   '01':
@@ -15,8 +15,8 @@
       under a single ISBN (in which case both publishers are co-publishers), or under
       different ISBNs (in which case the publisher of THIS ISBN is the publisher and
       the publishers of OTHER ISBNs are co-publishers. Note this is different from
-      publication of 'co-editions'.
-    :issue_number: '19'
+      publication of ‘co-editions’
+    :issue_number: '0'
   '03':
     :value: '03'
     :description: Sponsor
@@ -25,7 +25,7 @@
   '04':
     :value: '04'
     :description: Publisher of original-language version
-    :notes: Of a translated work.
+    :notes: Of a translated work
     :issue_number: '0'
   '05':
     :value: '05'
@@ -40,29 +40,29 @@
   '07':
     :value: '07'
     :description: Published in association with
-    :notes: Use also for “Published in cooperation with”.
+    :notes: Use also for ‘Published in cooperation with’
     :issue_number: '2'
-  08:
-    :value: 08
+  '08':
+    :value: '08'
     :description: Published on behalf of
-    :notes: 'DEPRECATED: use code 06.'
+    :notes: 'DEPRECATED: use code 06'
     :issue_number: '3'
-  09:
-    :value: 09
+  '09':
+    :value: '09'
     :description: New or acquiring publisher
     :notes: When ownership of a product or title is transferred from one publisher
-      to another.
+      to another
     :issue_number: '2'
   '10':
     :value: '10'
     :description: Publishing group
     :notes: 'The group to which a publisher (publishing role 01) belongs: use only
-      if a publisher has been identified with role code 01.'
+      if a publisher has been identified with role code 01'
     :issue_number: '8'
   '11':
     :value: '11'
     :description: Publisher of facsimile original
-    :notes: The publisher of the edition of which a product is a facsimile.
+    :notes: The publisher of the edition of which a product is a facsimile
     :issue_number: '9'
   '12':
     :value: '12'
@@ -71,28 +71,52 @@
       (In the US, a ‘prebound edition’ is a book that was previously bound, normally
       as a paperback, and has been rebound with a library-quality hardcover binding
       by a supplier other than the original publisher.) Required when the <EditionType>
-      is coded PRB. The original publisher should be named as the ‘publisher’.
+      is coded PRB. The original publisher should be named as the ‘publisher’
     :issue_number: '9'
   '13':
     :value: '13'
     :description: Former publisher
     :notes: When ownership of a product or title is transferred from one publisher
-      to another (complement of code 09).
+      to another (complement of code 09)
     :issue_number: '12'
   '14':
     :value: '14'
     :description: Publication funder
     :notes: Body funding publication fees, if different from the body funding the
-      underlying research. For use with open access publications.
+      underlying research. Intended primarily for use with open access publications
     :issue_number: '22'
   '15':
     :value: '15'
     :description: Research funder
     :notes: Body funding the research on which publication is based, if different
-      from the body funding the publication. For use with open access publications.
+      from the body funding the publication. Intended primarily for use with open
+      access publications
     :issue_number: '22'
   '16':
     :value: '16'
     :description: Funding body
-    :notes: Body funding research and publication. For use with open access publications.
+    :notes: Body funding research and publication. Intended primarily for use with
+      open access publications
     :issue_number: '22'
+  '17':
+    :value: '17'
+    :description: Printer
+    :notes: Organisation responsible for printing a printed product. Supplied primarily
+      to meet legal deposit requirements, and may apply only to the first impression.
+      The organisation may also be responsible for binding, when a separate binder
+      is not specified
+    :issue_number: '24'
+  '18':
+    :value: '18'
+    :description: Binder
+    :notes: Organisation responsible for binding a printed product (where distinct
+      from the printer). Supplied primarily to meet legal deposit requirements, and
+      may apply only to the first impression
+    :issue_number: '24'
+  '19':
+    :value: '19'
+    :description: Manufacturer
+    :notes: Organisation primarily responsible for physical manufacture of a product,
+      when neither Printer nor Binder is directly appropriate (for example, with disc
+      or tape products, or digital products on a physical carrier)
+    :issue_number: '29'

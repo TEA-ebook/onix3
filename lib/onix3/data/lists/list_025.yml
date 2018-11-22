@@ -1,12 +1,12 @@
 ---
 :number: '25'
-:description: Illustration and other content type code
+:description: Illustration and other content type
 :issue_number: '0'
 :codes:
   '00':
     :value: '00'
     :description: Unspecified, see description
-    :notes: See description in the <IllustrationTypeDescription> element.
+    :notes: See description in the <IllustrationTypeDescription> element
     :issue_number: '0'
   '01':
     :value: '01'
@@ -21,12 +21,12 @@
   '03':
     :value: '03'
     :description: Halftones, black and white
-    :notes: Including black and white photographs.
+    :notes: Including black and white photographs
     :issue_number: '0'
   '04':
     :value: '04'
     :description: Halftones, color
-    :notes: Including color photographs.
+    :notes: Including color photographs
     :issue_number: '0'
   '05':
     :value: '05'
@@ -43,20 +43,20 @@
     :description: Tables, black and white
     :notes: ''
     :issue_number: '0'
-  08:
-    :value: 08
+  '08':
+    :value: '08'
     :description: Tables, color
     :notes: ''
     :issue_number: '0'
-  09:
-    :value: 09
+  '09':
+    :value: '09'
     :description: Illustrations, unspecified
     :notes: ''
     :issue_number: '1'
   '10':
     :value: '10'
     :description: Halftones, unspecified
-    :notes: Including photographs.
+    :notes: Including photographs
     :issue_number: '1'
   '11':
     :value: '11'
@@ -102,37 +102,37 @@
     :value: '19'
     :description: Recorded music items
     :notes: Recorded music extracts or examples, or complete recorded work(s), accompanying
-      textual or other content.
+      textual or other content
     :issue_number: '1'
   '20':
     :value: '20'
     :description: Printed music items
     :notes: Printed music extracts or examples, or complete music score(s), accompanying
-      textual or other content.
+      textual or other content
     :issue_number: '1'
   '21':
     :value: '21'
     :description: Graphs
     :notes: To be used in the mathematical sense of a diagram that represents numerical
-      values plotted against an origin and axes, cf codes 16 and 18.
+      values plotted against an origin and axes, cf codes 16 and 18
     :issue_number: '4'
   '22':
     :value: '22'
     :description: Plates, unspecified
-    :notes: ‘Plates’ means illustrations that are on separate pages bound into the
-      body of a book.
+    :notes: "‘Plates’ means illustrations that are on separate pages bound into the
+      body of a book"
     :issue_number: '4'
   '23':
     :value: '23'
     :description: Plates, black and white
-    :notes: ‘Plates’ means illustrations that are on separate pages bound into the
-      body of a book.
+    :notes: "‘Plates’ means illustrations that are on separate pages bound into the
+      body of a book"
     :issue_number: '4'
   '24':
     :value: '24'
     :description: Plates, color
-    :notes: ‘Plates’ means illustrations that are on separate pages bound into the
-      body of a book.
+    :notes: "‘Plates’ means illustrations that are on separate pages bound into the
+      body of a book"
     :issue_number: '4'
   '25':
     :value: '25'
@@ -148,10 +148,20 @@
     :value: '27'
     :description: Inset maps
     :notes: Larger-scale inset maps of places or features of interest included in
-      a map product.
+      a map product
     :issue_number: '7'
   '28':
     :value: '28'
     :description: GPS grids
-    :notes: GPS grids included in a map product.
+    :notes: GPS grids included in a map product
     :issue_number: '7'
+  '29':
+    :value: '29'
+    :description: Glossary
+    :notes: ''
+    :issue_number: '28'
+  '30':
+    :value: '30'
+    :description: Table of contents
+    :notes: For use in ONIX 3.0 only
+    :issue_number: '41'

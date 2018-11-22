@@ -6,71 +6,89 @@
   '00':
     :value: '00'
     :description: Unspecified
-    :notes: Default.
+    :notes: Default
     :issue_number: '1'
   '01':
     :value: '01'
     :description: Publisher to retailers
-    :notes: Publisher as supplier to retail trade outlets.
-    :issue_number: '9'
+    :notes: Publisher as supplier to retail trade outlets
+    :issue_number: '1'
   '02':
     :value: '02'
     :description: Publisher’s exclusive distributor to retailers
     :notes: ''
-    :issue_number: '9'
+    :issue_number: '1'
   '03':
     :value: '03'
     :description: Publisher’s non-exclusive distributor to retailers
     :notes: ''
-    :issue_number: '9'
+    :issue_number: '1'
   '04':
     :value: '04'
     :description: Wholesaler
-    :notes: Wholesaler supplying retail trade outlets.
-    :issue_number: '9'
+    :notes: Wholesaler supplying retail trade outlets
+    :issue_number: '1'
   '05':
     :value: '05'
     :description: Sales agent
     :notes: DEPRECATED – use <MarketRepresentation> (ONIX 2.1) or <MarketPublishingDetail>
-      (ONIX 3.0) to specify a sales agent.
-    :issue_number: '3'
+      (ONIX 3.0) to specify a sales agent
+    :issue_number: '1'
   '06':
     :value: '06'
     :description: Publisher’s distributor to retailers
     :notes: In a specified supply territory. Use only where exclusive/non-exclusive
-      status is not known. Prefer 02 or 03 as appropriate, where possible.
-    :issue_number: '9'
+      status is not known. Prefer 02 or 03 as appropriate, where possible
+    :issue_number: '6'
   '07':
     :value: '07'
     :description: POD supplier
     :notes: Where a POD product is supplied to retailers and/or consumers direct from
-      a POD source.
+      a POD source
     :issue_number: '6'
-  08:
-    :value: 08
+  '08':
+    :value: '08'
     :description: Retailer
     :notes: ''
     :issue_number: '8'
-  09:
-    :value: 09
+  '09':
+    :value: '09'
     :description: Publisher to end-customers
-    :notes: Publisher as supplier direct to consumers and/or institutional customers.
+    :notes: Publisher as supplier direct to consumers and/or institutional customers
     :issue_number: '9'
   '10':
     :value: '10'
     :description: Exclusive distributor to end-customers
     :notes: Intermediary as exclusive distributor direct to consumers and/or institutional
-      customers.
+      customers
     :issue_number: '9'
   '11':
     :value: '11'
     :description: Non-exclusive distributor to end-customers
     :notes: Intermediary as non-exclusive distributor direct to consumers and/or institutional
-      customers.
+      customers
     :issue_number: '9'
   '12':
     :value: '12'
     :description: Distributor to end-customers
     :notes: Use only where exclusive/non-exclusive status is not known. Prefer 10
-      or 11 as appropriate, where possible.
+      or 11 as appropriate, where possible
     :issue_number: '9'
+  '13':
+    :value: '13'
+    :description: Exclusive distributor to retailers and end-customers
+    :notes: Intermediary as exclusive distributor to retailers and direct to consumers
+      and/or institutional customers. For use in ONIX 3.0 only
+    :issue_number: '37'
+  '14':
+    :value: '14'
+    :description: Non-exclusive distributor to retailers and end-customers
+    :notes: Intermediary as non-exclusive distributor to retailers and direct to consumers
+      and/or institutional customers. For use in ONIX 3.0 only
+    :issue_number: '37'
+  '15':
+    :value: '15'
+    :description: Distributor to retailers and end-customers
+    :notes: Use only where exclusive/non-exclusive status is not known. Prefer codes
+      13 or 14 as appropriate whenever possible. For use in ONIX 3.0 only
+    :issue_number: '37'

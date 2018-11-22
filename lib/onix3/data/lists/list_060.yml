@@ -1,12 +1,12 @@
 ---
 :number: '60'
-:description: Unit of pricing code
+:description: Unit of pricing
 :issue_number: '0'
 :codes:
   '00':
     :value: '00'
     :description: Per copy of whole product
-    :notes: Default.
+    :notes: Default
     :issue_number: '0'
   '01':
     :value: '01'

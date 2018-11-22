@@ -6,19 +6,19 @@
   '00':
     :value: '00'
     :description: Unrestricted
-    :notes: Any audience.
+    :notes: Any audience
     :issue_number: '10'
   '01':
     :value: '01'
     :description: Restricted
     :notes: Distribution by agreement between the parties to the ONIX exchange (this
       value is provided to cover applications where ONIX content includes material
-      which is not for general distribution).
+      which is not for general distribution)
     :issue_number: '10'
   '02':
     :value: '02'
     :description: Booktrade
-    :notes: Distributors, bookstores, publisher’s own staff etc.
+    :notes: Distributors, bookstores, publisher’s own staff etc
     :issue_number: '10'
   '03':
     :value: '03'
@@ -43,10 +43,16 @@
   '07':
     :value: '07'
     :description: Press
-    :notes: Press or other media.
+    :notes: Press or other media
     :issue_number: '10'
-  08:
-    :value: 08
+  '08':
+    :value: '08'
     :description: Shopping comparison service
-    :notes: Where a specially formatted description is required for this audience.
+    :notes: Where a specially formatted description is required for this audience
     :issue_number: '10'
+  '09':
+    :value: '09'
+    :description: Search engine index
+    :notes: Text not intended for display, but may be used (in addition to any less
+      restricted text) for indexing and search
+    :issue_number: '32'

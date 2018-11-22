@@ -1,0 +1,21 @@
+---
+:number: '229'
+:description: Gender – based on ISO 5218
+:issue_number: '33'
+:codes:
+  u:
+    :value: u
+    :description: Unknown or unspecified
+    :notes: Provides positive indication that the gender is not known or is not specified
+      by the sender for any reason
+    :issue_number: '33'
+  f:
+    :value: f
+    :description: Female
+    :notes: ''
+    :issue_number: '33'
+  m:
+    :value: m
+    :description: Male
+    :notes: ''
+    :issue_number: '33'

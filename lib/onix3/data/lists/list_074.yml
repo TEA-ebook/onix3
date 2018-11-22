@@ -1,6 +1,6 @@
 ---
 :number: '74'
-:description: Language code – ISO 639-2/B
+:description: Language – based on ISO 639-2/B
 :issue_number: '0'
 :codes:
   aar:
@@ -36,12 +36,12 @@
   afa:
     :value: afa
     :description: Afro-Asiatic languages
-    :notes: Collective name.
+    :notes: Collective name
     :issue_number: '0'
   afh:
     :value: afh
     :description: Afrihili
-    :notes: Artificial language.
+    :notes: Artificial language
     :issue_number: '0'
   afr:
     :value: afr
@@ -56,7 +56,7 @@
   aka:
     :value: aka
     :description: Akan
-    :notes: ''
+    :notes: Macrolanguage
     :issue_number: '0'
   akk:
     :value: akk
@@ -66,7 +66,7 @@
   alb:
     :value: alb
     :description: Albanian
-    :notes: ''
+    :notes: Macrolanguage
     :issue_number: '0'
   ale:
     :value: ale
@@ -76,7 +76,7 @@
   alg:
     :value: alg
     :description: Algonquian languages
-    :notes: Collective name.
+    :notes: Collective name
     :issue_number: '0'
   alt:
     :value: alt
@@ -101,12 +101,12 @@
   apa:
     :value: apa
     :description: Apache languages
-    :notes: Collective name.
+    :notes: Collective name
     :issue_number: '0'
   ara:
     :value: ara
     :description: Arabic
-    :notes: ''
+    :notes: Macrolanguage
     :issue_number: '0'
   arc:
     :value: arc
@@ -136,7 +136,7 @@
   art:
     :value: art
     :description: Artificial languages
-    :notes: Collective name.
+    :notes: Collective name
     :issue_number: '0'
   arw:
     :value: arw
@@ -156,12 +156,12 @@
   ath:
     :value: ath
     :description: Athapascan languages
-    :notes: Collective name.
+    :notes: Collective name
     :issue_number: '0'
   aus:
     :value: aus
     :description: Australian languages
-    :notes: Collective name.
+    :notes: Collective name
     :issue_number: '0'
   ava:
     :value: ava
@@ -181,22 +181,22 @@
   aym:
     :value: aym
     :description: Aymara
-    :notes: ''
+    :notes: Macrolanguage
     :issue_number: '0'
   aze:
     :value: aze
     :description: Azerbaijani
-    :notes: ''
+    :notes: Macrolanguage
     :issue_number: '0'
   bad:
     :value: bad
     :description: Banda languages
-    :notes: Collective name.
+    :notes: Collective name
     :issue_number: '0'
   bai:
     :value: bai
     :description: Bamileke languages
-    :notes: Collective name.
+    :notes: Collective name
     :issue_number: '0'
   bak:
     :value: bak
@@ -206,7 +206,7 @@
   bal:
     :value: bal
     :description: Baluchi
-    :notes: ''
+    :notes: Macrolanguage
     :issue_number: '0'
   bam:
     :value: bam
@@ -231,7 +231,7 @@
   bat:
     :value: bat
     :description: Baltic languages
-    :notes: Collective name.
+    :notes: Collective name
     :issue_number: '0'
   bej:
     :value: bej
@@ -256,7 +256,7 @@
   ber:
     :value: ber
     :description: Berber languages
-    :notes: Collective name.
+    :notes: Collective name
     :issue_number: '0'
   bho:
     :value: bho
@@ -266,12 +266,12 @@
   bih:
     :value: bih
     :description: Bihari languages
-    :notes: Collective name.
+    :notes: Collective name
     :issue_number: '0'
   bik:
     :value: bik
     :description: Bikol
-    :notes: ''
+    :notes: Macrolanguage
     :issue_number: '0'
   bin:
     :value: bin
@@ -291,7 +291,7 @@
   bnt:
     :value: bnt
     :description: Bantu languages
-    :notes: Collective name.
+    :notes: Collective name
     :issue_number: '0'
   bos:
     :value: bos
@@ -311,12 +311,12 @@
   btk:
     :value: btk
     :description: Batak languages
-    :notes: Collective name.
+    :notes: Collective name
     :issue_number: '0'
   bua:
     :value: bua
     :description: Buriat
-    :notes: ''
+    :notes: Macrolanguage
     :issue_number: '0'
   bug:
     :value: bug
@@ -346,7 +346,7 @@
   cai:
     :value: cai
     :description: Central American Indian languages
-    :notes: Collective name.
+    :notes: Collective name
     :issue_number: '0'
   car:
     :value: car
@@ -361,7 +361,7 @@
   cau:
     :value: cau
     :description: Caucasian languages
-    :notes: Collective name.
+    :notes: Collective name
     :issue_number: '0'
   ceb:
     :value: ceb
@@ -371,7 +371,7 @@
   cel:
     :value: cel
     :description: Celtic languages
-    :notes: Collective name.
+    :notes: Collective name
     :issue_number: '0'
   cha:
     :value: cha
@@ -396,7 +396,7 @@
   chi:
     :value: chi
     :description: Chinese
-    :notes: ''
+    :notes: Macrolanguage
     :issue_number: '0'
   chk:
     :value: chk
@@ -406,7 +406,7 @@
   chm:
     :value: chm
     :description: Mari
-    :notes: ''
+    :notes: Macrolanguage
     :issue_number: '0'
   chn:
     :value: chn
@@ -447,7 +447,7 @@
   cmc:
     :value: cmc
     :description: Chamic languages
-    :notes: Collective name.
+    :notes: Collective name
     :issue_number: '0'
   cop:
     :value: cop
@@ -467,22 +467,22 @@
   cpe:
     :value: cpe
     :description: Creoles and pidgins, English-based
-    :notes: Collective name.
+    :notes: Collective name
     :issue_number: '0'
   cpf:
     :value: cpf
     :description: Creoles and pidgins, French-based
-    :notes: Collective name.
+    :notes: Collective name
     :issue_number: '0'
   cpp:
     :value: cpp
     :description: Creoles and pidgins, Portuguese-based
-    :notes: Collective name.
+    :notes: Collective name
     :issue_number: '0'
   cre:
     :value: cre
     :description: Cree
-    :notes: ''
+    :notes: Macrolanguage
     :issue_number: '0'
   crh:
     :value: crh
@@ -492,7 +492,7 @@
   crp:
     :value: crp
     :description: Creoles and pidgins
-    :notes: Collective name.
+    :notes: Collective name
     :issue_number: '0'
   csb:
     :value: csb
@@ -502,7 +502,7 @@
   cus:
     :value: cus
     :description: Cushitic languages
-    :notes: Collective name.
+    :notes: Collective name
     :issue_number: '0'
   cze:
     :value: cze
@@ -527,17 +527,17 @@
   day:
     :value: day
     :description: Land Dayak languages
-    :notes: Collective name.
+    :notes: Collective name
     :issue_number: '0'
   del:
     :value: del
     :description: Delaware
-    :notes: ''
+    :notes: Macrolanguage
     :issue_number: '0'
   den:
     :value: den
     :description: Slave (Athapascan)
-    :notes: ''
+    :notes: Macrolanguage
     :issue_number: '0'
   dgr:
     :value: dgr
@@ -547,7 +547,7 @@
   din:
     :value: din
     :description: Dinka
-    :notes: ''
+    :notes: Macrolanguage
     :issue_number: '0'
   div:
     :value: div
@@ -557,12 +557,12 @@
   doi:
     :value: doi
     :description: Dogri
-    :notes: ''
+    :notes: Macrolanguage
     :issue_number: '0'
   dra:
     :value: dra
     :description: Dravidian languages
-    :notes: Collective name.
+    :notes: Collective name
     :issue_number: '0'
   dsb:
     :value: dsb
@@ -627,12 +627,12 @@
   epo:
     :value: epo
     :description: Esperanto
-    :notes: Artificial language.
+    :notes: Artificial language
     :issue_number: '0'
   est:
     :value: est
     :description: Estonian
-    :notes: ''
+    :notes: Macrolanguage
     :issue_number: '0'
   ewe:
     :value: ewe
@@ -677,7 +677,7 @@
   fiu:
     :value: fiu
     :description: Finno-Ugrian languages
-    :notes: Collective name.
+    :notes: Collective name
     :issue_number: '0'
   fon:
     :value: fon
@@ -737,12 +737,12 @@
   gba:
     :value: gba
     :description: Gbaya
-    :notes: ''
+    :notes: Macrolanguage
     :issue_number: '0'
   gem:
     :value: gem
     :description: Germanic languages
-    :notes: Collective name.
+    :notes: Collective name
     :issue_number: '0'
   geo:
     :value: geo
@@ -797,7 +797,7 @@
   gon:
     :value: gon
     :description: Gondi
-    :notes: ''
+    :notes: Macrolanguage
     :issue_number: '0'
   gor:
     :value: gor
@@ -812,7 +812,7 @@
   grb:
     :value: grb
     :description: Grebo
-    :notes: ''
+    :notes: Macrolanguage
     :issue_number: '0'
   grc:
     :value: grc
@@ -827,7 +827,7 @@
   grn:
     :value: grn
     :description: Guarani
-    :notes: ''
+    :notes: Macrolanguage
     :issue_number: '0'
   gsw:
     :value: gsw
@@ -847,7 +847,7 @@
   hai:
     :value: hai
     :description: Haida
-    :notes: ''
+    :notes: Macrolanguage
     :issue_number: '0'
   hat:
     :value: hat
@@ -882,7 +882,7 @@
   him:
     :value: him
     :description: Himachali languages; Western Pahari languages
-    :notes: Collective name.
+    :notes: Collective name
     :issue_number: '0'
   hin:
     :value: hin
@@ -897,7 +897,7 @@
   hmn:
     :value: hmn
     :description: Hmong; Mong
-    :notes: ''
+    :notes: Macrolanguage
     :issue_number: '0'
   hmo:
     :value: hmo
@@ -942,7 +942,7 @@
   ido:
     :value: ido
     :description: Ido
-    :notes: Artificial language.
+    :notes: Artificial language
     :issue_number: '0'
   iii:
     :value: iii
@@ -952,17 +952,17 @@
   ijo:
     :value: ijo
     :description: Ijo languages
-    :notes: Collective name.
+    :notes: Collective name
     :issue_number: '0'
   iku:
     :value: iku
     :description: Inuktitut
-    :notes: ''
+    :notes: Macrolanguage
     :issue_number: '0'
   ile:
     :value: ile
     :description: Interlingue; Occidental
-    :notes: Artificial language.
+    :notes: Artificial language
     :issue_number: '0'
   ilo:
     :value: ilo
@@ -972,12 +972,12 @@
   ina:
     :value: ina
     :description: Interlingua (International Auxiliary Language Association)
-    :notes: Artificial language.
+    :notes: Artificial language
     :issue_number: '0'
   inc:
     :value: inc
     :description: Indic languages
-    :notes: Collective name.
+    :notes: Collective name
     :issue_number: '0'
   ind:
     :value: ind
@@ -987,7 +987,7 @@
   ine:
     :value: ine
     :description: Indo-European languages
-    :notes: Collective name.
+    :notes: Collective name
     :issue_number: '0'
   inh:
     :value: inh
@@ -997,17 +997,17 @@
   ipk:
     :value: ipk
     :description: Inupiaq
-    :notes: ''
+    :notes: Macrolanguage
     :issue_number: '0'
   ira:
     :value: ira
     :description: Iranian languages
-    :notes: Collective name.
+    :notes: Collective name
     :issue_number: '0'
   iro:
     :value: iro
     :description: Iroquoian languages
-    :notes: Collective name.
+    :notes: Collective name
     :issue_number: '0'
   ita:
     :value: ita
@@ -1037,7 +1037,7 @@
   jrb:
     :value: jrb
     :description: Judeo-Arabic
-    :notes: ''
+    :notes: Macrolanguage
     :issue_number: '0'
   kaa:
     :value: kaa
@@ -1072,7 +1072,7 @@
   kar:
     :value: kar
     :description: Karen languages
-    :notes: Collective name.
+    :notes: Collective name
     :issue_number: '0'
   kas:
     :value: kas
@@ -1082,7 +1082,7 @@
   kau:
     :value: kau
     :description: Kanuri
-    :notes: ''
+    :notes: Macrolanguage
     :issue_number: '0'
   kaw:
     :value: kaw
@@ -1107,7 +1107,7 @@
   khi:
     :value: khi
     :description: Khoisan languages
-    :notes: Collective name.
+    :notes: Collective name
     :issue_number: '0'
   khm:
     :value: khm
@@ -1142,17 +1142,17 @@
   kok:
     :value: kok
     :description: Konkani
-    :notes: ''
+    :notes: Macrolanguage
     :issue_number: '0'
   kom:
     :value: kom
     :description: Komi
-    :notes: ''
+    :notes: Macrolanguage
     :issue_number: '0'
   kon:
     :value: kon
     :description: Kongo
-    :notes: ''
+    :notes: Macrolanguage
     :issue_number: '0'
   kor:
     :value: kor
@@ -1167,7 +1167,7 @@
   kpe:
     :value: kpe
     :description: Kpelle
-    :notes: ''
+    :notes: Macrolanguage
     :issue_number: '0'
   krc:
     :value: krc
@@ -1182,7 +1182,7 @@
   kro:
     :value: kro
     :description: Kru languages
-    :notes: Collective name.
+    :notes: Collective name
     :issue_number: '0'
   kru:
     :value: kru
@@ -1202,7 +1202,7 @@
   kur:
     :value: kur
     :description: Kurdish
-    :notes: ''
+    :notes: Macrolanguage
     :issue_number: '0'
   kut:
     :value: kut
@@ -1217,7 +1217,7 @@
   lah:
     :value: lah
     :description: Lahnda
-    :notes: ''
+    :notes: Macrolanguage
     :issue_number: '0'
   lam:
     :value: lam
@@ -1237,7 +1237,7 @@
   lav:
     :value: lav
     :description: Latvian
-    :notes: ''
+    :notes: Macrolanguage
     :issue_number: '0'
   lez:
     :value: lez
@@ -1347,7 +1347,7 @@
   man:
     :value: man
     :description: Mandingo
-    :notes: ''
+    :notes: Macrolanguage
     :issue_number: '0'
   mao:
     :value: mao
@@ -1357,7 +1357,7 @@
   map:
     :value: map
     :description: Austronesian languages
-    :notes: Collective name.
+    :notes: Collective name
     :issue_number: '0'
   mar:
     :value: mar
@@ -1372,7 +1372,7 @@
   may:
     :value: may
     :description: Malay
-    :notes: ''
+    :notes: Macrolanguage
     :issue_number: '0'
   mdf:
     :value: mdf
@@ -1407,17 +1407,17 @@
   mis:
     :value: mis
     :description: Uncoded languages
-    :notes: ''
+    :notes: Use where no suitable code is available
     :issue_number: '0'
   mkh:
     :value: mkh
     :description: Mon-Khmer languages
-    :notes: Collective name.
+    :notes: Collective name
     :issue_number: '0'
   mlg:
     :value: mlg
     :description: Malagasy
-    :notes: ''
+    :notes: Macrolanguage
     :issue_number: '0'
   mlt:
     :value: mlt
@@ -1437,7 +1437,7 @@
   mno:
     :value: mno
     :description: Manobo languages
-    :notes: Collective name.
+    :notes: Collective name
     :issue_number: '0'
   moh:
     :value: moh
@@ -1447,12 +1447,12 @@
   mol:
     :value: mol
     :description: Moldavian; Moldovan
-    :notes: DEPRECATED – use rum.
-    :issue_number: '10'
+    :notes: DEPRECATED – use rum
+    :issue_number: '0'
   mon:
     :value: mon
     :description: Mongolian
-    :notes: ''
+    :notes: Macrolanguage
     :issue_number: '0'
   mos:
     :value: mos
@@ -1467,7 +1467,7 @@
   mun:
     :value: mun
     :description: Munda languages
-    :notes: Collective name.
+    :notes: Collective name
     :issue_number: '0'
   mus:
     :value: mus
@@ -1482,12 +1482,12 @@
   mwr:
     :value: mwr
     :description: Marwari
-    :notes: ''
+    :notes: Macrolanguage
     :issue_number: '0'
   myn:
     :value: myn
     :description: Mayan languages
-    :notes: Collective name.
+    :notes: Collective name
     :issue_number: '0'
   myv:
     :value: myv
@@ -1497,12 +1497,12 @@
   nah:
     :value: nah
     :description: Nahuatl languages
-    :notes: Collective name.
+    :notes: Collective name
     :issue_number: '0'
   nai:
     :value: nai
     :description: North American Indian languages
-    :notes: Collective name.
+    :notes: Collective name
     :issue_number: '0'
   nap:
     :value: nap
@@ -1542,7 +1542,7 @@
   nep:
     :value: nep
     :description: Nepali
-    :notes: ''
+    :notes: Macrolanguage
     :issue_number: '0'
   new:
     :value: new
@@ -1557,7 +1557,7 @@
   nic:
     :value: nic
     :description: Niger-Kordofanian languages
-    :notes: Collective name.
+    :notes: Collective name
     :issue_number: '0'
   niu:
     :value: niu
@@ -1587,7 +1587,7 @@
   nor:
     :value: nor
     :description: Norwegian
-    :notes: ''
+    :notes: Macrolanguage
     :issue_number: '0'
   nqo:
     :value: nqo
@@ -1602,7 +1602,7 @@
   nub:
     :value: nub
     :description: Nubian languages
-    :notes: Collective name.
+    :notes: Collective name
     :issue_number: '0'
   nwc:
     :value: nwc
@@ -1642,17 +1642,17 @@
   oji:
     :value: oji
     :description: Ojibwa
-    :notes: ''
+    :notes: Macrolanguage
     :issue_number: '0'
   ori:
     :value: ori
     :description: Oriya
-    :notes: ''
+    :notes: Macrolanguage
     :issue_number: '0'
   orm:
     :value: orm
     :description: Oromo
-    :notes: ''
+    :notes: Macrolanguage
     :issue_number: '0'
   osa:
     :value: osa
@@ -1672,12 +1672,12 @@
   oto:
     :value: oto
     :description: Otomian languages
-    :notes: Collective name.
+    :notes: Collective name
     :issue_number: '0'
   paa:
     :value: paa
     :description: Papuan languages
-    :notes: Collective name.
+    :notes: Collective name
     :issue_number: '0'
   pag:
     :value: pag
@@ -1716,13 +1716,13 @@
     :issue_number: '0'
   per:
     :value: per
-    :description: Persian
-    :notes: ''
+    :description: Persian; Farsi
+    :notes: Macrolanguage
     :issue_number: '0'
   phi:
     :value: phi
     :description: Philippine languages
-    :notes: Collective name.
+    :notes: Collective name
     :issue_number: '0'
   phn:
     :value: phn
@@ -1752,7 +1752,7 @@
   pra:
     :value: pra
     :description: Prakrit languages
-    :notes: Collective name.
+    :notes: Collective name
     :issue_number: '0'
   pro:
     :value: pro
@@ -1762,27 +1762,29 @@
   pus:
     :value: pus
     :description: Pushto; Pashto
-    :notes: ''
+    :notes: Macrolanguage
     :issue_number: '0'
   qar:
     :value: qar
     :description: Aranés
-    :notes: ONIX local code.
+    :notes: ONIX local code, distinct dialect of Occitan (not distinguished from oci
+      by ISO 639-3)
     :issue_number: '6'
   qav:
     :value: qav
     :description: Valencian
-    :notes: ONIX local code.
+    :notes: ONIX local code, distinct dialect of Catalan (not distinguished from cat
+      by ISO 639-3)
     :issue_number: '5'
   que:
     :value: que
     :description: Quechua
-    :notes: ''
+    :notes: Macrolanguage
     :issue_number: '0'
   raj:
     :value: raj
     :description: Rajasthani
-    :notes: ''
+    :notes: Macrolanguage
     :issue_number: '0'
   rap:
     :value: rap
@@ -1797,7 +1799,7 @@
   roa:
     :value: roa
     :description: Romance languages
-    :notes: Collective name.
+    :notes: Collective name
     :issue_number: '0'
   roh:
     :value: roh
@@ -1807,7 +1809,7 @@
   rom:
     :value: rom
     :description: Romany
-    :notes: ''
+    :notes: Macrolanguage
     :issue_number: '0'
   rum:
     :value: rum
@@ -1847,12 +1849,12 @@
   sai:
     :value: sai
     :description: South American Indian languages
-    :notes: Collective name.
+    :notes: Collective name
     :issue_number: '0'
   sal:
     :value: sal
     :description: Salishan languages
-    :notes: Collective name.
+    :notes: Collective name
     :issue_number: '0'
   sam:
     :value: sam
@@ -1877,8 +1879,8 @@
   scc:
     :value: scc
     :description: Serbian
-    :notes: DEPRECATED – use srp.
-    :issue_number: '10'
+    :notes: DEPRECATED – use srp
+    :issue_number: '0'
   scn:
     :value: scn
     :description: Sicilian
@@ -1892,8 +1894,8 @@
   scr:
     :value: scr
     :description: Croatian
-    :notes: DEPRECATED – use hrv.
-    :issue_number: '10'
+    :notes: DEPRECATED – use hrv
+    :issue_number: '0'
   sel:
     :value: sel
     :description: Selkup
@@ -1902,7 +1904,7 @@
   sem:
     :value: sem
     :description: Semitic languages
-    :notes: Collective name.
+    :notes: Collective name
     :issue_number: '0'
   sga:
     :value: sga
@@ -1912,7 +1914,7 @@
   sgn:
     :value: sgn
     :description: Sign languages
-    :notes: Collective name.
+    :notes: Collective name
     :issue_number: '0'
   shn:
     :value: shn
@@ -1932,17 +1934,17 @@
   sio:
     :value: sio
     :description: Siouan languages
-    :notes: Collective name.
+    :notes: Collective name
     :issue_number: '0'
   sit:
     :value: sit
     :description: Sino-Tibetan languages
-    :notes: Collective name.
+    :notes: Collective name
     :issue_number: '0'
   sla:
     :value: sla
     :description: Slavic languages
-    :notes: Collective name.
+    :notes: Collective name
     :issue_number: '0'
   slo:
     :value: slo
@@ -1967,7 +1969,7 @@
   smi:
     :value: smi
     :description: Sami languages
-    :notes: Collective name.
+    :notes: Collective name
     :issue_number: '0'
   smj:
     :value: smj
@@ -2017,7 +2019,7 @@
   son:
     :value: son
     :description: Songhai languages
-    :notes: Collective name.
+    :notes: Collective name
     :issue_number: '0'
   sot:
     :value: sot
@@ -2032,7 +2034,7 @@
   srd:
     :value: srd
     :description: Sardinian
-    :notes: ''
+    :notes: Macrolanguage
     :issue_number: '0'
   srn:
     :value: srn
@@ -2052,7 +2054,7 @@
   ssa:
     :value: ssa
     :description: Nilo-Saharan languages
-    :notes: Collective name.
+    :notes: Collective name
     :issue_number: '0'
   ssw:
     :value: ssw
@@ -2082,7 +2084,7 @@
   swa:
     :value: swa
     :description: Swahili
-    :notes: ''
+    :notes: Macrolanguage
     :issue_number: '0'
   swe:
     :value: swe
@@ -2097,7 +2099,7 @@
   syr:
     :value: syr
     :description: Syriac
-    :notes: ''
+    :notes: Macrolanguage
     :issue_number: '0'
   tah:
     :value: tah
@@ -2107,7 +2109,7 @@
   tai:
     :value: tai
     :description: Tai languages
-    :notes: Collective name.
+    :notes: Collective name
     :issue_number: '0'
   tam:
     :value: tam
@@ -2141,7 +2143,7 @@
     :issue_number: '0'
   tgk:
     :value: tgk
-    :description: Tajik
+    :description: Tajik; Tajiki Persian
     :notes: ''
     :issue_number: '0'
   tgl:
@@ -2182,7 +2184,7 @@
   tlh:
     :value: tlh
     :description: Klingon; tlhIngan-Hol
-    :notes: Artificial language.
+    :notes: Artificial language
     :issue_number: '4'
   tli:
     :value: tli
@@ -2192,7 +2194,7 @@
   tmh:
     :value: tmh
     :description: Tamashek
-    :notes: ''
+    :notes: Macrolanguage
     :issue_number: '0'
   tog:
     :value: tog
@@ -2217,7 +2219,7 @@
   tsn:
     :value: tsn
     :description: Tswana
-    :notes: AKA Setswana.
+    :notes: AKA Setswana
     :issue_number: '0'
   tso:
     :value: tso
@@ -2237,7 +2239,7 @@
   tup:
     :value: tup
     :description: Tupi languages
-    :notes: Collective name.
+    :notes: Collective name
     :issue_number: '0'
   tur:
     :value: tur
@@ -2302,7 +2304,7 @@
   uzb:
     :value: uzb
     :description: Uzbek
-    :notes: ''
+    :notes: Macrolanguage
     :issue_number: '0'
   vai:
     :value: vai
@@ -2322,7 +2324,7 @@
   vol:
     :value: vol
     :description: Volapük
-    :notes: Artificial language.
+    :notes: Artificial language
     :issue_number: '0'
   vot:
     :value: vot
@@ -2332,7 +2334,7 @@
   wak:
     :value: wak
     :description: Wakashan languages
-    :notes: Collective name.
+    :notes: Collective name
     :issue_number: '0'
   wal:
     :value: wal
@@ -2357,7 +2359,7 @@
   wen:
     :value: wen
     :description: Sorbian languages
-    :notes: Collective name.
+    :notes: Collective name
     :issue_number: '0'
   wln:
     :value: wln
@@ -2392,7 +2394,7 @@
   yid:
     :value: yid
     :description: Yiddish
-    :notes: ''
+    :notes: Macrolanguage
     :issue_number: '0'
   yor:
     :value: yor
@@ -2402,17 +2404,17 @@
   ypk:
     :value: ypk
     :description: Yupik languages
-    :notes: Collective name.
+    :notes: Collective name
     :issue_number: '0'
   zap:
     :value: zap
     :description: Zapotec
-    :notes: ''
+    :notes: Macrolanguage
     :issue_number: '0'
   zbl:
     :value: zbl
     :description: Blissymbols; Blissymbolics; Bliss
-    :notes: Artificial language.
+    :notes: Artificial language
     :issue_number: '8'
   zen:
     :value: zen
@@ -2422,12 +2424,12 @@
   zha:
     :value: zha
     :description: Zhuang; Chuang
-    :notes: ''
+    :notes: Macrolanguage
     :issue_number: '0'
   znd:
     :value: znd
     :description: Zande languages
-    :notes: Collective name.
+    :notes: Collective name
     :issue_number: '0'
   zul:
     :value: zul
@@ -2447,5 +2449,78 @@
   zza:
     :value: zza
     :description: Zaza; Dimili; Dimli; Kirdki; Kirmanjki; Zazaki
-    :notes: ''
+    :notes: Macrolanguage
     :issue_number: '7'
+  cmn:
+    :value: cmn
+    :description: Mandarin
+    :notes: ONIX local code, equivalent to cmn in ISO 639-3
+    :issue_number: '35'
+  fit:
+    :value: fit
+    :description: Meänkieli / Tornedalen Finnish
+    :notes: ONIX local code, equivalent to fit in ISO 639-3
+    :issue_number: '29'
+  fkv:
+    :value: fkv
+    :description: Kvensk
+    :notes: ONIX local code, equivalent to fkv in ISO 639-3
+    :issue_number: '24'
+  kdr:
+    :value: kdr
+    :description: Karaim
+    :notes: ONIX local code, equivalent to kdr in ISO 639-3
+    :issue_number: '32'
+  odt:
+    :value: odt
+    :description: Old Dutch / Old Low Franconian (ca. 400–1050)
+    :notes: ONIX local code, equivalent to odt in ISO 639-3
+    :issue_number: '32'
+  omq:
+    :value: omq
+    :description: Oto-Manguean languages
+    :notes: ONIX local code, equivalent to omq in ISO 639-5. Collective name
+    :issue_number: '32'
+  pes:
+    :value: pes
+    :description: Iranian Persian; Parsi
+    :notes: ONIX local code, equivalent to pes in ISO 639-3. For use in ONIX 3.0 only
+    :issue_number: '39'
+  prs:
+    :value: prs
+    :description: Dari; Afghan Persian
+    :notes: ONIX local code, equivalent to prs in ISO 639-3. For use in ONIX 3.0 only
+    :issue_number: '39'
+  qlk:
+    :value: qlk
+    :description: Lemko
+    :notes: ONIX local code, distinct dialect of of Rusyn (not distinguished from
+      rue by ISO 639-3)
+    :issue_number: '40'
+  qls:
+    :value: qls
+    :description: Neutral Latin American Spanish
+    :notes: ONIX local code, distinct and exclusively spoken variation of Spanish,
+      not distinguished from spa (Spanish, Castilian) by ISO 639-3. Neutral Latin
+      American Spanish should be considered a ‘shorthand’ for spa plus a ‘country
+      code’ for Latin America – but prefer spa plus the relevant country code for
+      specifically Mexican Spanish, Argentine (Rioplatense) Spanish, Puerto Rican
+      Spanish etc. Neutral Latin American Spanish must only be used with audio material
+      (including the audio tracks of TV, video and film) to indicate use of accent,
+      vocabulary and construction suitable for broad use across Latin America
+    :issue_number: '43'
+  tzo:
+    :value: tzo
+    :description: Tzotzil
+    :notes: ONIX local code, equivalent to tzo in ISO 639-3
+    :issue_number: '32'
+  yue:
+    :value: yue
+    :description: Cantonese
+    :notes: ONIX local code, equivalent to yue in ISO 639-3
+    :issue_number: '35'
+  zgh:
+    :value: zgh
+    :description: Standard Moroccan Tamazight
+    :notes: ''
+    :issue_number: '32'

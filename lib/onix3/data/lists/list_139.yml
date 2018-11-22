@@ -1,6 +1,6 @@
 ---
 :number: '139'
-:description: ONIX sales outlet IDs
+:description: ONIX retail sales outlet IDs
 :issue_number: '8'
 :codes:
   ACM:
@@ -166,7 +166,7 @@
   EBC:
     :value: EBC
     :description: Ebooks Corp
-    :notes: ''
+    :notes: www.ebooks.com
     :issue_number: '16'
   ECH:
     :value: ECH
@@ -227,7 +227,7 @@
     :value: GOS
     :description: Blinkbox
     :notes: Formerly GoSpoken/Mobcast
-    :issue_number: '21'
+    :issue_number: '16'
   HST:
     :value: HST
     :description: Hastings Entertainment
@@ -301,7 +301,7 @@
   MMS:
     :value: MMS
     :description: Media Markt/Saturn
-    :notes: Also known as Media World.
+    :notes: Also known as Media World
     :issue_number: '16'
   MCR:
     :value: MCR
@@ -491,10 +491,255 @@
   ZVV:
     :value: ZVV
     :description: Zavvi
-    :notes: Formerly Virgin Megastores (UK).
+    :notes: Formerly Virgin Megastores (UK)
     :issue_number: '8'
   ZZZ:
     :value: ZZZ
     :description: Other
-    :notes: Include retailer name in <SalesOutletName>.
+    :notes: Include retailer name in <SalesOutletName>
     :issue_number: '8'
+  SYM:
+    :value: SYM
+    :description: 24Symbols
+    :notes: ''
+    :issue_number: '29'
+  APA:
+    :value: APA
+    :description: Apabi
+    :notes: ''
+    :issue_number: '31'
+  ASB:
+    :value: ASB
+    :description: Asia Books
+    :notes: ''
+    :issue_number: '31'
+  AUC:
+    :value: AUC
+    :description: Audiobooks.com
+    :notes: ''
+    :issue_number: '31'
+  ATK:
+    :value: ATK
+    :description: Audioteka
+    :notes: ''
+    :issue_number: '31'
+  BDZ:
+    :value: BDZ
+    :description: BDBuzz
+    :notes: www.bdbuzz.net, for use in ONIX 3.0 only
+    :issue_number: '37'
+  MMM:
+    :value: MMM
+    :description: Bibliotheca
+    :notes: Formerly 3M Cloud Library
+    :issue_number: '31'
+  BLA:
+    :value: BLA
+    :description: Blackstone Audion
+    :notes: ''
+    :issue_number: '31'
+  BLD:
+    :value: BLD
+    :description: Bolinda
+    :notes: https://www.bolinda.com, for use in ONIX 3.0 only
+    :issue_number: '41'
+  BKS:
+    :value: BKS
+    :description: Bookshout
+    :notes: ''
+    :issue_number: '31'
+  BTP:
+    :value: BTP
+    :description: Booktopia
+    :notes: ''
+    :issue_number: '29'
+  CEB:
+    :value: CEB
+    :description: Ceebo
+    :notes: ''
+    :issue_number: '31'
+  COP:
+    :value: COP
+    :description: Copia
+    :notes: ''
+    :issue_number: '24'
+  CVM:
+    :value: CVM
+    :description: CVS Mediatheques
+    :notes: www.cvs-mediatheques.com
+    :issue_number: '34'
+  CYB:
+    :value: CYB
+    :description: Cyberlibris
+    :notes: ''
+    :issue_number: '24'
+  DEM:
+    :value: DEM
+    :description: De Marque
+    :notes: ''
+    :issue_number: '28'
+  DIL:
+    :value: DIL
+    :description: Dilicom
+    :notes: ''
+    :issue_number: '27'
+  EPA:
+    :value: EPA
+    :description: E-Pagine
+    :notes: ''
+    :issue_number: '28'
+  ERD:
+    :value: ERD
+    :description: E-Reads
+    :notes: ''
+    :issue_number: '31'
+  EPC:
+    :value: EPC
+    :description: Epic!
+    :notes: www.getepic.com
+    :issue_number: '33'
+  FIN:
+    :value: FIN
+    :description: Findaway
+    :notes: ''
+    :issue_number: '31'
+  FSP:
+    :value: FSP
+    :description: Fishpond
+    :notes: ''
+    :issue_number: '31'
+  FLP:
+    :value: FLP
+    :description: FlipKart
+    :notes: ''
+    :issue_number: '28'
+  FOL:
+    :value: FOL
+    :description: Follett
+    :notes: ''
+    :issue_number: '28'
+  GLO:
+    :value: GLO
+    :description: Glose
+    :notes: ''
+    :issue_number: '31'
+  IMM:
+    :value: IMM
+    :description: Immatériel.fr
+    :notes: ''
+    :issue_number: '24'
+  IBS:
+    :value: IBS
+    :description: Internet Bookshop Italia
+    :notes: www.ibs.it, for use in ONIX 3.0 only
+    :issue_number: '38'
+  IZN:
+    :value: IZN
+    :description: Izneo
+    :notes: ''
+    :issue_number: '24'
+  JBH:
+    :value: JBH
+    :description: JB Hifi
+    :notes: ''
+    :issue_number: '31'
+  KOR:
+    :value: KOR
+    :description: Kortext
+    :notes: ''
+    :issue_number: '31'
+  MAC:
+    :value: MAC
+    :description: Mackin
+    :notes: ''
+    :issue_number: '31'
+  MAG:
+    :value: MAG
+    :description: Magzter
+    :notes: ''
+    :issue_number: '31'
+  ADP:
+    :value: ADP
+    :description: Messageries ADP
+    :notes: ''
+    :issue_number: '33'
+  MSF:
+    :value: MSF
+    :description: Microsoft
+    :notes: For use in ONIX 3.0 only
+    :issue_number: '38'
+  MOF:
+    :value: MOF
+    :description: Mofibo
+    :notes: ''
+    :issue_number: '31'
+  MYI:
+    :value: MYI
+    :description: MyiLibrary
+    :notes: ''
+    :issue_number: '31'
+  OVD:
+    :value: OVD
+    :description: OverDrive
+    :notes: ''
+    :issue_number: '28'
+  OYS:
+    :value: OYS
+    :description: Oyster
+    :notes: ''
+    :issue_number: '29'
+  RMB:
+    :value: RMB
+    :description: RM Books
+    :notes: ''
+    :issue_number: '31'
+  SAF:
+    :value: SAF
+    :description: Safari
+    :notes: ''
+    :issue_number: '31'
+  SCR:
+    :value: SCR
+    :description: Scribd
+    :notes: ''
+    :issue_number: '29'
+  SEQ:
+    :value: SEQ
+    :description: Sequencity
+    :notes: ''
+    :issue_number: '35'
+  SBT:
+    :value: SBT
+    :description: Shanghai Book Traders
+    :notes: ''
+    :issue_number: '31'
+  SKB:
+    :value: SKB
+    :description: Skoobe
+    :notes: ''
+    :issue_number: '24'
+  SMW:
+    :value: SMW
+    :description: SmashWords
+    :notes: ''
+    :issue_number: '26'
+  STT:
+    :value: STT
+    :description: Storytel
+    :notes: ''
+    :issue_number: '31'
+  TOL:
+    :value: TOL
+    :description: Tolino
+    :notes: ''
+    :issue_number: '31'
+  TXR:
+    :value: TXR
+    :description: Txtr
+    :notes: ''
+    :issue_number: '24'
+  YOU:
+    :value: YOU
+    :description: Youboox
+    :notes: youboox.fr
+    :issue_number: '34'

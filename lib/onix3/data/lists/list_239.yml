@@ -1,0 +1,16 @@
+---
+:number: '239'
+:description: Supply contact role
+:issue_number: '39'
+:codes:
+  '07':
+    :value: '07'
+    :description: Return authorisation contact
+    :notes: Eg for use where authorisation must be gained from the supplier (distributor
+      or wholesaler)
+    :issue_number: '39'
+  '99':
+    :value: '99'
+    :description: Customer services contact
+    :notes: For general enquiries
+    :issue_number: '39'

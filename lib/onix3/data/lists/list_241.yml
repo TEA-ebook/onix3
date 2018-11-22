@@ -1,0 +1,44 @@
+---
+:number: '241'
+:description: AV Item Identifier type
+:issue_number: '43'
+:codes:
+  '01':
+    :value: '01'
+    :description: Proprietary
+    :notes: For example, a publisher’s own identifier. Note that <IDTypeName> is required
+      with proprietary identifiers
+    :issue_number: '43'
+  '03':
+    :value: '03'
+    :description: GTIN-13
+    :notes: Formerly known as the EAN-13 (unhyphenated)
+    :issue_number: '43'
+  '06':
+    :value: '06'
+    :description: DOI
+    :notes: Digital Object Identifier (variable length and character set beginning
+      ‘10.’, and without http://dx.doi.org/)
+    :issue_number: '43'
+  '12':
+    :value: '12'
+    :description: IMDB
+    :notes: Motion picture work identifier from the International Movie Database
+    :issue_number: '43'
+  '18':
+    :value: '18'
+    :description: ISRC
+    :notes: International Standard Recording Code, 5 alphanumeric characters plus
+      7 digits
+    :issue_number: '43'
+  '19':
+    :value: '19'
+    :description: ISAN
+    :notes: International Standard Audiovisual Number, 16 or 26 hex digits, with optional
+      alphanumeric check character(s), unhyphenated
+    :issue_number: '43'
+  '31':
+    :value: '31'
+    :description: EIDR DOI
+    :notes: Entertainment Identifier Registry DOI
+    :issue_number: '43'

@@ -1,0 +1,47 @@
+---
+:number: '215'
+:description: Proximity
+:issue_number: '24'
+:codes:
+  '01':
+    :value: '01'
+    :description: Less than
+    :notes: ''
+    :issue_number: '24'
+  '02':
+    :value: '02'
+    :description: Not more than
+    :notes: ''
+    :issue_number: '24'
+  '03':
+    :value: '03'
+    :description: Exactly
+    :notes: The supplier’s true figure, or at least a best estimate expected to be
+      within 10% of the true figure (ie a quoted figure of 100 could in fact be anything
+      between 91 and 111)
+    :issue_number: '24'
+  '04':
+    :value: '04'
+    :description: Approximately
+    :notes: Generally interpreted as within 25% of the true figure (ie a quoted figure
+      of 100 could in fact be anything between 80 and 133). The supplier may introduce
+      a deliberate approximation to reduce the commercial sensitivity of the figure
+    :issue_number: '24'
+  '05':
+    :value: '05'
+    :description: About
+    :notes: Generally interpreted as within a factor of two of the true figure (ie
+      a quoted figure of 100 could in fact be anything between 50 and 200). The supplier
+      may introduce a deliberate approximation to reduce the commercial sensitivity
+      of the figure
+    :issue_number: '24'
+  '06':
+    :value: '06'
+    :description: Not less than
+    :notes: ''
+    :issue_number: '24'
+  '07':
+    :value: '07'
+    :description: More than
+    :notes: ''
+    :issue_number: '24'

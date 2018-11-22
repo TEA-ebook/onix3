@@ -1,0 +1,15 @@
+---
+:number: '225'
+:description: Message / Record status detail
+:issue_number: '28'
+:codes:
+  '000':
+    :value: '000'
+    :description: Unknown error
+    :notes: ''
+    :issue_number: '28'
+  '001':
+    :value: '001'
+    :description: Unknown warning
+    :notes: ''
+    :issue_number: '28'

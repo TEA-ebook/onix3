@@ -1,0 +1,40 @@
+---
+:number: '220'
+:description: E-publication version number
+:issue_number: '24'
+:codes:
+  101A:
+    :value: 101A
+    :description: EPUB 2.0.1
+    :notes: Use only with <ProductFormDetail> codes E101 or E102
+    :issue_number: '24'
+  101B:
+    :value: 101B
+    :description: EPUB 3.0
+    :notes: Use only with <ProductFormDetail> code E101
+    :issue_number: '24'
+  101C:
+    :value: 101C
+    :description: EPUB 3.0.1
+    :notes: Use only with <ProductFormDetail> code E101
+    :issue_number: '25'
+  101D:
+    :value: 101D
+    :description: EPUB 3.1
+    :notes: Use only with <ProductFormDetail> code E101
+    :issue_number: '33'
+  116A:
+    :value: 116A
+    :description: Kindle mobi 7
+    :notes: Use only with <ProductFormDetail> codes E116 or E127
+    :issue_number: '24'
+  116B:
+    :value: 116B
+    :description: Kindle KF8
+    :notes: Use only with <ProductFormDetail> code E116
+    :issue_number: '24'
+  116C:
+    :value: 116C
+    :description: Kindle KFX
+    :notes: Use only with <ProductFormDetail> code E116
+    :issue_number: '40'

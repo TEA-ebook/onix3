@@ -6,10 +6,10 @@
   '01':
     :value: '01'
     :description: Proprietary
-    :notes: ''
+    :notes: As specified in <StockQuantityCodeTypeName>
     :issue_number: '6'
   '02':
     :value: '02'
     :description: APA stock quantity code
-    :notes: Code scheme defined by the Australian Publishers Association.
+    :notes: Code scheme defined by the Australian Publishers Association
     :issue_number: '6'

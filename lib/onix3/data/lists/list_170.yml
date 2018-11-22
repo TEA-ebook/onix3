@@ -2,4 +2,27 @@
 :number: '170'
 :description: Discount type
 :issue_number: '9'
-:codes: {}
+:codes:
+  '01':
+    :value: '01'
+    :description: Rising discount
+    :notes: Discount applied to all units in a qualifying order. The default if no
+      <DiscountType> is specified
+    :issue_number: '24'
+  '02':
+    :value: '02'
+    :description: Rising discount (cumulative)
+    :notes: Additional discount may be applied retrospectively, based on number of
+      units ordered over a specific period
+    :issue_number: '24'
+  '03':
+    :value: '03'
+    :description: Progressive discount
+    :notes: Discount applied to marginal units in a qualifying order
+    :issue_number: '24'
+  '04':
+    :value: '04'
+    :description: Progressive discount (cumulative)
+    :notes: Previous orders within a specific time period are counted when calculating
+      a progressive discount
+    :issue_number: '24'

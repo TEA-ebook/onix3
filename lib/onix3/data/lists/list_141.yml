@@ -36,20 +36,20 @@
   '06':
     :value: '06'
     :description: UPC-12 (item-specific)
-    :notes: AKA item/price.
+    :notes: AKA item/price
     :issue_number: '9'
   '07':
     :value: '07'
     :description: UPC-12+5 (item-specific)
-    :notes: AKA item/price.
+    :notes: AKA item/price
     :issue_number: '9'
-  08:
-    :value: 08
+  '08':
+    :value: '08'
     :description: UPC-12 (price-point)
-    :notes: AKA price/item.
+    :notes: AKA price/item
     :issue_number: '9'
-  09:
-    :value: 09
+  '09':
+    :value: '09'
     :description: UPC-12+5 (price-point)
-    :notes: AKA price/item.
+    :notes: AKA price/item
     :issue_number: '9'

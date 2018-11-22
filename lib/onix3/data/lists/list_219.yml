@@ -1,0 +1,22 @@
+---
+:number: '219'
+:description: Rights type
+:issue_number: '24'
+:codes:
+  C:
+    :value: C
+    :description: Copyright
+    :notes: Text or image copyright (normally indicated by the © symbol). The default
+      if no <CopyrightType> is specified
+    :issue_number: '24'
+  P:
+    :value: P
+    :description: Phonogram right
+    :notes: Phonogram copyright or neighbouring right (normally indicated by the ℗
+      symbol)
+    :issue_number: '24'
+  D:
+    :value: D
+    :description: Database right
+    :notes: Sui generis database right
+    :issue_number: '24'

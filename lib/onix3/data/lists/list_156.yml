@@ -6,7 +6,7 @@
   '01':
     :value: '01'
     :description: Review
-    :notes: The full text of a review in a third-party publication in any medium.
+    :notes: The full text of a review in a third-party publication in any medium
     :issue_number: '10'
   '02':
     :value: '02'
@@ -16,11 +16,17 @@
   '03':
     :value: '03'
     :description: Media mention
-    :notes: Other than a review.
+    :notes: Other than a review
     :issue_number: '10'
   '04':
     :value: '04'
-    :description: ‘One locality, one book’ program
-    :notes: (North America) Inclusion in a program such as ‘Chicago Reads’, ‘Seattle
-      Reads’.
+    :description: "‘One locality, one book’ program"
+    :notes: "(North America) Inclusion in a program such as ‘Chicago Reads’, ‘Seattle
+      Reads’"
     :issue_number: '10'
+  '05':
+    :value: '05'
+    :description: Curated list
+    :notes: For example a ‘best books of the year’ or ‘25 books you should have read’
+      list, without regard to their bestseller status
+    :issue_number: '37'

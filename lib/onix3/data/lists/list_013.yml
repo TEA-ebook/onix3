@@ -1,46 +1,65 @@
 ---
 :number: '13'
-:description: Series identifier type code
+:description: Series identifier type
 :issue_number: '0'
 :codes:
   '01':
     :value: '01'
     :description: Proprietary
-    :notes: For example, publisher’s own series ID.
+    :notes: For example, publisher’s own series ID. Note that <IDTypeName> is required
+      with proprietary identifiers
     :issue_number: '0'
   '02':
     :value: '02'
     :description: ISSN
-    :notes: International Standard Serial Number, unhyphenated, 8 digits.
+    :notes: International Standard Serial Number, unhyphenated, 8 digits
     :issue_number: '0'
   '03':
     :value: '03'
     :description: German National Bibliography series ID
-    :notes: Maintained by the Deutsche Nationalbibliothek.
+    :notes: Maintained by the Deutsche Nationalbibliothek
     :issue_number: '0'
   '04':
     :value: '04'
     :description: German Books in Print series ID
-    :notes: Maintained by VLB.
+    :notes: Maintained by VLB
     :issue_number: '1'
   '05':
     :value: '05'
     :description: Electre series ID
-    :notes: Maintained by Electre Information, France.
+    :notes: Maintained by Electre Information, France
     :issue_number: '1'
   '06':
     :value: '06'
     :description: DOI
-    :notes: Digital Object Identifier (variable length and character set).
+    :notes: Digital Object Identifier (variable length and character set)
     :issue_number: '6'
   '15':
     :value: '15'
     :description: ISBN-13
     :notes: Use only where the collection (series or set) is available as a single
-      product.
+      product
     :issue_number: '15'
   '22':
     :value: '22'
     :description: URN
-    :notes: Uniform Resource Name.
+    :notes: Uniform Resource Name
     :issue_number: '8'
+  '29':
+    :value: '29'
+    :description: BNF Control number
+    :notes: French National Bibliography series ID. Identifiant des publications en
+      série maintenu par la Bibliothèque Nationale de France
+    :issue_number: '24'
+  '35':
+    :value: '35'
+    :description: ARK
+    :notes: Archival Resource Key, as a URL (including the address of the ARK resolver
+      provided by eg a national library)
+    :issue_number: '36'
+  '38':
+    :value: '38'
+    :description: ISSN-L
+    :notes: International Standard Serial Number ‘linking ISSN’, used when distinct
+      from the serial ISSN. Unhyphenated, 8 digits. For use in ONIX 3.0 only
+    :issue_number: '41'

@@ -6,13 +6,13 @@
   '01':
     :value: '01'
     :description: Proprietary
-    :notes: ''
+    :notes: Note that <IDTypeName> is required with proprietary identifiers
     :issue_number: '11'
   '02':
     :value: '02'
     :description: Proprietary
-    :notes: DEPRECATED – use 01.
-    :issue_number: '11'
+    :notes: DEPRECATED – use 01
+    :issue_number: '1'
   '04':
     :value: '04'
     :description: Börsenverein Verkehrsnummer
@@ -26,22 +26,22 @@
   '06':
     :value: '06'
     :description: GLN
-    :notes: GS1 global location number (formerly EAN location number).
-    :issue_number: '9'
+    :notes: GS1 global location number (formerly EAN location number)
+    :issue_number: '1'
   '07':
     :value: '07'
     :description: SAN
-    :notes: Book trade Standard Address Number – US, UK etc.
+    :notes: Book trade Standard Address Number – US, UK etc
     :issue_number: '1'
   '12':
     :value: '12'
     :description: Distributeurscode Boekenbank
-    :notes: Flemish supplier code.
+    :notes: Flemish supplier code
     :issue_number: '7'
   '13':
     :value: '13'
     :description: Fondscode Boekenbank
-    :notes: Flemish publisher code.
+    :notes: Flemish publisher code
     :issue_number: '7'
   '23':
     :value: '23'
@@ -52,5 +52,5 @@
       of a two-letter country code followed by the 8–12 digits of the national VAT
       ID. Some countries include one or two letters within their VAT ID. See http://en.wikipedia.org/wiki/VAT_identification_number
       for non-EU countries that maintain similar identifiers. Spaces, dashes etc should
-      be omitted.
+      be omitted
     :issue_number: '16'

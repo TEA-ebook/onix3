@@ -7,23 +7,38 @@
     :value: '01'
     :description: Required credit
     :notes: Credit that must be displayed when a resource is used (eg ‘Photo Jerry
-      Bauer’ or ‘© Magnum Photo’). Credit text should be carried in <FeatureNote>.
+      Bauer’ or ‘© Magnum Photo’). Credit text should be carried in <FeatureNote>
     :issue_number: '12'
   '02':
     :value: '02'
     :description: Caption
     :notes: Explanatory caption that may accompany a resource (eg use to identify
-      an author in a photograph). Caption text should be carried in <FeatureNote>.
+      an author in a photograph). Caption text should be carried in <FeatureNote>
     :issue_number: '12'
   '03':
     :value: '03'
     :description: Copyright holder
     :notes: Copyright holder of resource (indicative only, as the resource can be
-      used without consultation). Copyright text should be carried in <FeatureNote>.
+      used without consultation). Copyright text should be carried in <FeatureNote>
     :issue_number: '12'
   '04':
     :value: '04'
     :description: Length in minutes
     :notes: Approximate length in minutes of an audio or video resource. <FeatureValue>
-      should contain the length of time as an integer number of minutes.
+      should contain the length of time as an integer number of minutes
     :issue_number: '12'
+  '05':
+    :value: '05'
+    :description: ISNI of resource contributor
+    :notes: Use to link resource to a contributor unambiguously, for example with
+      Resource Content types 04, 11–14 from List 158, particularly where the product
+      has more than a single contributor. <FeatureValue> contains the 16-digit ISNI
+    :issue_number: '27'
+  '06':
+    :value: '06'
+    :description: Proprietary ID of resource contributor
+    :notes: Use to link resource to a contributor unambiguously, for example with
+      Resource Content types 04, 11–14 from List 158, particularly where the product
+      has more than a single contributor. <FeatureValue> contains the proprietary
+      ID, which must match a proprietary ID given in an instance of <Contributor>
+    :issue_number: '32'

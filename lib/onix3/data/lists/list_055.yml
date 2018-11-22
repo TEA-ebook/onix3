@@ -6,67 +6,67 @@
   '00':
     :value: '00'
     :description: YYYYMMDD
-    :notes: Year month day (default).
+    :notes: Common Era year, month and day (default for most dates)
     :issue_number: '0'
   '01':
     :value: '01'
     :description: YYYYMM
-    :notes: Year and month.
+    :notes: Year and month
     :issue_number: '0'
   '02':
     :value: '02'
     :description: YYYYWW
-    :notes: Year and week number.
+    :notes: Year and week number
     :issue_number: '0'
   '03':
     :value: '03'
     :description: YYYYQ
-    :notes: Year and quarter (Q = 1, 2, 3, 4).
+    :notes: Year and quarter (Q = 1, 2, 3, 4, with 1 = Jan to Mar)
     :issue_number: '0'
   '04':
     :value: '04'
     :description: YYYYS
-    :notes: Year and season (S = 1, 2, 3, 4, with 1 = “Spring”).
+    :notes: Year and season (S = 1, 2, 3, 4, with 1 = ‘Spring’)
     :issue_number: '1'
   '05':
     :value: '05'
     :description: YYYY
-    :notes: Year.
+    :notes: Year (default for some dates)
     :issue_number: '1'
   '06':
     :value: '06'
     :description: YYYYMMDDYYYYMMDD
-    :notes: Spread of exact dates.
+    :notes: Spread of exact dates
     :issue_number: '1'
   '07':
     :value: '07'
     :description: YYYYMMYYYYMM
-    :notes: Spread of months.
+    :notes: Spread of months
     :issue_number: '1'
-  08:
-    :value: 08
+  '08':
+    :value: '08'
     :description: YYYYWWYYYYWW
-    :notes: Spread of week numbers.
+    :notes: Spread of week numbers
     :issue_number: '1'
-  09:
-    :value: 09
+  '09':
+    :value: '09'
     :description: YYYYQYYYYQ
-    :notes: Spread of quarters.
+    :notes: Spread of quarters
     :issue_number: '1'
   '10':
     :value: '10'
     :description: YYYYSYYYYS
-    :notes: Spread of seasons.
+    :notes: Spread of seasons
     :issue_number: '1'
   '11':
     :value: '11'
     :description: YYYYYYYY
-    :notes: Spread of years.
+    :notes: Spread of years
     :issue_number: '1'
   '12':
     :value: '12'
     :description: Text string
-    :notes: For complex, approximate or uncertain dates.
+    :notes: For complex, approximate or uncertain dates, or dates BCE
     :issue_number: '1'
   '13':
     :value: '13'
@@ -75,8 +75,8 @@
       By default, time is local. Alternatively, the time may be suffixed with an optional
       ‘Z’ for UTC times, or with ‘+’ or ‘-’ and an hhmm timezone offset from UTC.
       Times without a timezone are ‘rolling’ local times, times qualified with a timezone
-      (using Z, + or -) specify a particular instant in time.
-    :issue_number: '18'
+      (using Z, + or -) specify a particular instant in time
+    :issue_number: '17'
   '14':
     :value: '14'
     :description: YYYYMMDDThhmmss
@@ -84,26 +84,26 @@
       By default, time is local. Alternatively, the time may be suffixed with an optional
       ‘Z’ for UTC times, or with ‘+’ or ‘-’ and an hhmm timezone offset from UTC.
       Times without a timezone are ‘rolling’ local times, times qualified with a timezone
-      (using Z, + or -) specify a particular instant in time.
-    :issue_number: '18'
+      (using Z, + or -) specify a particular instant in time
+    :issue_number: '17'
   '20':
     :value: '20'
     :description: YYYYMMDD (H)
-    :notes: Year month day (Hijri calendar).
+    :notes: Year month day (Hijri calendar)
     :issue_number: '13'
   '21':
     :value: '21'
     :description: YYYYMM (H)
-    :notes: Year and month (Hijri calendar).
+    :notes: Year and month (Hijri calendar)
     :issue_number: '13'
   '25':
     :value: '25'
     :description: YYYY (H)
-    :notes: Year (Hijri calendar).
+    :notes: Year (Hijri calendar)
     :issue_number: '13'
   '32':
     :value: '32'
     :description: Text string (H)
     :notes: For complex, approximate or uncertain dates (Hijri calendar), text would
-      usually be in Arabic script.
+      usually be in Arabic script
     :issue_number: '13'

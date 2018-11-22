@@ -6,65 +6,66 @@
   '01':
     :value: '01'
     :description: Copies
-    :notes: Maximum number of copies that may be made of a permitted extract.
+    :notes: Maximum number of copies that may be made of a permitted extract
     :issue_number: '9'
   '02':
     :value: '02'
     :description: Characters
-    :notes: Maximum number of characters in a permitted extract for a specified usage.
+    :notes: Maximum number of characters in a permitted extract for a specified usage
     :issue_number: '9'
   '03':
     :value: '03'
     :description: Words
-    :notes: Maximum number of words in a permitted extract for a specified usage.
+    :notes: Maximum number of words in a permitted extract for a specified usage
     :issue_number: '9'
   '04':
     :value: '04'
     :description: Pages
-    :notes: Maximum number of pages in a permitted extract for a specified usage.
+    :notes: Maximum number of pages in a permitted extract for a specified usage
     :issue_number: '9'
   '05':
     :value: '05'
     :description: Percentage
     :notes: Maximum percentage of total content in a permitted extract for a specified
-      usage.
+      usage
     :issue_number: '9'
   '06':
     :value: '06'
     :description: Devices
-    :notes: Maximum number of devices in ‘share group’.
+    :notes: Maximum number of devices in ‘share group’
     :issue_number: '9'
   '07':
     :value: '07'
     :description: Concurrent users
     :notes: Maximum number of concurrent users. NB where the number of concurrent
-      users is specifically not limited, set the number of concurrent users to zero.
-    :issue_number: '15'
-  08:
-    :value: 08
+      users is specifically not limited, set the number of concurrent users to zero
+    :issue_number: '9'
+  '08':
+    :value: '08'
     :description: Percentage per time period
     :notes: Maximum percentage of total content which may be used in a specified usage
-      per time period; the time period being specified as another EpubUsageQuantity.
+      per time period; the time period being specified as another EpubUsageQuantity
     :issue_number: '11'
-  09:
-    :value: 09
+  '09':
+    :value: '09'
     :description: Days
-    :notes: Maximum time period in days.
+    :notes: Maximum time period in days (beginning from product purchase or activation)
     :issue_number: '11'
   '13':
     :value: '13'
     :description: Weeks
-    :notes: Maximum time period in weeks.
+    :notes: Maximum time period in weeks
     :issue_number: '17'
   '14':
     :value: '14'
     :description: Months
-    :notes: Maximum time period in months.
+    :notes: Maximum time period in months
     :issue_number: '17'
   '10':
     :value: '10'
     :description: Times
-    :notes: Maximum number of times a specified usage may occur.
+    :notes: Maximum number of times a specified usage event may occur (in the lifetime
+      of the product)
     :issue_number: '11'
   '11':
     :value: '11'
@@ -73,7 +74,7 @@
       page number, counting the cover as page 1. (This type of page numbering should
       not be used where the e-publication has no fixed pagination). Use with (max
       number of) Pages, Percentage of content, or End page to specify pages allowed
-      in Preview.
+      in Preview
     :issue_number: '14'
   '12':
     :value: '12'
@@ -81,5 +82,75 @@
     :notes: Page number at which allowed usage ends. <Quantity> should contain an
       absolute page number, counting the cover as page 1. (This type of page numbering
       should not be used where the e-publication has no fixed pagination). Use with
-      Start page to specify pages allowed in a preview.
+      Start page to specify pages allowed in a preview
     :issue_number: '14'
+  '15':
+    :value: '15'
+    :description: Users
+    :notes: Maximum number of licenced individual users, independent of concurrency
+      of use
+    :issue_number: '40'
+  '16':
+    :value: '16'
+    :description: Hours minutes and seconds
+    :notes: Maximum about of time in hours, minutes and seconds allowed in a permitted
+      extract for a specified usage, in the format HHHMMSS (7 digits, with leading
+      zeros if necessary)
+    :issue_number: '42'
+  '27':
+    :value: '27'
+    :description: Days (fixed start)
+    :notes: Maximum time period in days (beginning from the product publication date).
+      In effect, this defines a fixed end date for the license independent of the
+      purchase or activation date
+    :issue_number: '36'
+  '28':
+    :value: '28'
+    :description: Weeks (fixed start)
+    :notes: Maximum time period in weeks
+    :issue_number: '36'
+  '29':
+    :value: '29'
+    :description: Months (fixed start)
+    :notes: Maximum time period in months
+    :issue_number: '36'
+  '22':
+    :value: '22'
+    :description: Times per day
+    :notes: Maximum frequency a specified usage event may occur (per day)
+    :issue_number: '36'
+  '23':
+    :value: '23'
+    :description: Times per month
+    :notes: Maximum frequency a specified usage event may occur (per month)
+    :issue_number: '35'
+  '24':
+    :value: '24'
+    :description: Times per year
+    :notes: Maximum frequency a specified usage event may occur (per year)
+    :issue_number: '35'
+  '21':
+    :value: '21'
+    :description: Dots per inch
+    :notes: Maximum resolution of printed or copy/pasted extracts
+    :issue_number: '28'
+  '26':
+    :value: '26'
+    :description: Dots per cm
+    :notes: Maximum resolution of printed or copy/pasted extracts
+    :issue_number: '36'
+  '17':
+    :value: '17'
+    :description: Allowed usage start time
+    :notes: Time at which allowed usage begins. <Quantity> should contain an absolute
+      time, counting from the beginning of an audio or video product, in the format
+      HHHMMSS. Use with Time, Percentage of content, or End time to specify time-based
+      extract allowed in Preview
+    :issue_number: '42'
+  '18':
+    :value: '18'
+    :description: Allowed usage end time
+    :notes: Time at which allowed usage ends. <Quantity> should contain an absolute
+      time, counting from the beginning of an audio or video product, in the format
+      HHHMMSS. Use with Start time to specify time-based extract allowed in Preview
+    :issue_number: '42'

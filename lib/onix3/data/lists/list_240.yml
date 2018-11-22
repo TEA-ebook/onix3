@@ -1,0 +1,30 @@
+---
+:number: '240'
+:description: AV Item type code
+:issue_number: '43'
+:codes:
+  '01':
+    :value: '01'
+    :description: Audiovisual work
+    :notes: A complete audiovisual work which is published as a content item in a
+      product which carries two or more such works, eg when two or three AV works
+      are published in a single omnibus package
+    :issue_number: '43'
+  '02':
+    :value: '02'
+    :description: Front matter
+    :notes: Audiovisual components such as a scene index or introduction which appear
+      before the main content of the product
+    :issue_number: '43'
+  '03':
+    :value: '03'
+    :description: Body matter
+    :notes: Audiovisual components such as scenes or ‘chapters’ which appear as part
+      of the main body of the AV material in the product
+    :issue_number: '43'
+  '04':
+    :value: '04'
+    :description: End matter
+    :notes: Audiovisual components such as advertising which appear after the main
+      content of the product
+    :issue_number: '43'

@@ -6,10 +6,19 @@
   '01':
     :value: '01'
     :description: Time period
-    :notes: The price condition quantity represents a time period.
+    :notes: The price condition quantity represents a time period
     :issue_number: '9'
   '02':
     :value: '02'
     :description: Number of updates
-    :notes: The price condition quantity is a number of updates.
+    :notes: The price condition quantity is a number of updates
     :issue_number: '9'
+  '03':
+    :value: '03'
+    :description: Number of linked products
+    :notes: Use with Price condition type 06 and a Quantity of units. Price is valid
+      when purchased with a specific number of products from a list of product identifiers
+      provided in the associated <ProductIdentifier> composites. Use for example when
+      describing a price for this product which is valid if it is purchased along
+      with any two from a list of other products
+    :issue_number: '38'

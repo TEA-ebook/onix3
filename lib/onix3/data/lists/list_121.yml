@@ -1,12 +1,12 @@
 ---
 :number: '121'
-:description: Text script code – ISO 15924
+:description: Text script – based on ISO 15924
 :issue_number: '9'
 :codes:
   Afak:
     :value: Afak
     :description: Afaka
-    :notes: Script is not supported by Unicode.
+    :notes: Script is not supported by Unicode
     :issue_number: '13'
   Arab:
     :value: Arab
@@ -16,7 +16,7 @@
   Armi:
     :value: Armi
     :description: Imperial Aramaic
-    :notes: ''
+    :notes: Ancient/historic script
     :issue_number: '9'
   Armn:
     :value: Armn
@@ -26,7 +26,7 @@
   Avst:
     :value: Avst
     :description: Avestan
-    :notes: ''
+    :notes: Ancient/historic script
     :issue_number: '9'
   Bali:
     :value: Bali
@@ -41,7 +41,7 @@
   Bass:
     :value: Bass
     :description: Bassa Vah
-    :notes: Script is not supported by Unicode.
+    :notes: Ancient/historic script
     :issue_number: '13'
   Batk:
     :value: Batk
@@ -50,13 +50,13 @@
     :issue_number: '9'
   Beng:
     :value: Beng
-    :description: Bengali
+    :description: Bengali (Bangla)
     :notes: ''
     :issue_number: '9'
   Blis:
     :value: Blis
     :description: Blissymbols
-    :notes: Script is not supported by Unicode.
+    :notes: Script is not supported by Unicode
     :issue_number: '9'
   Bopo:
     :value: Bopo
@@ -66,7 +66,7 @@
   Brah:
     :value: Brah
     :description: Brahmi
-    :notes: ''
+    :notes: Ancient/historic script
     :issue_number: '9'
   Brai:
     :value: Brai
@@ -86,7 +86,7 @@
   Cakm:
     :value: Cakm
     :description: Chakma
-    :notes: Script is not supported by Unicode.
+    :notes: ''
     :issue_number: '9'
   Cans:
     :value: Cans
@@ -96,7 +96,7 @@
   Cari:
     :value: Cari
     :description: Carian
-    :notes: ''
+    :notes: Ancient/historic script
     :issue_number: '9'
   Cham:
     :value: Cham
@@ -111,17 +111,17 @@
   Cirt:
     :value: Cirt
     :description: Cirth
-    :notes: Script is not supported by Unicode.
+    :notes: Script is not supported by Unicode
     :issue_number: '9'
   Copt:
     :value: Copt
     :description: Coptic
-    :notes: ''
+    :notes: Ancient/historic script
     :issue_number: '9'
   Cprt:
     :value: Cprt
     :description: Cypriot
-    :notes: ''
+    :notes: Ancient/historic script
     :issue_number: '9'
   Cyrl:
     :value: Cyrl
@@ -131,7 +131,7 @@
   Cyrs:
     :value: Cyrs
     :description: Cyrillic (Old Church Slavonic variant)
-    :notes: Script is not supported by Unicode.
+    :notes: Ancient/historic, typographic variant of Cyrillic
     :issue_number: '9'
   Deva:
     :value: Deva
@@ -146,27 +146,27 @@
   Dupl:
     :value: Dupl
     :description: Duployan shorthand, Duployan stenography
-    :notes: Script is not supported by Unicode.
+    :notes: ''
     :issue_number: '13'
   Egyd:
     :value: Egyd
     :description: Egyptian demotic
-    :notes: Script is not supported by Unicode.
+    :notes: Script is not supported by Unicode
     :issue_number: '9'
   Egyh:
     :value: Egyh
     :description: Egyptian hieratic
-    :notes: Script is not supported by Unicode.
+    :notes: Script is not supported by Unicode
     :issue_number: '9'
   Egyp:
     :value: Egyp
     :description: Egyptian hieroglyphs
-    :notes: ''
+    :notes: Ancient/historic script
     :issue_number: '9'
   Elba:
     :value: Elba
     :description: Elbasan
-    :notes: Script is not supported by Unicode.
+    :notes: Ancient/historic script
     :issue_number: '13'
   Ethi:
     :value: Ethi
@@ -176,27 +176,27 @@
   Geok:
     :value: Geok
     :description: Khutsuri (Asomtavruli and Khutsuri)
-    :notes: Script is not supported by Unicode.
+    :notes: Georgian in Unicode
     :issue_number: '9'
   Geor:
     :value: Geor
-    :description: Georgian (Mkhedruli)
+    :description: Georgian (Mkhedruli and Mtavruli)
     :notes: ''
     :issue_number: '9'
   Glag:
     :value: Glag
     :description: Glagolitic
-    :notes: ''
+    :notes: Ancient/historic script
     :issue_number: '9'
   Goth:
     :value: Goth
     :description: Gothic
-    :notes: ''
+    :notes: Ancient/historic script
     :issue_number: '9'
   Gran:
     :value: Gran
     :description: Grantha
-    :notes: Script is not supported by Unicode.
+    :notes: Ancient/historic script
     :issue_number: '13'
   Grek:
     :value: Grek
@@ -231,12 +231,12 @@
   Hans:
     :value: Hans
     :description: Han (Simplified variant)
-    :notes: ''
+    :notes: Subset of Hani
     :issue_number: '9'
   Hant:
     :value: Hant
     :description: Han (Traditional variant)
-    :notes: ''
+    :notes: Subset of Hani
     :issue_number: '9'
   Hebr:
     :value: Hebr
@@ -251,27 +251,27 @@
   Hmng:
     :value: Hmng
     :description: Pahawh Hmong
-    :notes: Script is not supported by Unicode.
+    :notes: ''
     :issue_number: '9'
   Hrkt:
     :value: Hrkt
     :description: Japanese syllabaries (alias for Hiragana + Katakana)
-    :notes: ''
+    :notes: See Hira, Kana
     :issue_number: '9'
   Hung:
     :value: Hung
-    :description: Old Hungarian
-    :notes: Script is not supported by Unicode.
+    :description: Old Hungarian (Hungarian Runic)
+    :notes: Ancient/historic script
     :issue_number: '9'
   Inds:
     :value: Inds
     :description: Indus (Harappan)
-    :notes: Script is not supported by Unicode.
+    :notes: Script is not supported by Unicode
     :issue_number: '9'
   Ital:
     :value: Ital
     :description: Old Italic (Etruscan, Oscan, etc.)
-    :notes: ''
+    :notes: Ancient/historic script
     :issue_number: '9'
   Java:
     :value: Java
@@ -280,13 +280,13 @@
     :issue_number: '9'
   Jpan:
     :value: Jpan
-    :description: Japanese syllabaries (alias for Han + Hiragana + Katakana)
-    :notes: ''
+    :description: Japanese (alias for Han + Hiragana + Katakana)
+    :notes: See Hani, Hira and Kana
     :issue_number: '13'
   Jurc:
     :value: Jurc
     :description: Jurchen
-    :notes: Script is not supported by Unicode.
+    :notes: Script is not supported by Unicode
     :issue_number: '13'
   Kali:
     :value: Kali
@@ -301,7 +301,7 @@
   Khar:
     :value: Khar
     :description: Kharoshthi
-    :notes: ''
+    :notes: Ancient/historic script
     :issue_number: '9'
   Khmr:
     :value: Khmr
@@ -311,7 +311,7 @@
   Khoj:
     :value: Khoj
     :description: Khojki
-    :notes: ''
+    :notes: Ancient/historic script
     :issue_number: '16'
   Knda:
     :value: Knda
@@ -321,21 +321,21 @@
   Kore:
     :value: Kore
     :description: Korean (alias for Hangul + Han)
-    :notes: ''
+    :notes: See Hani and Hang
     :issue_number: '9'
   Kpel:
     :value: Kpel
     :description: Kpelle
-    :notes: Script is not supported by Unicode.
+    :notes: Script is not supported by Unicode
     :issue_number: '13'
   Kthi:
     :value: Kthi
     :description: Kaithi
-    :notes: ''
+    :notes: Ancient/historic script
     :issue_number: '9'
   Lana:
     :value: Lana
-    :description: Lanna, Tai Tham
+    :description: Tai Tham (Lanna)
     :notes: ''
     :issue_number: '9'
   Laoo:
@@ -346,12 +346,12 @@
   Latf:
     :value: Latf
     :description: Latin (Fraktur variant)
-    :notes: Script is not supported by Unicode.
+    :notes: Typographic variant of Latin
     :issue_number: '9'
   Latg:
     :value: Latg
     :description: Latin (Gaelic variant)
-    :notes: Script is not supported by Unicode.
+    :notes: Typographic variant of Latin
     :issue_number: '9'
   Latn:
     :value: Latn
@@ -371,12 +371,12 @@
   Lina:
     :value: Lina
     :description: Linear A
-    :notes: Script is not supported by Unicode.
+    :notes: Ancient/historic script
     :issue_number: '9'
   Linb:
     :value: Linb
     :description: Linear B
-    :notes: ''
+    :notes: Ancient/historic script
     :issue_number: '9'
   Lisu:
     :value: Lisu
@@ -386,17 +386,17 @@
   Loma:
     :value: Loma
     :description: Loma
-    :notes: Script is not supported by Unicode.
+    :notes: Script is not supported by Unicode
     :issue_number: '13'
   Lyci:
     :value: Lyci
     :description: Lycian
-    :notes: ''
+    :notes: Ancient/historic script
     :issue_number: '9'
   Lydi:
     :value: Lydi
     :description: Lydian
-    :notes: ''
+    :notes: Ancient/historic script
     :issue_number: '9'
   Mand:
     :value: Mand
@@ -406,27 +406,27 @@
   Mani:
     :value: Mani
     :description: Manichaean
-    :notes: Script is not supported by Unicode.
+    :notes: Ancient/historic script
     :issue_number: '9'
   Maya:
     :value: Maya
     :description: Mayan hieroglyphs
-    :notes: Script is not supported by Unicode.
+    :notes: Script is not supported by Unicode
     :issue_number: '9'
   Mend:
     :value: Mend
-    :description: Mende
-    :notes: Script is not supported by Unicode.
+    :description: Mende Kikakui
+    :notes: ''
     :issue_number: '13'
   Merc:
     :value: Merc
     :description: Meroitic Cursive
-    :notes: Script is not supported by Unicode.
+    :notes: Ancient/historic script
     :issue_number: '13'
   Mero:
     :value: Mero
     :description: Meroitic Hieroglyphs
-    :notes: Script is not supported by Unicode.
+    :notes: Ancient/historic script
     :issue_number: '9'
   Mlym:
     :value: Mlym
@@ -436,17 +436,17 @@
   Mong:
     :value: Mong
     :description: Mongolian
-    :notes: ''
+    :notes: Includes Clear, Manchu scripts
     :issue_number: '9'
   Moon:
     :value: Moon
     :description: Moon (Moon code, Moon script, Moon type)
-    :notes: Script is not supported by Unicode.
+    :notes: Script is not supported by Unicode
     :issue_number: '13'
   Mroo:
     :value: Mroo
     :description: Mro, Mru
-    :notes: Script is not supported by Unicode.
+    :notes: ''
     :issue_number: '13'
   Mtei:
     :value: Mtei
@@ -461,17 +461,17 @@
   Narb:
     :value: Narb
     :description: Old North Arabian (Ancient North Arabian)
-    :notes: Script is not supported by Unicode.
+    :notes: Ancient/historic script
     :issue_number: '13'
   Nbat:
     :value: Nbat
     :description: Nabatean
-    :notes: Script is not supported by Unicode.
+    :notes: Ancient/historic script
     :issue_number: '13'
   Nkgb:
     :value: Nkgb
     :description: Nakhi Geba (’Na-’Khi ²Ggŏ-¹baw, Naxi Geba)
-    :notes: Script is not supported by Unicode.
+    :notes: Script is not supported by Unicode
     :issue_number: '13'
   Nkoo:
     :value: Nkoo
@@ -481,12 +481,12 @@
   Nshu:
     :value: Nshu
     :description: Nüshu
-    :notes: Script is not supported by Unicode.
+    :notes: ''
     :issue_number: '13'
   Ogam:
     :value: Ogam
     :description: Ogham
-    :notes: ''
+    :notes: Ancient/historic script
     :issue_number: '9'
   Olck:
     :value: Olck
@@ -496,11 +496,11 @@
   Orkh:
     :value: Orkh
     :description: Old Turkic, Orkhon Runic
-    :notes: ''
+    :notes: Ancient/historic script
     :issue_number: '13'
   Orya:
     :value: Orya
-    :description: Oriya
+    :description: Oriya (Odia)
     :notes: ''
     :issue_number: '9'
   Osma:
@@ -511,47 +511,47 @@
   Palm:
     :value: Palm
     :description: Palmyrene
-    :notes: Script is not supported by Unicode.
+    :notes: Ancient/historic script
     :issue_number: '13'
   Perm:
     :value: Perm
     :description: Old Permic
-    :notes: Script is not supported by Unicode.
+    :notes: Ancient/historic script
     :issue_number: '9'
   Phag:
     :value: Phag
     :description: Phags-pa
-    :notes: ''
+    :notes: Ancient/historic script
     :issue_number: '9'
   Phli:
     :value: Phli
     :description: Inscriptional Pahlavi
-    :notes: ''
+    :notes: Ancient/historic script
     :issue_number: '9'
   Phlp:
     :value: Phlp
     :description: Psalter Pahlavi
-    :notes: Script is not supported by Unicode.
+    :notes: Ancient/historic script
     :issue_number: '9'
   Phlv:
     :value: Phlv
     :description: Book Pahlavi
-    :notes: Script is not supported by Unicode.
+    :notes: Script is not supported by Unicode
     :issue_number: '9'
   Phnx:
     :value: Phnx
     :description: Phoenician
-    :notes: ''
+    :notes: Ancient/historic script
     :issue_number: '9'
   Plrd:
     :value: Plrd
     :description: Miao (Pollard)
-    :notes: Script is not supported by Unicode.
+    :notes: ''
     :issue_number: '13'
   Prti:
     :value: Prti
     :description: Inscriptional Parthian
-    :notes: ''
+    :notes: Ancient/historic script
     :issue_number: '9'
   Qaaa:
     :value: Qaaa
@@ -571,12 +571,12 @@
   Roro:
     :value: Roro
     :description: Rongorongo
-    :notes: Script is not supported by Unicode.
+    :notes: Script is not supported by Unicode
     :issue_number: '9'
   Runr:
     :value: Runr
     :description: Runic
-    :notes: ''
+    :notes: Ancient/historic script
     :issue_number: '9'
   Samr:
     :value: Samr
@@ -586,12 +586,12 @@
   Sara:
     :value: Sara
     :description: Sarati
-    :notes: Script is not supported by Unicode.
+    :notes: Script is not supported by Unicode
     :issue_number: '9'
   Sarb:
     :value: Sarb
     :description: Old South Arabian
-    :notes: ''
+    :notes: Ancient/historic script
     :issue_number: '13'
   Saur:
     :value: Saur
@@ -601,7 +601,7 @@
   Sgnw:
     :value: Sgnw
     :description: SignWriting
-    :notes: Script is not supported by Unicode.
+    :notes: ''
     :issue_number: '13'
   Shaw:
     :value: Shaw
@@ -611,12 +611,12 @@
   Shrd:
     :value: Shrd
     :description: Sharada, Śāradā
-    :notes: Script is not supported by Unicode.
+    :notes: ''
     :issue_number: '13'
   Sind:
     :value: Sind
     :description: Khudawadi, Sindhi
-    :notes: Script is not supported by Unicode.
+    :notes: ''
     :issue_number: '13'
   Sinh:
     :value: Sinh
@@ -626,7 +626,7 @@
   Sora:
     :value: Sora
     :description: Sora Sompeng
-    :notes: Script is not supported by Unicode.
+    :notes: ''
     :issue_number: '13'
   Sund:
     :value: Sund
@@ -646,17 +646,17 @@
   Syre:
     :value: Syre
     :description: Syriac (Estrangelo variant)
-    :notes: ''
+    :notes: Typographic variant of Syriac
     :issue_number: '9'
   Syrj:
     :value: Syrj
     :description: Syriac (Western variant)
-    :notes: ''
+    :notes: Typographic variant of Syriac
     :issue_number: '9'
   Syrn:
     :value: Syrn
     :description: Syriac (Eastern variant)
-    :notes: ''
+    :notes: Typographic variant of Syriac
     :issue_number: '9'
   Tagb:
     :value: Tagb
@@ -666,7 +666,7 @@
   Takr:
     :value: Takr
     :description: Takri, Ṭākrī, Ṭāṅkrī
-    :notes: Script is not supported by Unicode.
+    :notes: ''
     :issue_number: '13'
   Tale:
     :value: Tale
@@ -686,7 +686,7 @@
   Tang:
     :value: Tang
     :description: Tangut
-    :notes: Script is not supported by Unicode.
+    :notes: Ancient/historic script
     :issue_number: '13'
   Tavt:
     :value: Tavt
@@ -701,7 +701,7 @@
   Teng:
     :value: Teng
     :description: Tengwar
-    :notes: Script is not supported by Unicode.
+    :notes: Script is not supported by Unicode
     :issue_number: '9'
   Tfng:
     :value: Tfng
@@ -730,13 +730,13 @@
     :issue_number: '9'
   Tirh:
     :value: Tirh
-    :description: Tiruta
+    :description: Tirhuta
     :notes: ''
     :issue_number: '16'
   Ugar:
     :value: Ugar
     :description: Ugaritic
-    :notes: ''
+    :notes: Ancient/historic script
     :issue_number: '9'
   Vaii:
     :value: Vaii
@@ -746,27 +746,27 @@
   Visp:
     :value: Visp
     :description: Visible Speech
-    :notes: Script is not supported by Unicode.
+    :notes: Script is not supported by Unicode
     :issue_number: '9'
   Wara:
     :value: Wara
     :description: Warang Citi (Varang Kshiti)
-    :notes: Script is not supported by Unicode.
+    :notes: ''
     :issue_number: '13'
   Wole:
     :value: Wole
     :description: Woleai
-    :notes: Script is not supported by Unicode.
+    :notes: Script is not supported by Unicode
     :issue_number: '13'
   Xpeo:
     :value: Xpeo
     :description: Old Persian
-    :notes: ''
+    :notes: Ancient/historic script
     :issue_number: '9'
   Xsux:
     :value: Xsux
     :description: Cuneiform, Sumero-Akkadian
-    :notes: ''
+    :notes: Ancient/historic script
     :issue_number: '9'
   Yiii:
     :value: Yiii
@@ -781,17 +781,17 @@
   Zmth:
     :value: Zmth
     :description: Mathematical notation
-    :notes: Script is not supported by Unicode.
+    :notes: Not a script in Unicode
     :issue_number: '9'
   Zsym:
     :value: Zsym
     :description: Symbols
-    :notes: Script is not supported by Unicode.
+    :notes: Not a script in Unicode
     :issue_number: '9'
   Zxxx:
     :value: Zxxx
     :description: Code for unwritten documents
-    :notes: Script is not supported by Unicode.
+    :notes: Not a script in Unicode
     :issue_number: '9'
   Zyyy:
     :value: Zyyy
@@ -803,3 +803,149 @@
     :description: Code for uncoded script
     :notes: ''
     :issue_number: '9'
+  Adlm:
+    :value: Adlm
+    :description: Adlam
+    :notes: ''
+    :issue_number: '38'
+  Aghb:
+    :value: Aghb
+    :description: Caucasian Albanian
+    :notes: Ancient/historic script
+    :issue_number: '38'
+  Ahom:
+    :value: Ahom
+    :description: Ahom, Tai Ahom
+    :notes: Ancient/historic script
+    :issue_number: '38'
+  Aran:
+    :value: Aran
+    :description: Arabic (Nastaliq variant)
+    :notes: Typographic variant of Arabic
+    :issue_number: '38'
+  Bhks:
+    :value: Bhks
+    :description: Bhaiksuki
+    :notes: Ancient/historic script
+    :issue_number: '38'
+  Dogr:
+    :value: Dogr
+    :description: Dogra
+    :notes: Script is not supported by Unicode
+    :issue_number: '38'
+  Gong:
+    :value: Gong
+    :description: Gunjala Gondi
+    :notes: Script is not supported by Unicode
+    :issue_number: '38'
+  Gonm:
+    :value: Gonm
+    :description: Masaram Gondi
+    :notes: ''
+    :issue_number: '38'
+  Hanb:
+    :value: Hanb
+    :description: Han with Bopomofo
+    :notes: See Hani, Bopo
+    :issue_number: '38'
+  Hatr:
+    :value: Hatr
+    :description: Hatran
+    :notes: Ancient/historic script
+    :issue_number: '38'
+  Hluw:
+    :value: Hluw
+    :description: Anatolian Hieroglyphs (Luwian Hieroglyphs, Hittite Hieroglyphs)
+    :notes: Ancient/historic script
+    :issue_number: '38'
+  Jamo:
+    :value: Jamo
+    :description: Jamo (alias for Jamo subset of Hangul)
+    :notes: Subset of Hang
+    :issue_number: '38'
+  Kitl:
+    :value: Kitl
+    :description: Khitan large script
+    :notes: Script is not supported by Unicode
+    :issue_number: '38'
+  Kits:
+    :value: Kits
+    :description: Khitan small script
+    :notes: Script is not supported by Unicode
+    :issue_number: '38'
+  Leke:
+    :value: Leke
+    :description: Leke
+    :notes: Script is not supported by Unicode
+    :issue_number: '38'
+  Mahj:
+    :value: Mahj
+    :description: Mahajani
+    :notes: Ancient/historic script
+    :issue_number: '38'
+  Maka:
+    :value: Maka
+    :description: Makasar
+    :notes: Script is not supported by Unicode
+    :issue_number: '38'
+  Marc:
+    :value: Marc
+    :description: Marchen
+    :notes: Ancient/historic script
+    :issue_number: '38'
+  Medf:
+    :value: Medf
+    :description: Medefaidrin (Oberi Okaime, Oberi Ɔkaimɛ)
+    :notes: Script is not supported by Unicode
+    :issue_number: '38'
+  Modi:
+    :value: Modi
+    :description: Modi, Moḍī
+    :notes: Ancient/historic script
+    :issue_number: '38'
+  Mult:
+    :value: Mult
+    :description: Multani
+    :notes: Ancient/historic script
+    :issue_number: '38'
+  Newa:
+    :value: Newa
+    :description: Newa, Newar, Newari, Nepāla lipi
+    :notes: ''
+    :issue_number: '38'
+  Osge:
+    :value: Osge
+    :description: Osage
+    :notes: ''
+    :issue_number: '38'
+  Pauc:
+    :value: Pauc
+    :description: Pau Cin Hau
+    :notes: ''
+    :issue_number: '38'
+  Piqd:
+    :value: Piqd
+    :description: Klingon (KLI plqaD)
+    :notes: Script is not supported by Unicode
+    :issue_number: '38'
+  Sidd:
+    :value: Sidd
+    :description: Siddham, Siddhaṃ, Siddhamātṛkā
+    :notes: Ancient/historic script
+    :issue_number: '38'
+  Soyo:
+    :value: Soyo
+    :description: Soyombo
+    :notes: ''
+    :issue_number: '38'
+  Zanb:
+    :value: Zanb
+    :description: Zanabazar Square (Zanabazarin Dörböljin Useg, Xewtee Dörböljin Bicig,
+      Horizontal Square Script)
+    :notes: ''
+    :issue_number: '38'
+  Zsye:
+    :value: Zsye
+    :description: Symbols (Emoji variant)
+    :notes: Not a script in Unicode
+    :issue_number: '38'

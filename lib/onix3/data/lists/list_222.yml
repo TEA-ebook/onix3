@@ -1,0 +1,18 @@
+---
+:number: '222'
+:description: Message status date role
+:issue_number: '28'
+:codes:
+  '01':
+    :value: '01'
+    :description: Ingest date
+    :notes: Expected or actual date of processing and ingestion of data to recipient’s
+      system
+    :issue_number: '28'
+  '02':
+    :value: '02'
+    :description: Export date
+    :notes: Expected or actual date for data to be available from the recipient’s
+      system to downstream supply chain partners (or where the recipient is a retailer,
+      to consumers)
+    :issue_number: '28'
