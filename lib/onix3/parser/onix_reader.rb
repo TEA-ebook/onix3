@@ -47,7 +47,7 @@ module Onix3
       end
 
       def short_tag_for(name)
-        data.short_tags.fetch(name)
+        data.short_tag_for(name)
       end
 
       def data

@@ -13,7 +13,7 @@ module Onix3
       end
 
       def load_tags
-        YAML.load( File.read(tags_filename, nil, nil, ENCODING) )
+        YAML.load( File.read(tags_filename))
       end
 
       def short_tag_for(name)
