@@ -32,6 +32,32 @@ describe Onix3::Parser::Divider do
         '</ONIXMessage>'
   }
 
+  let(:short_tags_onix) do
+    '<?xml version="1.0" encoding="UTF-8"?>
+    <ONIXmessage xmlns="http://ns.editeur.org/onix/3.0/short" release="3.0">
+      <header>
+        <sender>
+          <x298>Test sender</x298>
+        </sender>
+        <x307>20211011T110727+02:00</x307>
+      </header>
+      <product>
+        <a001>p1</a001>
+        <productidentifier>
+          <b221>03</b221>
+          <b244>9780000000001</b244>
+        </productidentifier>
+      </product>
+      <product>
+        <a001>p2</a001>
+        <productidentifier>
+          <b221>03</b221>
+          <b244>9780000000002</b244>
+        </productidentifier>
+      </product>
+    </ONIXmessage>'
+  end
+
   describe "#document_for_products" do
 
     it "should have ONIXMessage as root" do
@@ -158,6 +184,57 @@ describe Onix3::Parser::Divider do
       end
     end
 
+    context "with short tags" do
+      subject(:divider) { Onix3::Parser::Divider.new(StringIO.new(short_tags_onix)) }
+
+      it "should return the number of products" do
+        res = divider.each_product_document do |doc|
+          # nothing
+        end
+
+        expect(res).to eq(2)
+      end
+
+      it "should copy the exact header" do
+        res = divider.each_product_document do |doc|
+          expect(doc).to match(%r{
+            <header[^>]*>\s*
+              <sender>\s*<x298>Test\ sender</x298>\s*</sender>\s*
+              <x307>20211011T110727\+02:00</x307>\s*
+            </header>
+            }xm)
+        end
+      end
+
+      it "should copy the exact product, and no other one" do
+        n = 0
+
+        divider.each_product_document do |doc|
+          n += 1
+
+          expect(doc).to match(%r{
+            <product[^>]*>\s*
+                <a001>p#{n}</a001>\s*
+                <productidentifier>\s*
+                    <b221>03</b221>\s*
+                    <b244>978000000000#{n}</b244>\s*
+                </productidentifier>\s*
+            </product>
+            }xm)
+
+            expect(doc).to match(/\b978000000000#{n}\b/)
+            expect(doc).not_to match(/\b978000000000#{n - 1}\b/)
+            expect(doc).not_to match(/\b978000000000#{n + 1}\b/)
+        end
+      end
+
+      it "should yield valid xml" do
+        divider.each_product_document do |doc|
+          p = Nokogiri.XML(doc) { |config| config.nonet }
+          expect(p).to be_truthy
+        end
+      end
+    end
   end
 
   describe "with a file which has no header" do
