@@ -22,7 +22,7 @@ module Onix3
           tag = (prefix ? prefix+":" : "") + reader.tag("ONIXMessage")
           @opening = "<#{tag}#{attribs}>"
           move_to_header
-          @header = reader.local_name == "Header" ? reader.outer_xml : ''
+          @header = reader.local_name == reader.tag("Header") ? reader.outer_xml : ''
           @closing = "</#{tag}>"
         end
         @document_started = true
