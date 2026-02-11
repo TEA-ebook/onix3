@@ -1,8 +1,11 @@
 module Onix3
   module Parser
     class OnixReader < XmlReader
+      # Onix 3.1
       ONIX31_NAMESPACE = "http://ns.editeur.org/onix/3.1/reference"
+      ONIX31_SHORT_NAMESPACE = "http://ns.editeur.org/onix/3.1/short"
 
+      # Onix 3.0
       ONIX3_NAMESPACE = "http://ns.editeur.org/onix/3.0/reference"
       ONIX3_SHORT_NAMESPACE = "http://ns.editeur.org/onix/3.0/short"
 
